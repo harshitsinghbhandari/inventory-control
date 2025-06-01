@@ -2,6 +2,7 @@ import simpy
 import random
 import statistics
 import logging
+from datetime import datetime
 
 logger = logging.getLogger("InventoryLogger")
 logger.setLevel(logging.INFO)
@@ -12,7 +13,7 @@ console_handler = logging.StreamHandler()
 console_handler.setFormatter(formatter)
 
 
-file_handler = logging.FileHandler("inventory.log", mode='w')
+file_handler = logging.FileHandler('inventory.log', mode='w')
 file_handler.setFormatter(formatter)
 
 
@@ -125,12 +126,13 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True, lead_time_f
     env.run(until=sim_time)
 
     kpis = system.get_kpis()
-    print("\n=== Simulation KPIs ===")
-    print(kpis)
-    for k, v in kpis.items():
-        print(f"{k}: {v}")
+    # print("\n=== Simulation KPIs ===")
+    # print(kpis)
+    # for k, v in kpis.items():
+    #     print(f"{k}: {v}")
     return kpis
 
 
 if __name__ == "__main__":
     run_simulation()
+    
