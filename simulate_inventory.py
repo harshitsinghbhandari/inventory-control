@@ -114,14 +114,8 @@ class InventorySystem:
         }
 
 
-def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
+def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True, lead_time_func = lambda: int(random.randint(1, 5)), demand_func = lambda: int(random.normalvariate(20,8))):
     random.seed(seed)
-
-    # Lead time: Uniform(1, 5)
-    lead_time_func = lambda: random.randint(1, 5)
-
-    # Daily demand: Poisson(20)
-    demand_func = lambda: random.normalvariate(20,8)
 
     order_cost = 50
     holding_cost = 1
@@ -132,6 +126,7 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
 
     kpis = system.get_kpis()
     print("\n=== Simulation KPIs ===")
+    print(kpis)
     for k, v in kpis.items():
         print(f"{k}: {v}")
     return kpis

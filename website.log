@@ -1,0 +1,2293 @@
+2025-06-01 18:44:39,765 — ERROR — Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-06-01 18:45:35,517 — INFO — Root endpoint accessed.
+2025-06-01 18:49:08,207 — INFO — Root endpoint accessed.
+2025-06-01 18:49:16,935 — INFO — Demand: 10, Fulfilled: 10, Inventory: 90
+2025-06-01 18:49:16,935 — INFO — Demand: 31, Fulfilled: 31, Inventory: 59
+2025-06-01 18:49:16,935 — INFO — Demand: 18, Fulfilled: 18, Inventory: 41
+2025-06-01 18:49:16,935 — INFO — Demand: 8, Fulfilled: 8, Inventory: 33
+2025-06-01 18:49:16,935 — INFO — Demand: 8, Fulfilled: 8, Inventory: 25
+2025-06-01 18:49:16,935 — INFO — Demand: 22, Fulfilled: 22, Inventory: 3
+2025-06-01 18:49:16,935 — INFO — Placing order for 97 units
+2025-06-01 18:49:16,935 — INFO — Order of 97 units will arrive in 4 days
+2025-06-01 18:49:16,935 — INFO — Stockout! Demand: 18, Fulfilled: 3, Inventory: 0
+2025-06-01 18:49:16,935 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,935 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,935 — INFO — Stockout! Demand: 27, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,936 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,936 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,936 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,936 — INFO — Demand: 11, Fulfilled: 11, Inventory: 89
+2025-06-01 18:49:16,936 — INFO — Order of 100 units received. Inventory: 189
+2025-06-01 18:49:16,936 — INFO — Order of 97 units received. Inventory: 286
+2025-06-01 18:49:16,936 — INFO — Demand: 21, Fulfilled: 21, Inventory: 265
+2025-06-01 18:49:16,936 — INFO — Demand: 16, Fulfilled: 16, Inventory: 249
+2025-06-01 18:49:16,936 — INFO — Demand: 32, Fulfilled: 32, Inventory: 217
+2025-06-01 18:49:16,936 — INFO — Demand: 22, Fulfilled: 22, Inventory: 195
+2025-06-01 18:49:16,936 — INFO — Demand: 28, Fulfilled: 28, Inventory: 167
+2025-06-01 18:49:16,936 — INFO — Demand: 27, Fulfilled: 27, Inventory: 140
+2025-06-01 18:49:16,936 — INFO — Demand: 13, Fulfilled: 13, Inventory: 127
+2025-06-01 18:49:16,936 — INFO — Demand: 19, Fulfilled: 19, Inventory: 108
+2025-06-01 18:49:16,936 — INFO — Demand: 11, Fulfilled: 11, Inventory: 97
+2025-06-01 18:49:16,936 — INFO — Demand: 27, Fulfilled: 27, Inventory: 70
+2025-06-01 18:49:16,936 — INFO — Demand: 29, Fulfilled: 29, Inventory: 41
+2025-06-01 18:49:16,936 — INFO — Demand: 23, Fulfilled: 23, Inventory: 18
+2025-06-01 18:49:16,936 — INFO — Placing order for 82 units
+2025-06-01 18:49:16,936 — INFO — Order of 82 units will arrive in 3 days
+2025-06-01 18:49:16,936 — INFO — Stockout! Demand: 23, Fulfilled: 18, Inventory: 0
+2025-06-01 18:49:16,936 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,936 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,937 — INFO — Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,937 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,937 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,937 — INFO — Order of 82 units received. Inventory: 82
+2025-06-01 18:49:16,937 — INFO — Demand: 35, Fulfilled: 35, Inventory: 47
+2025-06-01 18:49:16,937 — INFO — Order of 100 units received. Inventory: 147
+2025-06-01 18:49:16,937 — INFO — Demand: 27, Fulfilled: 27, Inventory: 120
+2025-06-01 18:49:16,937 — INFO — Order of 100 units received. Inventory: 220
+2025-06-01 18:49:16,937 — INFO — Demand: 11, Fulfilled: 11, Inventory: 209
+2025-06-01 18:49:16,937 — INFO — Demand: 17, Fulfilled: 17, Inventory: 192
+2025-06-01 18:49:16,937 — INFO — Demand: 41, Fulfilled: 41, Inventory: 151
+2025-06-01 18:49:16,937 — INFO — Demand: 24, Fulfilled: 24, Inventory: 127
+2025-06-01 18:49:16,937 — INFO — Demand: 20, Fulfilled: 20, Inventory: 107
+2025-06-01 18:49:16,937 — INFO — Demand: 26, Fulfilled: 26, Inventory: 81
+2025-06-01 18:49:16,937 — INFO — Demand: 39, Fulfilled: 39, Inventory: 42
+2025-06-01 18:49:16,937 — INFO — Demand: 22, Fulfilled: 22, Inventory: 20
+2025-06-01 18:49:16,937 — INFO — Stockout! Demand: 30, Fulfilled: 20, Inventory: 0
+2025-06-01 18:49:16,937 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,937 — INFO — Order of 100 units will arrive in 5 days
+2025-06-01 18:49:16,937 — INFO — Stockout! Demand: 33, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,937 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,937 — INFO — Order of 100 units will arrive in 3 days
+2025-06-01 18:49:16,937 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,937 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,938 — INFO — Order of 100 units will arrive in 5 days
+2025-06-01 18:49:16,938 — INFO — Stockout! Demand: 15, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,938 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,938 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,938 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,938 — INFO — Demand: 18, Fulfilled: 18, Inventory: 82
+2025-06-01 18:49:16,938 — INFO — Order of 100 units received. Inventory: 182
+2025-06-01 18:49:16,938 — INFO — Order of 100 units received. Inventory: 282
+2025-06-01 18:49:16,938 — INFO — Demand: 20, Fulfilled: 20, Inventory: 262
+2025-06-01 18:49:16,938 — INFO — Demand: 20, Fulfilled: 20, Inventory: 242
+2025-06-01 18:49:16,938 — INFO — Order of 100 units received. Inventory: 342
+2025-06-01 18:49:16,938 — INFO — Demand: 11, Fulfilled: 11, Inventory: 331
+2025-06-01 18:49:16,938 — INFO — Demand: 13, Fulfilled: 13, Inventory: 318
+2025-06-01 18:49:16,938 — INFO — Demand: 18, Fulfilled: 18, Inventory: 300
+2025-06-01 18:49:16,938 — INFO — Demand: 13, Fulfilled: 13, Inventory: 287
+2025-06-01 18:49:16,938 — INFO — Demand: 21, Fulfilled: 21, Inventory: 266
+2025-06-01 18:49:16,938 — INFO — Demand: 18, Fulfilled: 18, Inventory: 248
+2025-06-01 18:49:16,938 — INFO — Demand: 15, Fulfilled: 15, Inventory: 233
+2025-06-01 18:49:16,938 — INFO — Demand: 14, Fulfilled: 14, Inventory: 219
+2025-06-01 18:49:16,938 — INFO — Demand: 20, Fulfilled: 20, Inventory: 199
+2025-06-01 18:49:16,938 — INFO — Demand: 15, Fulfilled: 15, Inventory: 184
+2025-06-01 18:49:16,938 — INFO — Demand: 9, Fulfilled: 9, Inventory: 175
+2025-06-01 18:49:16,938 — INFO — Demand: 27, Fulfilled: 27, Inventory: 148
+2025-06-01 18:49:16,938 — INFO — Demand: 16, Fulfilled: 16, Inventory: 132
+2025-06-01 18:49:16,938 — INFO — Demand: 21, Fulfilled: 21, Inventory: 111
+2025-06-01 18:49:16,938 — INFO — Demand: 26, Fulfilled: 26, Inventory: 85
+2025-06-01 18:49:16,938 — INFO — Demand: 21, Fulfilled: 21, Inventory: 64
+2025-06-01 18:49:16,939 — INFO — Demand: 15, Fulfilled: 15, Inventory: 49
+2025-06-01 18:49:16,939 — INFO — Demand: 4, Fulfilled: 4, Inventory: 45
+2025-06-01 18:49:16,939 — INFO — Demand: 30, Fulfilled: 30, Inventory: 15
+2025-06-01 18:49:16,939 — INFO — Placing order for 85 units
+2025-06-01 18:49:16,939 — INFO — Order of 85 units will arrive in 2 days
+2025-06-01 18:49:16,939 — INFO — Stockout! Demand: 21, Fulfilled: 15, Inventory: 0
+2025-06-01 18:49:16,939 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,939 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,939 — INFO — Order of 85 units received. Inventory: 85
+2025-06-01 18:49:16,939 — INFO — Demand: 31, Fulfilled: 31, Inventory: 54
+2025-06-01 18:49:16,939 — INFO — Order of 100 units received. Inventory: 154
+2025-06-01 18:49:16,939 — INFO — Demand: 22, Fulfilled: 22, Inventory: 132
+2025-06-01 18:49:16,939 — INFO — Demand: 18, Fulfilled: 18, Inventory: 114
+2025-06-01 18:49:16,939 — INFO — Demand: 18, Fulfilled: 18, Inventory: 96
+2025-06-01 18:49:16,939 — INFO — Demand: 19, Fulfilled: 19, Inventory: 77
+2025-06-01 18:49:16,939 — INFO — Demand: 16, Fulfilled: 16, Inventory: 61
+2025-06-01 18:49:16,939 — INFO — Demand: 11, Fulfilled: 11, Inventory: 50
+2025-06-01 18:49:16,939 — INFO — Demand: 29, Fulfilled: 29, Inventory: 21
+2025-06-01 18:49:16,939 — INFO — Stockout! Demand: 25, Fulfilled: 21, Inventory: 0
+2025-06-01 18:49:16,939 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,939 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,939 — INFO — Stockout! Demand: 13, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,939 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,939 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,939 — INFO — Stockout! Demand: 11, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,939 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,939 — INFO — Order of 100 units will arrive in 5 days
+2025-06-01 18:49:16,939 — INFO — Stockout! Demand: 16, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,939 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,939 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,940 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,940 — INFO — Demand: 15, Fulfilled: 15, Inventory: 85
+2025-06-01 18:49:16,940 — INFO — Order of 100 units received. Inventory: 185
+2025-06-01 18:49:16,940 — INFO — Order of 100 units received. Inventory: 285
+2025-06-01 18:49:16,940 — INFO — Demand: 34, Fulfilled: 34, Inventory: 251
+2025-06-01 18:49:16,940 — INFO — Demand: 13, Fulfilled: 13, Inventory: 238
+2025-06-01 18:49:16,940 — INFO — Order of 100 units received. Inventory: 338
+2025-06-01 18:49:16,940 — INFO — Demand: 26, Fulfilled: 26, Inventory: 312
+2025-06-01 18:49:16,940 — INFO — Demand: 29, Fulfilled: 29, Inventory: 283
+2025-06-01 18:49:16,940 — INFO — Demand: 9, Fulfilled: 9, Inventory: 274
+2025-06-01 18:49:16,940 — INFO — Demand: 16, Fulfilled: 16, Inventory: 258
+2025-06-01 18:49:16,940 — INFO — Demand: 24, Fulfilled: 24, Inventory: 234
+2025-06-01 18:49:16,940 — INFO — Demand: 16, Fulfilled: 16, Inventory: 218
+2025-06-01 18:49:16,940 — INFO — Demand: 18, Fulfilled: 18, Inventory: 200
+2025-06-01 18:49:16,940 — INFO — Demand: 22, Fulfilled: 22, Inventory: 178
+2025-06-01 18:49:16,940 — INFO — Demand: 24, Fulfilled: 24, Inventory: 154
+2025-06-01 18:49:16,940 — INFO — Demand: 26, Fulfilled: 26, Inventory: 128
+2025-06-01 18:49:16,940 — INFO — Demand: 22, Fulfilled: 22, Inventory: 106
+2025-06-01 18:49:16,941 — INFO — Demand: 28, Fulfilled: 28, Inventory: 78
+2025-06-01 18:49:16,941 — INFO — Demand: 21, Fulfilled: 21, Inventory: 57
+2025-06-01 18:49:16,941 — INFO — Demand: 29, Fulfilled: 29, Inventory: 28
+2025-06-01 18:49:16,941 — INFO — Demand: 11, Fulfilled: 11, Inventory: 17
+2025-06-01 18:49:16,941 — INFO — Placing order for 83 units
+2025-06-01 18:49:16,941 — INFO — Order of 83 units will arrive in 1 days
+2025-06-01 18:49:16,941 — INFO — Demand: 7, Fulfilled: 7, Inventory: 10
+2025-06-01 18:49:16,941 — INFO — Placing order for 90 units
+2025-06-01 18:49:16,941 — INFO — Order of 90 units will arrive in 3 days
+2025-06-01 18:49:16,941 — INFO — Order of 83 units received. Inventory: 93
+2025-06-01 18:49:16,941 — INFO — Demand: 8, Fulfilled: 8, Inventory: 85
+2025-06-01 18:49:16,943 — INFO — Demand: 18, Fulfilled: 18, Inventory: 67
+2025-06-01 18:49:16,943 — INFO — Order of 90 units received. Inventory: 157
+2025-06-01 18:49:16,944 — INFO — Demand: 22, Fulfilled: 22, Inventory: 135
+2025-06-01 18:49:16,944 — INFO — Demand: 22, Fulfilled: 22, Inventory: 113
+2025-06-01 18:49:16,945 — INFO — Demand: 12, Fulfilled: 12, Inventory: 101
+2025-06-01 18:49:16,945 — INFO — Demand: 32, Fulfilled: 32, Inventory: 69
+2025-06-01 18:49:16,945 — INFO — Demand: 22, Fulfilled: 22, Inventory: 47
+2025-06-01 18:49:16,945 — INFO — Demand: 12, Fulfilled: 12, Inventory: 35
+2025-06-01 18:49:16,945 — INFO — Demand: 30, Fulfilled: 30, Inventory: 5
+2025-06-01 18:49:16,945 — INFO — Placing order for 95 units
+2025-06-01 18:49:16,945 — INFO — Order of 95 units will arrive in 3 days
+2025-06-01 18:49:16,945 — INFO — Stockout! Demand: 19, Fulfilled: 5, Inventory: 0
+2025-06-01 18:49:16,945 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,945 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,945 — INFO — Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,946 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,946 — INFO — Order of 100 units will arrive in 5 days
+2025-06-01 18:49:16,946 — INFO — Order of 95 units received. Inventory: 95
+2025-06-01 18:49:16,948 — INFO — Demand: 25, Fulfilled: 25, Inventory: 70
+2025-06-01 18:49:16,948 — INFO — Demand: 40, Fulfilled: 40, Inventory: 30
+2025-06-01 18:49:16,948 — INFO — Order of 100 units received. Inventory: 130
+2025-06-01 18:49:16,948 — INFO — Demand: 29, Fulfilled: 29, Inventory: 101
+2025-06-01 18:49:16,948 — INFO — Demand: 27, Fulfilled: 27, Inventory: 74
+2025-06-01 18:49:16,948 — INFO — Order of 100 units received. Inventory: 174
+2025-06-01 18:49:16,948 — INFO — Demand: 26, Fulfilled: 26, Inventory: 148
+2025-06-01 18:49:16,948 — INFO — Demand: 27, Fulfilled: 27, Inventory: 121
+2025-06-01 18:49:16,949 — INFO — Demand: 17, Fulfilled: 17, Inventory: 104
+2025-06-01 18:49:16,949 — INFO — Demand: 14, Fulfilled: 14, Inventory: 90
+2025-06-01 18:49:16,949 — INFO — Demand: 18, Fulfilled: 18, Inventory: 72
+2025-06-01 18:49:16,949 — INFO — Demand: 34, Fulfilled: 34, Inventory: 38
+2025-06-01 18:49:16,949 — INFO — Demand: 36, Fulfilled: 36, Inventory: 2
+2025-06-01 18:49:16,949 — INFO — Placing order for 98 units
+2025-06-01 18:49:16,949 — INFO — Order of 98 units will arrive in 1 days
+2025-06-01 18:49:16,949 — INFO — Stockout! Demand: 23, Fulfilled: 2, Inventory: 0
+2025-06-01 18:49:16,949 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,949 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,949 — INFO — Order of 98 units received. Inventory: 98
+2025-06-01 18:49:16,949 — INFO — Demand: 30, Fulfilled: 30, Inventory: 68
+2025-06-01 18:49:16,949 — INFO — Order of 100 units received. Inventory: 168
+2025-06-01 18:49:16,949 — INFO — Demand: 2, Fulfilled: 2, Inventory: 166
+2025-06-01 18:49:16,949 — INFO — Demand: 16, Fulfilled: 16, Inventory: 150
+2025-06-01 18:49:16,949 — INFO — Demand: 18, Fulfilled: 18, Inventory: 132
+2025-06-01 18:49:16,949 — INFO — Demand: 23, Fulfilled: 23, Inventory: 109
+2025-06-01 18:49:16,949 — INFO — Demand: 21, Fulfilled: 21, Inventory: 88
+2025-06-01 18:49:16,950 — INFO — Demand: 18, Fulfilled: 18, Inventory: 70
+2025-06-01 18:49:16,950 — INFO — Demand: 28, Fulfilled: 28, Inventory: 42
+2025-06-01 18:49:16,952 — INFO — Demand: 17, Fulfilled: 17, Inventory: 25
+2025-06-01 18:49:16,953 — INFO — Demand: 5, Fulfilled: 5, Inventory: 20
+2025-06-01 18:49:16,953 — INFO — Demand: 16, Fulfilled: 16, Inventory: 4
+2025-06-01 18:49:16,953 — INFO — Placing order for 96 units
+2025-06-01 18:49:16,953 — INFO — Order of 96 units will arrive in 3 days
+2025-06-01 18:49:16,953 — INFO — Stockout! Demand: 27, Fulfilled: 4, Inventory: 0
+2025-06-01 18:49:16,953 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,953 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,953 — INFO — Stockout! Demand: 14, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,953 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,953 — INFO — Order of 100 units will arrive in 3 days
+2025-06-01 18:49:16,953 — INFO — Order of 96 units received. Inventory: 96
+2025-06-01 18:49:16,953 — INFO — Demand: 31, Fulfilled: 31, Inventory: 65
+2025-06-01 18:49:16,953 — INFO — Demand: 20, Fulfilled: 20, Inventory: 45
+2025-06-01 18:49:16,953 — INFO — Order of 100 units received. Inventory: 145
+2025-06-01 18:49:16,953 — INFO — Order of 100 units received. Inventory: 245
+2025-06-01 18:49:16,953 — INFO — Demand: 10, Fulfilled: 10, Inventory: 235
+2025-06-01 18:49:16,953 — INFO — Demand: 19, Fulfilled: 19, Inventory: 216
+2025-06-01 18:49:16,953 — INFO — Demand: 21, Fulfilled: 21, Inventory: 195
+2025-06-01 18:49:16,955 — INFO — Demand: 19, Fulfilled: 19, Inventory: 176
+2025-06-01 18:49:16,955 — INFO — Demand: 29, Fulfilled: 29, Inventory: 147
+2025-06-01 18:49:16,956 — INFO — Demand: 20, Fulfilled: 20, Inventory: 127
+2025-06-01 18:49:16,956 — INFO — Demand: 34, Fulfilled: 34, Inventory: 93
+2025-06-01 18:49:16,956 — INFO — Demand: 33, Fulfilled: 33, Inventory: 60
+2025-06-01 18:49:16,957 — INFO — Demand: 22, Fulfilled: 22, Inventory: 38
+2025-06-01 18:49:16,957 — INFO — Demand: 22, Fulfilled: 22, Inventory: 16
+2025-06-01 18:49:16,957 — INFO — Placing order for 84 units
+2025-06-01 18:49:16,957 — INFO — Order of 84 units will arrive in 4 days
+2025-06-01 18:49:16,960 — INFO — Stockout! Demand: 21, Fulfilled: 16, Inventory: 0
+2025-06-01 18:49:16,960 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,960 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,960 — INFO — Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,960 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,960 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,960 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,960 — INFO — Demand: 21, Fulfilled: 21, Inventory: 79
+2025-06-01 18:49:16,960 — INFO — Order of 100 units received. Inventory: 179
+2025-06-01 18:49:16,960 — INFO — Order of 84 units received. Inventory: 263
+2025-06-01 18:49:16,961 — INFO — Demand: 13, Fulfilled: 13, Inventory: 250
+2025-06-01 18:49:16,961 — INFO — Demand: 17, Fulfilled: 17, Inventory: 233
+2025-06-01 18:49:16,961 — INFO — Demand: 8, Fulfilled: 8, Inventory: 225
+2025-06-01 18:49:16,961 — INFO — Demand: 12, Fulfilled: 12, Inventory: 213
+2025-06-01 18:49:16,961 — INFO — Demand: 12, Fulfilled: 12, Inventory: 201
+2025-06-01 18:49:16,963 — INFO — Demand: 27, Fulfilled: 27, Inventory: 174
+2025-06-01 18:49:16,963 — INFO — Demand: 21, Fulfilled: 21, Inventory: 153
+2025-06-01 18:49:16,964 — INFO — Demand: 23, Fulfilled: 23, Inventory: 130
+2025-06-01 18:49:16,964 — INFO — Demand: 24, Fulfilled: 24, Inventory: 106
+2025-06-01 18:49:16,964 — INFO — Demand: 33, Fulfilled: 33, Inventory: 73
+2025-06-01 18:49:16,964 — INFO — Demand: 19, Fulfilled: 19, Inventory: 54
+2025-06-01 18:49:16,964 — INFO — Demand: 18, Fulfilled: 18, Inventory: 36
+2025-06-01 18:49:16,964 — INFO — Demand: 33, Fulfilled: 33, Inventory: 3
+2025-06-01 18:49:16,964 — INFO — Placing order for 97 units
+2025-06-01 18:49:16,964 — INFO — Order of 97 units will arrive in 3 days
+2025-06-01 18:49:16,964 — INFO — Stockout! Demand: 35, Fulfilled: 3, Inventory: 0
+2025-06-01 18:49:16,964 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,964 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,964 — INFO — Stockout! Demand: 13, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,964 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,964 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,964 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,964 — INFO — Order of 97 units received. Inventory: 197
+2025-06-01 18:49:16,964 — INFO — Demand: 28, Fulfilled: 28, Inventory: 169
+2025-06-01 18:49:16,964 — INFO — Order of 100 units received. Inventory: 269
+2025-06-01 18:49:16,964 — INFO — Demand: 38, Fulfilled: 38, Inventory: 231
+2025-06-01 18:49:16,965 — INFO — Demand: 17, Fulfilled: 17, Inventory: 214
+2025-06-01 18:49:16,967 — INFO — Demand: 0, Fulfilled: 0, Inventory: 214
+2025-06-01 18:49:16,967 — INFO — Demand: 20, Fulfilled: 20, Inventory: 194
+2025-06-01 18:49:16,967 — INFO — Demand: 17, Fulfilled: 17, Inventory: 177
+2025-06-01 18:49:16,967 — INFO — Demand: 17, Fulfilled: 17, Inventory: 160
+2025-06-01 18:49:16,967 — INFO — Demand: 22, Fulfilled: 22, Inventory: 138
+2025-06-01 18:49:16,967 — INFO — Demand: 19, Fulfilled: 19, Inventory: 119
+2025-06-01 18:49:16,967 — INFO — Demand: 17, Fulfilled: 17, Inventory: 102
+2025-06-01 18:49:16,967 — INFO — Demand: 19, Fulfilled: 19, Inventory: 83
+2025-06-01 18:49:16,967 — INFO — Demand: 18, Fulfilled: 18, Inventory: 65
+2025-06-01 18:49:16,967 — INFO — Demand: 17, Fulfilled: 17, Inventory: 48
+2025-06-01 18:49:16,967 — INFO — Demand: 15, Fulfilled: 15, Inventory: 33
+2025-06-01 18:49:16,967 — INFO — Demand: 26, Fulfilled: 26, Inventory: 7
+2025-06-01 18:49:16,967 — INFO — Placing order for 93 units
+2025-06-01 18:49:16,967 — INFO — Order of 93 units will arrive in 3 days
+2025-06-01 18:49:16,967 — INFO — Demand: 7, Fulfilled: 7, Inventory: 0
+2025-06-01 18:49:16,967 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,967 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,967 — INFO — Stockout! Demand: 17, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,967 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,967 — INFO — Order of 100 units will arrive in 3 days
+2025-06-01 18:49:16,967 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,967 — INFO — Order of 93 units received. Inventory: 193
+2025-06-01 18:49:16,967 — INFO — Demand: 34, Fulfilled: 34, Inventory: 159
+2025-06-01 18:49:16,968 — INFO — Demand: 19, Fulfilled: 19, Inventory: 140
+2025-06-01 18:49:16,968 — INFO — Order of 100 units received. Inventory: 240
+2025-06-01 18:49:16,970 — INFO — Demand: 22, Fulfilled: 22, Inventory: 218
+2025-06-01 18:49:16,970 — INFO — Demand: 33, Fulfilled: 33, Inventory: 185
+2025-06-01 18:49:16,970 — INFO — Demand: 34, Fulfilled: 34, Inventory: 151
+2025-06-01 18:49:16,970 — INFO — Demand: 16, Fulfilled: 16, Inventory: 135
+2025-06-01 18:49:16,970 — INFO — Demand: 29, Fulfilled: 29, Inventory: 106
+2025-06-01 18:49:16,970 — INFO — Demand: 26, Fulfilled: 26, Inventory: 80
+2025-06-01 18:49:16,970 — INFO — Demand: 18, Fulfilled: 18, Inventory: 62
+2025-06-01 18:49:16,970 — INFO — Demand: -5, Fulfilled: -5, Inventory: 67
+2025-06-01 18:49:16,970 — INFO — Demand: 25, Fulfilled: 25, Inventory: 42
+2025-06-01 18:49:16,970 — INFO — Demand: 11, Fulfilled: 11, Inventory: 31
+2025-06-01 18:49:16,970 — INFO — Demand: 24, Fulfilled: 24, Inventory: 7
+2025-06-01 18:49:16,970 — INFO — Placing order for 93 units
+2025-06-01 18:49:16,971 — INFO — Order of 93 units will arrive in 4 days
+2025-06-01 18:49:16,971 — INFO — Stockout! Demand: 15, Fulfilled: 7, Inventory: 0
+2025-06-01 18:49:16,971 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,971 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,971 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,971 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,971 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,971 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,971 — INFO — Demand: 9, Fulfilled: 9, Inventory: 91
+2025-06-01 18:49:16,971 — INFO — Order of 93 units received. Inventory: 184
+2025-06-01 18:49:16,971 — INFO — Demand: 25, Fulfilled: 25, Inventory: 159
+2025-06-01 18:49:16,971 — INFO — Demand: 23, Fulfilled: 23, Inventory: 136
+2025-06-01 18:49:16,971 — INFO — Order of 100 units received. Inventory: 236
+2025-06-01 18:49:16,971 — INFO — Demand: 16, Fulfilled: 16, Inventory: 220
+2025-06-01 18:49:16,971 — INFO — Demand: 22, Fulfilled: 22, Inventory: 198
+2025-06-01 18:49:16,973 — INFO — Demand: 17, Fulfilled: 17, Inventory: 181
+2025-06-01 18:49:16,973 — INFO — Demand: 17, Fulfilled: 17, Inventory: 164
+2025-06-01 18:49:16,974 — INFO — Demand: 20, Fulfilled: 20, Inventory: 144
+2025-06-01 18:49:16,974 — INFO — Demand: 18, Fulfilled: 18, Inventory: 126
+2025-06-01 18:49:16,974 — INFO — Demand: 25, Fulfilled: 25, Inventory: 101
+2025-06-01 18:49:16,974 — INFO — Demand: 20, Fulfilled: 20, Inventory: 81
+2025-06-01 18:49:16,974 — INFO — Demand: 12, Fulfilled: 12, Inventory: 69
+2025-06-01 18:49:16,974 — INFO — Demand: 23, Fulfilled: 23, Inventory: 46
+2025-06-01 18:49:16,974 — INFO — Demand: 12, Fulfilled: 12, Inventory: 34
+2025-06-01 18:49:16,974 — INFO — Demand: 16, Fulfilled: 16, Inventory: 18
+2025-06-01 18:49:16,974 — INFO — Placing order for 82 units
+2025-06-01 18:49:16,974 — INFO — Order of 82 units will arrive in 1 days
+2025-06-01 18:49:16,974 — INFO — Demand: 17, Fulfilled: 17, Inventory: 1
+2025-06-01 18:49:16,974 — INFO — Placing order for 99 units
+2025-06-01 18:49:16,974 — INFO — Order of 99 units will arrive in 1 days
+2025-06-01 18:49:16,974 — INFO — Order of 82 units received. Inventory: 83
+2025-06-01 18:49:16,974 — INFO — Demand: 21, Fulfilled: 21, Inventory: 62
+2025-06-01 18:49:16,974 — INFO — Order of 99 units received. Inventory: 161
+2025-06-01 18:49:16,974 — INFO — Demand: 13, Fulfilled: 13, Inventory: 148
+2025-06-01 18:49:16,976 — INFO — Demand: 31, Fulfilled: 31, Inventory: 117
+2025-06-01 18:49:16,976 — INFO — Demand: 18, Fulfilled: 18, Inventory: 99
+2025-06-01 18:49:16,976 — INFO — Demand: 14, Fulfilled: 14, Inventory: 85
+2025-06-01 18:49:16,976 — INFO — Demand: 22, Fulfilled: 22, Inventory: 63
+2025-06-01 18:49:16,976 — INFO — Demand: 35, Fulfilled: 35, Inventory: 28
+2025-06-01 18:49:16,976 — INFO — Demand: 21, Fulfilled: 21, Inventory: 7
+2025-06-01 18:49:16,976 — INFO — Placing order for 93 units
+2025-06-01 18:49:16,976 — INFO — Order of 93 units will arrive in 3 days
+2025-06-01 18:49:16,976 — INFO — Stockout! Demand: 28, Fulfilled: 7, Inventory: 0
+2025-06-01 18:49:16,976 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,976 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,976 — INFO — Stockout! Demand: 22, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,977 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,977 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,977 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,977 — INFO — Order of 93 units received. Inventory: 193
+2025-06-01 18:49:16,977 — INFO — Demand: 18, Fulfilled: 18, Inventory: 175
+2025-06-01 18:49:16,977 — INFO — Demand: 27, Fulfilled: 27, Inventory: 148
+2025-06-01 18:49:16,977 — INFO — Demand: 31, Fulfilled: 31, Inventory: 117
+2025-06-01 18:49:16,977 — INFO — Order of 100 units received. Inventory: 217
+2025-06-01 18:49:16,977 — INFO — Demand: 30, Fulfilled: 30, Inventory: 187
+2025-06-01 18:49:16,977 — INFO — Demand: 34, Fulfilled: 34, Inventory: 153
+2025-06-01 18:49:16,977 — INFO — Demand: 26, Fulfilled: 26, Inventory: 127
+2025-06-01 18:49:16,977 — INFO — Demand: 14, Fulfilled: 14, Inventory: 113
+2025-06-01 18:49:16,977 — INFO — Demand: 24, Fulfilled: 24, Inventory: 89
+2025-06-01 18:49:16,977 — INFO — Demand: 34, Fulfilled: 34, Inventory: 55
+2025-06-01 18:49:16,977 — INFO — Demand: 14, Fulfilled: 14, Inventory: 41
+2025-06-01 18:49:16,977 — INFO — Demand: 24, Fulfilled: 24, Inventory: 17
+2025-06-01 18:49:16,977 — INFO — Placing order for 83 units
+2025-06-01 18:49:16,977 — INFO — Order of 83 units will arrive in 1 days
+2025-06-01 18:49:16,977 — INFO — Stockout! Demand: 18, Fulfilled: 17, Inventory: 0
+2025-06-01 18:49:16,977 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,977 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,977 — INFO — Order of 83 units received. Inventory: 83
+2025-06-01 18:49:16,977 — INFO — Demand: 24, Fulfilled: 24, Inventory: 59
+2025-06-01 18:49:16,977 — INFO — Demand: 33, Fulfilled: 33, Inventory: 26
+2025-06-01 18:49:16,977 — INFO — Stockout! Demand: 28, Fulfilled: 26, Inventory: 0
+2025-06-01 18:49:16,977 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,977 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,977 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,977 — INFO — Demand: 16, Fulfilled: 16, Inventory: 84
+2025-06-01 18:49:16,977 — INFO — Order of 100 units received. Inventory: 184
+2025-06-01 18:49:16,977 — INFO — Demand: 14, Fulfilled: 14, Inventory: 170
+2025-06-01 18:49:16,977 — INFO — Demand: 13, Fulfilled: 13, Inventory: 157
+2025-06-01 18:49:16,977 — INFO — Demand: 20, Fulfilled: 20, Inventory: 137
+2025-06-01 18:49:16,977 — INFO — Demand: 13, Fulfilled: 13, Inventory: 124
+2025-06-01 18:49:16,977 — INFO — Demand: 20, Fulfilled: 20, Inventory: 104
+2025-06-01 18:49:16,977 — INFO — Demand: 28, Fulfilled: 28, Inventory: 76
+2025-06-01 18:49:16,977 — INFO — Demand: 13, Fulfilled: 13, Inventory: 63
+2025-06-01 18:49:16,977 — INFO — Demand: 16, Fulfilled: 16, Inventory: 47
+2025-06-01 18:49:16,977 — INFO — Demand: 17, Fulfilled: 17, Inventory: 30
+2025-06-01 18:49:16,977 — INFO — Demand: 10, Fulfilled: 10, Inventory: 20
+2025-06-01 18:49:16,977 — INFO — Demand: 20, Fulfilled: 20, Inventory: 0
+2025-06-01 18:49:16,977 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,977 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,978 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,978 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,978 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,978 — INFO — Stockout! Demand: 20, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,978 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,978 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,978 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,978 — INFO — Demand: 21, Fulfilled: 21, Inventory: 79
+2025-06-01 18:49:16,978 — INFO — Order of 100 units received. Inventory: 179
+2025-06-01 18:49:16,978 — INFO — Order of 100 units received. Inventory: 279
+2025-06-01 18:49:16,978 — INFO — Demand: 30, Fulfilled: 30, Inventory: 249
+2025-06-01 18:49:16,978 — INFO — Demand: 13, Fulfilled: 13, Inventory: 236
+2025-06-01 18:49:16,978 — INFO — Demand: 19, Fulfilled: 19, Inventory: 217
+2025-06-01 18:49:16,978 — INFO — Demand: 22, Fulfilled: 22, Inventory: 195
+2025-06-01 18:49:16,978 — INFO — Demand: 2, Fulfilled: 2, Inventory: 193
+2025-06-01 18:49:16,978 — INFO — Demand: 33, Fulfilled: 33, Inventory: 160
+2025-06-01 18:49:16,978 — INFO — Demand: 19, Fulfilled: 19, Inventory: 141
+2025-06-01 18:49:16,978 — INFO — Demand: 28, Fulfilled: 28, Inventory: 113
+2025-06-01 18:49:16,978 — INFO — Demand: 3, Fulfilled: 3, Inventory: 110
+2025-06-01 18:49:16,978 — INFO — Demand: 26, Fulfilled: 26, Inventory: 84
+2025-06-01 18:49:16,978 — INFO — Demand: 28, Fulfilled: 28, Inventory: 56
+2025-06-01 18:49:16,978 — INFO — Demand: 11, Fulfilled: 11, Inventory: 45
+2025-06-01 18:49:16,978 — INFO — Demand: 25, Fulfilled: 25, Inventory: 20
+2025-06-01 18:49:16,978 — INFO — Stockout! Demand: 25, Fulfilled: 20, Inventory: 0
+2025-06-01 18:49:16,978 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,978 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,978 — INFO — Stockout! Demand: 30, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,978 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,978 — INFO — Order of 100 units will arrive in 5 days
+2025-06-01 18:49:16,978 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,978 — INFO — Demand: 16, Fulfilled: 16, Inventory: 84
+2025-06-01 18:49:16,978 — INFO — Demand: 18, Fulfilled: 18, Inventory: 66
+2025-06-01 18:49:16,978 — INFO — Demand: 13, Fulfilled: 13, Inventory: 53
+2025-06-01 18:49:16,978 — INFO — Demand: 22, Fulfilled: 22, Inventory: 31
+2025-06-01 18:49:16,978 — INFO — Order of 100 units received. Inventory: 131
+2025-06-01 18:49:16,978 — INFO — Demand: 19, Fulfilled: 19, Inventory: 112
+2025-06-01 18:49:16,978 — INFO — Demand: 3, Fulfilled: 3, Inventory: 109
+2025-06-01 18:49:16,978 — INFO — Demand: 19, Fulfilled: 19, Inventory: 90
+2025-06-01 18:49:16,978 — INFO — Demand: 22, Fulfilled: 22, Inventory: 68
+2025-06-01 18:49:16,978 — INFO — Demand: 20, Fulfilled: 20, Inventory: 48
+2025-06-01 18:49:16,978 — INFO — Demand: 18, Fulfilled: 18, Inventory: 30
+2025-06-01 18:49:16,978 — INFO — Demand: 26, Fulfilled: 26, Inventory: 4
+2025-06-01 18:49:16,978 — INFO — Placing order for 96 units
+2025-06-01 18:49:16,978 — INFO — Order of 96 units will arrive in 5 days
+2025-06-01 18:49:16,978 — INFO — Stockout! Demand: 25, Fulfilled: 4, Inventory: 0
+2025-06-01 18:49:16,979 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,979 — INFO — Order of 100 units will arrive in 5 days
+2025-06-01 18:49:16,979 — INFO — Stockout! Demand: 14, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,979 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,979 — INFO — Order of 100 units will arrive in 3 days
+2025-06-01 18:49:16,979 — INFO — Stockout! Demand: 14, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,979 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,979 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,979 — INFO — Stockout! Demand: 16, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,979 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,979 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,979 — INFO — Order of 96 units received. Inventory: 96
+2025-06-01 18:49:16,979 — INFO — Order of 100 units received. Inventory: 196
+2025-06-01 18:49:16,979 — INFO — Demand: 17, Fulfilled: 17, Inventory: 179
+2025-06-01 18:49:16,979 — INFO — Order of 100 units received. Inventory: 279
+2025-06-01 18:49:16,979 — INFO — Demand: 15, Fulfilled: 15, Inventory: 264
+2025-06-01 18:49:16,979 — INFO — Order of 100 units received. Inventory: 364
+2025-06-01 18:49:16,979 — INFO — Demand: 30, Fulfilled: 30, Inventory: 334
+2025-06-01 18:49:16,979 — INFO — Order of 100 units received. Inventory: 434
+2025-06-01 18:49:16,979 — INFO — Demand: 19, Fulfilled: 19, Inventory: 415
+2025-06-01 18:49:16,979 — INFO — Demand: 20, Fulfilled: 20, Inventory: 395
+2025-06-01 18:49:16,979 — INFO — Demand: 25, Fulfilled: 25, Inventory: 370
+2025-06-01 18:49:16,979 — INFO — Demand: 8, Fulfilled: 8, Inventory: 362
+2025-06-01 18:49:16,979 — INFO — Demand: 12, Fulfilled: 12, Inventory: 350
+2025-06-01 18:49:16,979 — INFO — Demand: 15, Fulfilled: 15, Inventory: 335
+2025-06-01 18:49:16,979 — INFO — Demand: 26, Fulfilled: 26, Inventory: 309
+2025-06-01 18:49:16,979 — INFO — Demand: 7, Fulfilled: 7, Inventory: 302
+2025-06-01 18:49:16,979 — INFO — Demand: 21, Fulfilled: 21, Inventory: 281
+2025-06-01 18:49:16,979 — INFO — Demand: 42, Fulfilled: 42, Inventory: 239
+2025-06-01 18:49:16,979 — INFO — Demand: 18, Fulfilled: 18, Inventory: 221
+2025-06-01 18:49:16,979 — INFO — Demand: 26, Fulfilled: 26, Inventory: 195
+2025-06-01 18:49:16,979 — INFO — Demand: 1, Fulfilled: 1, Inventory: 194
+2025-06-01 18:49:16,979 — INFO — Demand: 5, Fulfilled: 5, Inventory: 189
+2025-06-01 18:49:16,979 — INFO — Demand: 12, Fulfilled: 12, Inventory: 177
+2025-06-01 18:49:16,979 — INFO — Demand: 18, Fulfilled: 18, Inventory: 159
+2025-06-01 18:49:16,980 — INFO — Demand: 16, Fulfilled: 16, Inventory: 143
+2025-06-01 18:49:16,980 — INFO — Demand: 15, Fulfilled: 15, Inventory: 128
+2025-06-01 18:49:16,980 — INFO — Demand: 31, Fulfilled: 31, Inventory: 97
+2025-06-01 18:49:16,980 — INFO — Demand: 18, Fulfilled: 18, Inventory: 79
+2025-06-01 18:49:16,980 — INFO — Demand: 16, Fulfilled: 16, Inventory: 63
+2025-06-01 18:49:16,980 — INFO — Demand: 22, Fulfilled: 22, Inventory: 41
+2025-06-01 18:49:16,980 — INFO — Demand: 11, Fulfilled: 11, Inventory: 30
+2025-06-01 18:49:16,980 — INFO — Demand: 27, Fulfilled: 27, Inventory: 3
+2025-06-01 18:49:16,980 — INFO — Placing order for 97 units
+2025-06-01 18:49:16,980 — INFO — Order of 97 units will arrive in 4 days
+2025-06-01 18:49:16,980 — INFO — Stockout! Demand: 23, Fulfilled: 3, Inventory: 0
+2025-06-01 18:49:16,980 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,980 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,980 — INFO — Stockout! Demand: 32, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,980 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,980 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,980 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,980 — INFO — Demand: 30, Fulfilled: 30, Inventory: 70
+2025-06-01 18:49:16,980 — INFO — Order of 100 units received. Inventory: 170
+2025-06-01 18:49:16,980 — INFO — Order of 97 units received. Inventory: 267
+2025-06-01 18:49:16,980 — INFO — Demand: 12, Fulfilled: 12, Inventory: 255
+2025-06-01 18:49:16,980 — INFO — Demand: 32, Fulfilled: 32, Inventory: 223
+2025-06-01 18:49:16,980 — INFO — Demand: 15, Fulfilled: 15, Inventory: 208
+2025-06-01 18:49:16,980 — INFO — Demand: 25, Fulfilled: 25, Inventory: 183
+2025-06-01 18:49:16,980 — INFO — Demand: 14, Fulfilled: 14, Inventory: 169
+2025-06-01 18:49:16,980 — INFO — Demand: 8, Fulfilled: 8, Inventory: 161
+2025-06-01 18:49:16,980 — INFO — Demand: 24, Fulfilled: 24, Inventory: 137
+2025-06-01 18:49:16,980 — INFO — Demand: 17, Fulfilled: 17, Inventory: 120
+2025-06-01 18:49:16,980 — INFO — Demand: 21, Fulfilled: 21, Inventory: 99
+2025-06-01 18:49:16,980 — INFO — Demand: 20, Fulfilled: 20, Inventory: 79
+2025-06-01 18:49:16,980 — INFO — Demand: 15, Fulfilled: 15, Inventory: 64
+2025-06-01 18:49:16,980 — INFO — Demand: 9, Fulfilled: 9, Inventory: 55
+2025-06-01 18:49:16,980 — INFO — Demand: 17, Fulfilled: 17, Inventory: 38
+2025-06-01 18:49:16,980 — INFO — Demand: 10, Fulfilled: 10, Inventory: 28
+2025-06-01 18:49:16,980 — INFO — Demand: 20, Fulfilled: 20, Inventory: 8
+2025-06-01 18:49:16,980 — INFO — Placing order for 92 units
+2025-06-01 18:49:16,980 — INFO — Order of 92 units will arrive in 3 days
+2025-06-01 18:49:16,980 — INFO — Stockout! Demand: 28, Fulfilled: 8, Inventory: 0
+2025-06-01 18:49:16,980 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,980 — INFO — Order of 100 units will arrive in 1 days
+2025-06-01 18:49:16,980 — INFO — Stockout! Demand: 29, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,980 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,981 — INFO — Order of 100 units will arrive in 4 days
+2025-06-01 18:49:16,981 — INFO — Order of 100 units received. Inventory: 100
+2025-06-01 18:49:16,981 — INFO — Order of 92 units received. Inventory: 192
+2025-06-01 18:49:16,981 — INFO — Demand: 16, Fulfilled: 16, Inventory: 176
+2025-06-01 18:49:16,981 — INFO — Demand: 32, Fulfilled: 32, Inventory: 144
+2025-06-01 18:49:16,981 — INFO — Demand: 30, Fulfilled: 30, Inventory: 114
+2025-06-01 18:49:16,981 — INFO — Order of 100 units received. Inventory: 214
+2025-06-01 18:49:16,981 — INFO — Demand: 24, Fulfilled: 24, Inventory: 190
+2025-06-01 18:49:16,981 — INFO — Demand: 15, Fulfilled: 15, Inventory: 175
+2025-06-01 18:49:16,981 — INFO — Demand: 30, Fulfilled: 30, Inventory: 145
+2025-06-01 18:49:16,981 — INFO — Demand: 28, Fulfilled: 28, Inventory: 117
+2025-06-01 18:49:16,981 — INFO — Demand: 24, Fulfilled: 24, Inventory: 93
+2025-06-01 18:49:16,981 — INFO — Demand: 15, Fulfilled: 15, Inventory: 78
+2025-06-01 18:49:16,981 — INFO — Demand: 14, Fulfilled: 14, Inventory: 64
+2025-06-01 18:49:16,981 — INFO — Demand: 12, Fulfilled: 12, Inventory: 52
+2025-06-01 18:49:16,981 — INFO — Demand: 23, Fulfilled: 23, Inventory: 29
+2025-06-01 18:49:16,981 — INFO — Demand: 28, Fulfilled: 28, Inventory: 1
+2025-06-01 18:49:16,981 — INFO — Placing order for 99 units
+2025-06-01 18:49:16,981 — INFO — Order of 99 units will arrive in 3 days
+2025-06-01 18:49:16,981 — INFO — Stockout! Demand: 19, Fulfilled: 1, Inventory: 0
+2025-06-01 18:49:16,981 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,981 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,981 — INFO — Stockout! Demand: 13, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,981 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,981 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,981 — INFO — Order of 99 units received. Inventory: 99
+2025-06-01 18:49:16,981 — INFO — Order of 100 units received. Inventory: 199
+2025-06-01 18:49:16,981 — INFO — Demand: 19, Fulfilled: 19, Inventory: 180
+2025-06-01 18:49:16,981 — INFO — Order of 100 units received. Inventory: 280
+2025-06-01 18:49:16,981 — INFO — Demand: 22, Fulfilled: 22, Inventory: 258
+2025-06-01 18:49:16,981 — INFO — Demand: 11, Fulfilled: 11, Inventory: 247
+2025-06-01 18:49:16,981 — INFO — Demand: 22, Fulfilled: 22, Inventory: 225
+2025-06-01 18:49:16,981 — INFO — Demand: 23, Fulfilled: 23, Inventory: 202
+2025-06-01 18:49:16,981 — INFO — Demand: 18, Fulfilled: 18, Inventory: 184
+2025-06-01 18:49:16,981 — INFO — Demand: 20, Fulfilled: 20, Inventory: 164
+2025-06-01 18:49:16,981 — INFO — Demand: 18, Fulfilled: 18, Inventory: 146
+2025-06-01 18:49:16,981 — INFO — Demand: 21, Fulfilled: 21, Inventory: 125
+2025-06-01 18:49:16,981 — INFO — Demand: 19, Fulfilled: 19, Inventory: 106
+2025-06-01 18:49:16,981 — INFO — Demand: 20, Fulfilled: 20, Inventory: 86
+2025-06-01 18:49:16,981 — INFO — Demand: 26, Fulfilled: 26, Inventory: 60
+2025-06-01 18:49:16,981 — INFO — Demand: 23, Fulfilled: 23, Inventory: 37
+2025-06-01 18:49:16,981 — INFO — Demand: 25, Fulfilled: 25, Inventory: 12
+2025-06-01 18:49:16,981 — INFO — Placing order for 88 units
+2025-06-01 18:49:16,981 — INFO — Order of 88 units will arrive in 3 days
+2025-06-01 18:49:16,981 — INFO — Stockout! Demand: 27, Fulfilled: 12, Inventory: 0
+2025-06-01 18:49:16,981 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,981 — INFO — Order of 100 units will arrive in 3 days
+2025-06-01 18:49:16,982 — INFO — Stockout! Demand: 29, Fulfilled: 0, Inventory: 0
+2025-06-01 18:49:16,982 — INFO — Placing order for 100 units
+2025-06-01 18:49:16,982 — INFO — Order of 100 units will arrive in 2 days
+2025-06-01 18:49:16,982 — INFO — Order of 88 units received. Inventory: 88
+2025-06-01 18:49:16,982 — INFO — Demand: 25, Fulfilled: 25, Inventory: 63
+2025-06-01 18:49:16,982 — INFO — Order of 100 units received. Inventory: 163
+2025-06-01 18:49:16,982 — INFO — Order of 100 units received. Inventory: 263
+2025-06-01 18:49:16,982 — INFO — Demand: 21, Fulfilled: 21, Inventory: 242
+2025-06-01 18:49:16,982 — INFO — Demand: 15, Fulfilled: 15, Inventory: 227
+2025-06-01 18:49:16,982 — INFO — Demand: 13, Fulfilled: 13, Inventory: 214
+2025-06-01 18:49:16,982 — INFO — Demand: 17, Fulfilled: 17, Inventory: 197
+2025-06-01 18:49:16,982 — INFO — Demand: 17, Fulfilled: 17, Inventory: 180
+2025-06-01 18:49:16,982 — INFO — Demand: 19, Fulfilled: 19, Inventory: 161
+2025-06-01 18:49:16,982 — INFO — Demand: 29, Fulfilled: 29, Inventory: 132
+2025-06-01 18:49:16,982 — INFO — Demand: 20, Fulfilled: 20, Inventory: 112
+2025-06-01 18:49:16,982 — INFO — Demand: 31, Fulfilled: 31, Inventory: 81
+2025-06-01 18:49:16,982 — INFO — Demand: 21, Fulfilled: 21, Inventory: 60
+2025-06-01 18:52:24,589 — INFO — Demand: 5, Fulfilled: 5, Inventory: 151
+2025-06-01 18:52:24,590 — INFO — Demand: 25, Fulfilled: 25, Inventory: 126
+2025-06-01 18:52:24,590 — INFO — Demand: 8, Fulfilled: 8, Inventory: 118
+2025-06-01 18:52:24,591 — INFO — Demand: 11, Fulfilled: 11, Inventory: 107
+2025-06-01 18:52:24,591 — INFO — Demand: 19, Fulfilled: 19, Inventory: 88
+2025-06-01 18:52:24,591 — INFO — Demand: 10, Fulfilled: 10, Inventory: 78
+2025-06-01 18:52:24,591 — INFO — Demand: 28, Fulfilled: 28, Inventory: 50
+2025-06-01 18:52:24,591 — INFO — Demand: 18, Fulfilled: 18, Inventory: 32
+2025-06-01 18:52:24,591 — INFO — Stockout! Demand: 37, Fulfilled: 32, Inventory: 0
+2025-06-01 18:52:24,591 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,591 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,591 — INFO — Stockout! Demand: 13, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,591 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,591 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,592 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,592 — INFO — Demand: 24, Fulfilled: 24, Inventory: 132
+2025-06-01 18:52:24,592 — INFO — Order of 156 units received. Inventory: 288
+2025-06-01 18:52:24,592 — INFO — Demand: 5, Fulfilled: 5, Inventory: 283
+2025-06-01 18:52:24,592 — INFO — Demand: 16, Fulfilled: 16, Inventory: 267
+2025-06-01 18:52:24,592 — INFO — Demand: -3, Fulfilled: -3, Inventory: 270
+2025-06-01 18:52:24,592 — INFO — Demand: 23, Fulfilled: 23, Inventory: 247
+2025-06-01 18:52:24,592 — INFO — Demand: 21, Fulfilled: 21, Inventory: 226
+2025-06-01 18:52:24,592 — INFO — Demand: 22, Fulfilled: 22, Inventory: 204
+2025-06-01 18:52:24,592 — INFO — Demand: 20, Fulfilled: 20, Inventory: 184
+2025-06-01 18:52:24,592 — INFO — Demand: 31, Fulfilled: 31, Inventory: 153
+2025-06-01 18:52:24,592 — INFO — Demand: 24, Fulfilled: 24, Inventory: 129
+2025-06-01 18:52:24,592 — INFO — Demand: 22, Fulfilled: 22, Inventory: 107
+2025-06-01 18:52:24,592 — INFO — Demand: 10, Fulfilled: 10, Inventory: 97
+2025-06-01 18:52:24,592 — INFO — Demand: 23, Fulfilled: 23, Inventory: 74
+2025-06-01 18:52:24,592 — INFO — Demand: 21, Fulfilled: 21, Inventory: 53
+2025-06-01 18:52:24,593 — INFO — Demand: 27, Fulfilled: 27, Inventory: 26
+2025-06-01 18:52:24,593 — INFO — Demand: 21, Fulfilled: 21, Inventory: 5
+2025-06-01 18:52:24,593 — INFO — Placing order for 151 units
+2025-06-01 18:52:24,593 — INFO — Order of 151 units will arrive in 5 days
+2025-06-01 18:52:24,593 — INFO — Stockout! Demand: 29, Fulfilled: 5, Inventory: 0
+2025-06-01 18:52:24,593 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,593 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,593 — INFO — Stockout! Demand: 13, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,593 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,593 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,593 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,593 — INFO — Demand: 22, Fulfilled: 22, Inventory: 134
+2025-06-01 18:52:24,593 — INFO — Demand: 25, Fulfilled: 25, Inventory: 109
+2025-06-01 18:52:24,593 — INFO — Order of 151 units received. Inventory: 260
+2025-06-01 18:52:24,593 — INFO — Demand: 14, Fulfilled: 14, Inventory: 246
+2025-06-01 18:52:24,594 — INFO — Order of 156 units received. Inventory: 402
+2025-06-01 18:52:24,594 — INFO — Demand: 20, Fulfilled: 20, Inventory: 382
+2025-06-01 18:52:24,594 — INFO — Demand: 14, Fulfilled: 14, Inventory: 368
+2025-06-01 18:52:24,594 — INFO — Demand: 8, Fulfilled: 8, Inventory: 360
+2025-06-01 18:52:24,594 — INFO — Demand: 24, Fulfilled: 24, Inventory: 336
+2025-06-01 18:52:24,594 — INFO — Demand: 24, Fulfilled: 24, Inventory: 312
+2025-06-01 18:52:24,594 — INFO — Demand: 15, Fulfilled: 15, Inventory: 297
+2025-06-01 18:52:24,594 — INFO — Demand: 39, Fulfilled: 39, Inventory: 258
+2025-06-01 18:52:24,594 — INFO — Demand: 27, Fulfilled: 27, Inventory: 231
+2025-06-01 18:52:24,594 — INFO — Demand: 15, Fulfilled: 15, Inventory: 216
+2025-06-01 18:52:24,594 — INFO — Demand: 18, Fulfilled: 18, Inventory: 198
+2025-06-01 18:52:24,594 — INFO — Demand: 28, Fulfilled: 28, Inventory: 170
+2025-06-01 18:52:24,594 — INFO — Demand: 10, Fulfilled: 10, Inventory: 160
+2025-06-01 18:52:24,594 — INFO — Demand: 10, Fulfilled: 10, Inventory: 150
+2025-06-01 18:52:24,594 — INFO — Demand: 19, Fulfilled: 19, Inventory: 131
+2025-06-01 18:52:24,595 — INFO — Demand: 11, Fulfilled: 11, Inventory: 120
+2025-06-01 18:52:24,595 — INFO — Demand: 30, Fulfilled: 30, Inventory: 90
+2025-06-01 18:52:24,595 — INFO — Demand: 28, Fulfilled: 28, Inventory: 62
+2025-06-01 18:52:24,595 — INFO — Demand: 13, Fulfilled: 13, Inventory: 49
+2025-06-01 18:52:24,595 — INFO — Demand: 24, Fulfilled: 24, Inventory: 25
+2025-06-01 18:52:24,595 — INFO — Demand: 16, Fulfilled: 16, Inventory: 9
+2025-06-01 18:52:24,595 — INFO — Placing order for 147 units
+2025-06-01 18:52:24,595 — INFO — Order of 147 units will arrive in 1 days
+2025-06-01 18:52:24,595 — INFO — Demand: -2, Fulfilled: -2, Inventory: 11
+2025-06-01 18:52:24,595 — INFO — Placing order for 145 units
+2025-06-01 18:52:24,595 — INFO — Order of 145 units will arrive in 1 days
+2025-06-01 18:52:24,595 — INFO — Order of 147 units received. Inventory: 158
+2025-06-01 18:52:24,595 — INFO — Demand: 23, Fulfilled: 23, Inventory: 135
+2025-06-01 18:52:24,595 — INFO — Order of 145 units received. Inventory: 280
+2025-06-01 18:52:24,595 — INFO — Demand: 23, Fulfilled: 23, Inventory: 257
+2025-06-01 18:52:24,595 — INFO — Demand: 25, Fulfilled: 25, Inventory: 232
+2025-06-01 18:52:24,595 — INFO — Demand: 37, Fulfilled: 37, Inventory: 195
+2025-06-01 18:52:24,596 — INFO — Demand: 18, Fulfilled: 18, Inventory: 177
+2025-06-01 18:52:24,596 — INFO — Demand: 10, Fulfilled: 10, Inventory: 167
+2025-06-01 18:52:24,596 — INFO — Demand: 16, Fulfilled: 16, Inventory: 151
+2025-06-01 18:52:24,596 — INFO — Demand: 23, Fulfilled: 23, Inventory: 128
+2025-06-01 18:52:24,596 — INFO — Demand: 26, Fulfilled: 26, Inventory: 102
+2025-06-01 18:52:24,596 — INFO — Demand: 11, Fulfilled: 11, Inventory: 91
+2025-06-01 18:52:24,596 — INFO — Demand: 9, Fulfilled: 9, Inventory: 82
+2025-06-01 18:52:24,596 — INFO — Demand: 31, Fulfilled: 31, Inventory: 51
+2025-06-01 18:52:24,596 — INFO — Demand: 18, Fulfilled: 18, Inventory: 33
+2025-06-01 18:52:24,596 — INFO — Demand: 17, Fulfilled: 17, Inventory: 16
+2025-06-01 18:52:24,596 — INFO — Placing order for 140 units
+2025-06-01 18:52:24,596 — INFO — Order of 140 units will arrive in 1 days
+2025-06-01 18:52:24,596 — INFO — Stockout! Demand: 25, Fulfilled: 16, Inventory: 0
+2025-06-01 18:52:24,597 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,597 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,597 — INFO — Order of 140 units received. Inventory: 140
+2025-06-01 18:52:24,597 — INFO — Demand: 11, Fulfilled: 11, Inventory: 129
+2025-06-01 18:52:24,597 — INFO — Demand: 19, Fulfilled: 19, Inventory: 110
+2025-06-01 18:52:24,597 — INFO — Demand: 8, Fulfilled: 8, Inventory: 102
+2025-06-01 18:52:24,597 — INFO — Order of 156 units received. Inventory: 258
+2025-06-01 18:52:24,597 — INFO — Demand: 24, Fulfilled: 24, Inventory: 234
+2025-06-01 18:52:24,597 — INFO — Demand: 13, Fulfilled: 13, Inventory: 221
+2025-06-01 18:52:24,597 — INFO — Demand: 19, Fulfilled: 19, Inventory: 202
+2025-06-01 18:52:24,597 — INFO — Demand: 38, Fulfilled: 38, Inventory: 164
+2025-06-01 18:52:24,597 — INFO — Demand: -1, Fulfilled: -1, Inventory: 165
+2025-06-01 18:52:24,597 — INFO — Demand: 22, Fulfilled: 22, Inventory: 143
+2025-06-01 18:52:24,597 — INFO — Demand: 20, Fulfilled: 20, Inventory: 123
+2025-06-01 18:52:24,597 — INFO — Demand: 31, Fulfilled: 31, Inventory: 92
+2025-06-01 18:52:24,597 — INFO — Demand: 30, Fulfilled: 30, Inventory: 62
+2025-06-01 18:52:24,598 — INFO — Demand: 20, Fulfilled: 20, Inventory: 42
+2025-06-01 18:52:24,598 — INFO — Demand: 25, Fulfilled: 25, Inventory: 17
+2025-06-01 18:52:24,598 — INFO — Placing order for 139 units
+2025-06-01 18:52:24,598 — INFO — Order of 139 units will arrive in 1 days
+2025-06-01 18:52:24,598 — INFO — Stockout! Demand: 27, Fulfilled: 17, Inventory: 0
+2025-06-01 18:52:24,598 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,598 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,598 — INFO — Order of 139 units received. Inventory: 139
+2025-06-01 18:52:24,598 — INFO — Demand: 32, Fulfilled: 32, Inventory: 107
+2025-06-01 18:52:24,598 — INFO — Order of 156 units received. Inventory: 263
+2025-06-01 18:52:24,598 — INFO — Demand: 22, Fulfilled: 22, Inventory: 241
+2025-06-01 18:52:24,598 — INFO — Demand: 27, Fulfilled: 27, Inventory: 214
+2025-06-01 18:52:24,598 — INFO — Demand: 9, Fulfilled: 9, Inventory: 205
+2025-06-01 18:52:24,599 — INFO — Demand: 16, Fulfilled: 16, Inventory: 189
+2025-06-01 18:52:24,599 — INFO — Demand: 3, Fulfilled: 3, Inventory: 186
+2025-06-01 18:52:24,599 — INFO — Demand: 14, Fulfilled: 14, Inventory: 172
+2025-06-01 18:52:24,599 — INFO — Demand: 10, Fulfilled: 10, Inventory: 162
+2025-06-01 18:52:24,599 — INFO — Demand: 16, Fulfilled: 16, Inventory: 146
+2025-06-01 18:52:24,599 — INFO — Demand: 17, Fulfilled: 17, Inventory: 129
+2025-06-01 18:52:24,599 — INFO — Demand: 24, Fulfilled: 24, Inventory: 105
+2025-06-01 18:52:24,599 — INFO — Demand: 17, Fulfilled: 17, Inventory: 88
+2025-06-01 18:52:24,599 — INFO — Demand: 22, Fulfilled: 22, Inventory: 66
+2025-06-01 18:52:24,599 — INFO — Demand: 8, Fulfilled: 8, Inventory: 58
+2025-06-01 18:52:24,599 — INFO — Demand: 1, Fulfilled: 1, Inventory: 57
+2025-06-01 18:52:24,599 — INFO — Demand: 8, Fulfilled: 8, Inventory: 49
+2025-06-01 18:52:24,599 — INFO — Demand: 6, Fulfilled: 6, Inventory: 43
+2025-06-01 18:52:24,599 — INFO — Demand: 9, Fulfilled: 9, Inventory: 34
+2025-06-01 18:52:24,599 — INFO — Demand: 31, Fulfilled: 31, Inventory: 3
+2025-06-01 18:52:24,599 — INFO — Placing order for 153 units
+2025-06-01 18:52:24,599 — INFO — Order of 153 units will arrive in 2 days
+2025-06-01 18:52:24,600 — INFO — Stockout! Demand: 14, Fulfilled: 3, Inventory: 0
+2025-06-01 18:52:24,600 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,600 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,600 — INFO — Order of 153 units received. Inventory: 153
+2025-06-01 18:52:24,600 — INFO — Demand: 16, Fulfilled: 16, Inventory: 137
+2025-06-01 18:52:24,600 — INFO — Demand: 17, Fulfilled: 17, Inventory: 120
+2025-06-01 18:52:24,600 — INFO — Order of 156 units received. Inventory: 276
+2025-06-01 18:52:24,600 — INFO — Demand: 33, Fulfilled: 33, Inventory: 243
+2025-06-01 18:52:24,600 — INFO — Demand: 23, Fulfilled: 23, Inventory: 220
+2025-06-01 18:52:24,600 — INFO — Demand: 22, Fulfilled: 22, Inventory: 198
+2025-06-01 18:52:24,600 — INFO — Demand: 16, Fulfilled: 16, Inventory: 182
+2025-06-01 18:52:24,600 — INFO — Demand: 12, Fulfilled: 12, Inventory: 170
+2025-06-01 18:52:24,600 — INFO — Demand: 15, Fulfilled: 15, Inventory: 155
+2025-06-01 18:52:24,600 — INFO — Demand: 15, Fulfilled: 15, Inventory: 140
+2025-06-01 18:52:24,600 — INFO — Demand: 26, Fulfilled: 26, Inventory: 114
+2025-06-01 18:52:24,600 — INFO — Demand: 6, Fulfilled: 6, Inventory: 108
+2025-06-01 18:52:24,600 — INFO — Demand: 8, Fulfilled: 8, Inventory: 100
+2025-06-01 18:52:24,600 — INFO — Demand: 10, Fulfilled: 10, Inventory: 90
+2025-06-01 18:52:24,600 — INFO — Demand: 17, Fulfilled: 17, Inventory: 73
+2025-06-01 18:52:24,601 — INFO — Demand: 24, Fulfilled: 24, Inventory: 49
+2025-06-01 18:52:24,601 — INFO — Demand: 32, Fulfilled: 32, Inventory: 17
+2025-06-01 18:52:24,601 — INFO — Placing order for 139 units
+2025-06-01 18:52:24,601 — INFO — Order of 139 units will arrive in 1 days
+2025-06-01 18:52:24,601 — INFO — Stockout! Demand: 22, Fulfilled: 17, Inventory: 0
+2025-06-01 18:52:24,601 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,601 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,601 — INFO — Order of 139 units received. Inventory: 139
+2025-06-01 18:52:24,601 — INFO — Demand: 19, Fulfilled: 19, Inventory: 120
+2025-06-01 18:52:24,601 — INFO — Order of 156 units received. Inventory: 276
+2025-06-01 18:52:24,601 — INFO — Demand: 24, Fulfilled: 24, Inventory: 252
+2025-06-01 18:52:24,601 — INFO — Demand: 32, Fulfilled: 32, Inventory: 220
+2025-06-01 18:52:24,601 — INFO — Demand: 19, Fulfilled: 19, Inventory: 201
+2025-06-01 18:52:24,601 — INFO — Demand: 10, Fulfilled: 10, Inventory: 191
+2025-06-01 18:52:24,601 — INFO — Demand: 22, Fulfilled: 22, Inventory: 169
+2025-06-01 18:52:24,601 — INFO — Demand: 21, Fulfilled: 21, Inventory: 148
+2025-06-01 18:52:24,601 — INFO — Demand: 17, Fulfilled: 17, Inventory: 131
+2025-06-01 18:52:24,602 — INFO — Demand: 33, Fulfilled: 33, Inventory: 98
+2025-06-01 18:52:24,602 — INFO — Demand: 32, Fulfilled: 32, Inventory: 66
+2025-06-01 18:52:24,602 — INFO — Demand: 9, Fulfilled: 9, Inventory: 57
+2025-06-01 18:52:24,602 — INFO — Demand: 11, Fulfilled: 11, Inventory: 46
+2025-06-01 18:52:24,602 — INFO — Demand: 11, Fulfilled: 11, Inventory: 35
+2025-06-01 18:52:24,602 — INFO — Demand: 20, Fulfilled: 20, Inventory: 15
+2025-06-01 18:52:24,602 — INFO — Placing order for 141 units
+2025-06-01 18:52:24,602 — INFO — Order of 141 units will arrive in 2 days
+2025-06-01 18:52:24,602 — INFO — Stockout! Demand: 16, Fulfilled: 15, Inventory: 0
+2025-06-01 18:52:24,602 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,602 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,602 — INFO — Order of 141 units received. Inventory: 141
+2025-06-01 18:52:24,602 — INFO — Demand: 26, Fulfilled: 26, Inventory: 115
+2025-06-01 18:52:24,602 — INFO — Demand: 16, Fulfilled: 16, Inventory: 99
+2025-06-01 18:52:24,602 — INFO — Order of 156 units received. Inventory: 255
+2025-06-01 18:52:24,602 — INFO — Demand: 26, Fulfilled: 26, Inventory: 229
+2025-06-01 18:52:24,602 — INFO — Demand: 30, Fulfilled: 30, Inventory: 199
+2025-06-01 18:52:24,602 — INFO — Demand: 27, Fulfilled: 27, Inventory: 172
+2025-06-01 18:52:24,602 — INFO — Demand: 10, Fulfilled: 10, Inventory: 162
+2025-06-01 18:52:24,602 — INFO — Demand: 19, Fulfilled: 19, Inventory: 143
+2025-06-01 18:52:24,602 — INFO — Demand: 23, Fulfilled: 23, Inventory: 120
+2025-06-01 18:52:24,603 — INFO — Demand: 6, Fulfilled: 6, Inventory: 114
+2025-06-01 18:52:24,603 — INFO — Demand: 23, Fulfilled: 23, Inventory: 91
+2025-06-01 18:52:24,603 — INFO — Demand: 18, Fulfilled: 18, Inventory: 73
+2025-06-01 18:52:24,603 — INFO — Demand: 10, Fulfilled: 10, Inventory: 63
+2025-06-01 18:52:24,603 — INFO — Demand: 17, Fulfilled: 17, Inventory: 46
+2025-06-01 18:52:24,603 — INFO — Demand: 16, Fulfilled: 16, Inventory: 30
+2025-06-01 18:52:24,603 — INFO — Demand: 18, Fulfilled: 18, Inventory: 12
+2025-06-01 18:52:24,603 — INFO — Placing order for 144 units
+2025-06-01 18:52:24,603 — INFO — Order of 144 units will arrive in 4 days
+2025-06-01 18:52:24,603 — INFO — Stockout! Demand: 33, Fulfilled: 12, Inventory: 0
+2025-06-01 18:52:24,603 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,603 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,603 — INFO — Stockout! Demand: 10, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,603 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,603 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,603 — INFO — Stockout! Demand: 17, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,603 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,603 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,603 — INFO — Order of 144 units received. Inventory: 144
+2025-06-01 18:52:24,603 — INFO — Demand: 12, Fulfilled: 12, Inventory: 132
+2025-06-01 18:52:24,603 — INFO — Order of 156 units received. Inventory: 288
+2025-06-01 18:52:24,604 — INFO — Demand: 13, Fulfilled: 13, Inventory: 275
+2025-06-01 18:52:24,604 — INFO — Order of 156 units received. Inventory: 431
+2025-06-01 18:52:24,604 — INFO — Demand: 15, Fulfilled: 15, Inventory: 416
+2025-06-01 18:52:24,604 — INFO — Order of 156 units received. Inventory: 572
+2025-06-01 18:52:24,604 — INFO — Demand: 20, Fulfilled: 20, Inventory: 552
+2025-06-01 18:52:24,604 — INFO — Demand: 45, Fulfilled: 45, Inventory: 507
+2025-06-01 18:52:24,604 — INFO — Demand: 22, Fulfilled: 22, Inventory: 485
+2025-06-01 18:52:24,604 — INFO — Demand: 23, Fulfilled: 23, Inventory: 462
+2025-06-01 18:52:24,604 — INFO — Demand: 25, Fulfilled: 25, Inventory: 437
+2025-06-01 18:52:24,604 — INFO — Demand: 7, Fulfilled: 7, Inventory: 430
+2025-06-01 18:52:24,604 — INFO — Demand: 18, Fulfilled: 18, Inventory: 412
+2025-06-01 18:52:24,604 — INFO — Demand: 19, Fulfilled: 19, Inventory: 393
+2025-06-01 18:52:24,604 — INFO — Demand: 22, Fulfilled: 22, Inventory: 371
+2025-06-01 18:52:24,604 — INFO — Demand: 15, Fulfilled: 15, Inventory: 356
+2025-06-01 18:52:24,604 — INFO — Demand: 38, Fulfilled: 38, Inventory: 318
+2025-06-01 18:52:24,604 — INFO — Demand: 1, Fulfilled: 1, Inventory: 317
+2025-06-01 18:52:24,604 — INFO — Demand: 20, Fulfilled: 20, Inventory: 297
+2025-06-01 18:52:24,605 — INFO — Demand: 24, Fulfilled: 24, Inventory: 273
+2025-06-01 18:52:24,605 — INFO — Demand: 36, Fulfilled: 36, Inventory: 237
+2025-06-01 18:52:24,605 — INFO — Demand: 33, Fulfilled: 33, Inventory: 204
+2025-06-01 18:52:24,605 — INFO — Demand: 13, Fulfilled: 13, Inventory: 191
+2025-06-01 18:52:24,605 — INFO — Demand: 12, Fulfilled: 12, Inventory: 179
+2025-06-01 18:52:24,605 — INFO — Demand: 9, Fulfilled: 9, Inventory: 170
+2025-06-01 18:52:24,605 — INFO — Demand: 21, Fulfilled: 21, Inventory: 149
+2025-06-01 18:52:24,605 — INFO — Demand: 13, Fulfilled: 13, Inventory: 136
+2025-06-01 18:52:24,605 — INFO — Demand: 20, Fulfilled: 20, Inventory: 116
+2025-06-01 18:52:24,605 — INFO — Demand: 23, Fulfilled: 23, Inventory: 93
+2025-06-01 18:52:24,605 — INFO — Demand: 14, Fulfilled: 14, Inventory: 79
+2025-06-01 18:52:24,605 — INFO — Demand: 16, Fulfilled: 16, Inventory: 63
+2025-06-01 18:52:24,605 — INFO — Demand: 38, Fulfilled: 38, Inventory: 25
+2025-06-01 18:52:24,605 — INFO — Stockout! Demand: 38, Fulfilled: 25, Inventory: 0
+2025-06-01 18:52:24,605 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,605 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,606 — INFO — Stockout! Demand: 3, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,606 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,606 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,606 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,606 — INFO — Demand: 12, Fulfilled: 12, Inventory: 144
+2025-06-01 18:52:24,606 — INFO — Demand: 18, Fulfilled: 18, Inventory: 126
+2025-06-01 18:52:24,606 — INFO — Demand: 19, Fulfilled: 19, Inventory: 107
+2025-06-01 18:52:24,606 — INFO — Demand: 7, Fulfilled: 7, Inventory: 100
+2025-06-01 18:52:24,606 — INFO — Order of 156 units received. Inventory: 256
+2025-06-01 18:52:24,606 — INFO — Demand: 18, Fulfilled: 18, Inventory: 238
+2025-06-01 18:52:24,606 — INFO — Demand: 17, Fulfilled: 17, Inventory: 221
+2025-06-01 18:52:24,606 — INFO — Demand: 15, Fulfilled: 15, Inventory: 206
+2025-06-01 18:52:24,606 — INFO — Demand: 15, Fulfilled: 15, Inventory: 191
+2025-06-01 18:52:24,606 — INFO — Demand: 15, Fulfilled: 15, Inventory: 176
+2025-06-01 18:52:24,606 — INFO — Demand: 21, Fulfilled: 21, Inventory: 155
+2025-06-01 18:52:24,606 — INFO — Demand: 14, Fulfilled: 14, Inventory: 141
+2025-06-01 18:52:24,606 — INFO — Demand: 27, Fulfilled: 27, Inventory: 114
+2025-06-01 18:52:24,606 — INFO — Demand: 14, Fulfilled: 14, Inventory: 100
+2025-06-01 18:52:24,606 — INFO — Demand: 22, Fulfilled: 22, Inventory: 78
+2025-06-01 18:52:24,606 — INFO — Demand: 18, Fulfilled: 18, Inventory: 60
+2025-06-01 18:52:24,606 — INFO — Demand: 14, Fulfilled: 14, Inventory: 46
+2025-06-01 18:52:24,607 — INFO — Demand: 23, Fulfilled: 23, Inventory: 23
+2025-06-01 18:52:24,607 — INFO — Demand: 6, Fulfilled: 6, Inventory: 17
+2025-06-01 18:52:24,607 — INFO — Placing order for 139 units
+2025-06-01 18:52:24,607 — INFO — Order of 139 units will arrive in 1 days
+2025-06-01 18:52:24,607 — INFO — Demand: 15, Fulfilled: 15, Inventory: 2
+2025-06-01 18:52:24,607 — INFO — Placing order for 154 units
+2025-06-01 18:52:24,607 — INFO — Order of 154 units will arrive in 1 days
+2025-06-01 18:52:24,607 — INFO — Order of 139 units received. Inventory: 141
+2025-06-01 18:52:24,607 — INFO — Demand: 0, Fulfilled: 0, Inventory: 141
+2025-06-01 18:52:24,607 — INFO — Order of 154 units received. Inventory: 295
+2025-06-01 18:52:24,607 — INFO — Demand: 16, Fulfilled: 16, Inventory: 279
+2025-06-01 18:52:24,607 — INFO — Demand: 22, Fulfilled: 22, Inventory: 257
+2025-06-01 18:52:24,607 — INFO — Demand: 42, Fulfilled: 42, Inventory: 215
+2025-06-01 18:52:24,607 — INFO — Demand: 11, Fulfilled: 11, Inventory: 204
+2025-06-01 18:52:24,607 — INFO — Demand: 24, Fulfilled: 24, Inventory: 180
+2025-06-01 18:52:24,607 — INFO — Demand: 36, Fulfilled: 36, Inventory: 144
+2025-06-01 18:52:24,607 — INFO — Demand: 16, Fulfilled: 16, Inventory: 128
+2025-06-01 18:52:24,607 — INFO — Demand: 29, Fulfilled: 29, Inventory: 99
+2025-06-01 18:52:24,607 — INFO — Demand: 17, Fulfilled: 17, Inventory: 82
+2025-06-01 18:52:24,607 — INFO — Demand: 29, Fulfilled: 29, Inventory: 53
+2025-06-01 18:52:24,607 — INFO — Demand: 23, Fulfilled: 23, Inventory: 30
+2025-06-01 18:52:24,607 — INFO — Demand: 26, Fulfilled: 26, Inventory: 4
+2025-06-01 18:52:24,607 — INFO — Placing order for 152 units
+2025-06-01 18:52:24,607 — INFO — Order of 152 units will arrive in 2 days
+2025-06-01 18:52:24,608 — INFO — Stockout! Demand: 16, Fulfilled: 4, Inventory: 0
+2025-06-01 18:52:24,608 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,608 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,608 — INFO — Order of 152 units received. Inventory: 152
+2025-06-01 18:52:24,608 — INFO — Demand: 17, Fulfilled: 17, Inventory: 135
+2025-06-01 18:52:24,608 — INFO — Demand: 8, Fulfilled: 8, Inventory: 127
+2025-06-01 18:52:24,608 — INFO — Demand: 11, Fulfilled: 11, Inventory: 116
+2025-06-01 18:52:24,608 — INFO — Demand: 19, Fulfilled: 19, Inventory: 97
+2025-06-01 18:52:24,608 — INFO — Order of 156 units received. Inventory: 253
+2025-06-01 18:52:24,608 — INFO — Demand: 24, Fulfilled: 24, Inventory: 229
+2025-06-01 18:52:24,608 — INFO — Demand: 15, Fulfilled: 15, Inventory: 214
+2025-06-01 18:52:24,608 — INFO — Demand: 7, Fulfilled: 7, Inventory: 207
+2025-06-01 18:52:24,608 — INFO — Demand: 19, Fulfilled: 19, Inventory: 188
+2025-06-01 18:52:24,608 — INFO — Demand: 26, Fulfilled: 26, Inventory: 162
+2025-06-01 18:52:24,608 — INFO — Demand: 25, Fulfilled: 25, Inventory: 137
+2025-06-01 18:52:24,608 — INFO — Demand: 22, Fulfilled: 22, Inventory: 115
+2025-06-01 18:52:24,608 — INFO — Demand: 21, Fulfilled: 21, Inventory: 94
+2025-06-01 18:52:24,608 — INFO — Demand: 25, Fulfilled: 25, Inventory: 69
+2025-06-01 18:52:24,608 — INFO — Demand: 27, Fulfilled: 27, Inventory: 42
+2025-06-01 18:52:24,608 — INFO — Demand: 28, Fulfilled: 28, Inventory: 14
+2025-06-01 18:52:24,608 — INFO — Placing order for 142 units
+2025-06-01 18:52:24,608 — INFO — Order of 142 units will arrive in 4 days
+2025-06-01 18:52:24,608 — INFO — Stockout! Demand: 19, Fulfilled: 14, Inventory: 0
+2025-06-01 18:52:24,608 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,609 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,609 — INFO — Stockout! Demand: 15, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,609 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,609 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,609 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,609 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,609 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,609 — INFO — Order of 142 units received. Inventory: 142
+2025-06-01 18:52:24,609 — INFO — Order of 156 units received. Inventory: 298
+2025-06-01 18:52:24,609 — INFO — Demand: 15, Fulfilled: 15, Inventory: 283
+2025-06-01 18:52:24,609 — INFO — Order of 156 units received. Inventory: 439
+2025-06-01 18:52:24,609 — INFO — Demand: 23, Fulfilled: 23, Inventory: 416
+2025-06-01 18:52:24,609 — INFO — Demand: 9, Fulfilled: 9, Inventory: 407
+2025-06-01 18:52:24,609 — INFO — Order of 156 units received. Inventory: 563
+2025-06-01 18:52:24,609 — INFO — Demand: 19, Fulfilled: 19, Inventory: 544
+2025-06-01 18:52:24,609 — INFO — Demand: 23, Fulfilled: 23, Inventory: 521
+2025-06-01 18:52:24,609 — INFO — Demand: 28, Fulfilled: 28, Inventory: 493
+2025-06-01 18:52:24,609 — INFO — Demand: 22, Fulfilled: 22, Inventory: 471
+2025-06-01 18:52:24,609 — INFO — Demand: 24, Fulfilled: 24, Inventory: 447
+2025-06-01 18:52:24,609 — INFO — Demand: 19, Fulfilled: 19, Inventory: 428
+2025-06-01 18:52:24,610 — INFO — Demand: 21, Fulfilled: 21, Inventory: 407
+2025-06-01 18:52:24,610 — INFO — Demand: 12, Fulfilled: 12, Inventory: 395
+2025-06-01 18:52:24,610 — INFO — Demand: 18, Fulfilled: 18, Inventory: 377
+2025-06-01 18:52:24,610 — INFO — Demand: 24, Fulfilled: 24, Inventory: 353
+2025-06-01 18:52:24,610 — INFO — Demand: 33, Fulfilled: 33, Inventory: 320
+2025-06-01 18:52:24,610 — INFO — Demand: 28, Fulfilled: 28, Inventory: 292
+2025-06-01 18:52:24,610 — INFO — Demand: 28, Fulfilled: 28, Inventory: 264
+2025-06-01 18:52:24,610 — INFO — Demand: 13, Fulfilled: 13, Inventory: 251
+2025-06-01 18:52:24,610 — INFO — Demand: 3, Fulfilled: 3, Inventory: 248
+2025-06-01 18:52:24,610 — INFO — Demand: 20, Fulfilled: 20, Inventory: 228
+2025-06-01 18:52:24,610 — INFO — Demand: 29, Fulfilled: 29, Inventory: 199
+2025-06-01 18:52:24,610 — INFO — Demand: 6, Fulfilled: 6, Inventory: 193
+2025-06-01 18:52:24,610 — INFO — Demand: 13, Fulfilled: 13, Inventory: 180
+2025-06-01 18:52:24,610 — INFO — Demand: 27, Fulfilled: 27, Inventory: 153
+2025-06-01 18:52:24,610 — INFO — Demand: 24, Fulfilled: 24, Inventory: 129
+2025-06-01 18:52:24,610 — INFO — Demand: 7, Fulfilled: 7, Inventory: 122
+2025-06-01 18:52:24,610 — INFO — Demand: 25, Fulfilled: 25, Inventory: 97
+2025-06-01 18:52:24,610 — INFO — Demand: 29, Fulfilled: 29, Inventory: 68
+2025-06-01 18:52:24,610 — INFO — Demand: 33, Fulfilled: 33, Inventory: 35
+2025-06-01 18:52:24,611 — INFO — Demand: 20, Fulfilled: 20, Inventory: 15
+2025-06-01 18:52:24,611 — INFO — Placing order for 141 units
+2025-06-01 18:52:24,611 — INFO — Order of 141 units will arrive in 2 days
+2025-06-01 18:52:24,611 — INFO — Demand: 8, Fulfilled: 8, Inventory: 7
+2025-06-01 18:52:24,611 — INFO — Placing order for 149 units
+2025-06-01 18:52:24,611 — INFO — Order of 149 units will arrive in 1 days
+2025-06-01 18:52:24,611 — INFO — Order of 141 units received. Inventory: 148
+2025-06-01 18:52:24,611 — INFO — Demand: 20, Fulfilled: 20, Inventory: 128
+2025-06-01 18:52:24,612 — INFO — Order of 149 units received. Inventory: 277
+2025-06-01 18:52:24,612 — INFO — Demand: 24, Fulfilled: 24, Inventory: 253
+2025-06-01 18:52:24,612 — INFO — Demand: 1, Fulfilled: 1, Inventory: 252
+2025-06-01 18:52:24,612 — INFO — Demand: 21, Fulfilled: 21, Inventory: 231
+2025-06-01 18:52:24,612 — INFO — Demand: 6, Fulfilled: 6, Inventory: 225
+2025-06-01 18:52:24,612 — INFO — Demand: 32, Fulfilled: 32, Inventory: 193
+2025-06-01 18:52:24,612 — INFO — Demand: 9, Fulfilled: 9, Inventory: 184
+2025-06-01 18:52:24,612 — INFO — Demand: 23, Fulfilled: 23, Inventory: 161
+2025-06-01 18:52:24,612 — INFO — Demand: 14, Fulfilled: 14, Inventory: 147
+2025-06-01 18:52:24,612 — INFO — Demand: 15, Fulfilled: 15, Inventory: 132
+2025-06-01 18:52:24,612 — INFO — Demand: 11, Fulfilled: 11, Inventory: 121
+2025-06-01 18:52:24,612 — INFO — Demand: 28, Fulfilled: 28, Inventory: 93
+2025-06-01 18:52:24,612 — INFO — Demand: 18, Fulfilled: 18, Inventory: 75
+2025-06-01 18:52:24,612 — INFO — Demand: 14, Fulfilled: 14, Inventory: 61
+2025-06-01 18:52:24,612 — INFO — Demand: 20, Fulfilled: 20, Inventory: 41
+2025-06-01 18:52:24,612 — INFO — Demand: 20, Fulfilled: 20, Inventory: 21
+2025-06-01 18:52:24,612 — INFO — Placing order for 135 units
+2025-06-01 18:52:24,612 — INFO — Order of 135 units will arrive in 5 days
+2025-06-01 18:52:24,613 — INFO — Stockout! Demand: 24, Fulfilled: 21, Inventory: 0
+2025-06-01 18:52:24,613 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,613 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,613 — INFO — Stockout! Demand: 20, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,613 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,613 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,613 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,613 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,613 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,613 — INFO — Stockout! Demand: 9, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,613 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,613 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,613 — INFO — Order of 135 units received. Inventory: 135
+2025-06-01 18:52:24,613 — INFO — Order of 156 units received. Inventory: 291
+2025-06-01 18:52:24,613 — INFO — Demand: 25, Fulfilled: 25, Inventory: 266
+2025-06-01 18:52:24,613 — INFO — Demand: 25, Fulfilled: 25, Inventory: 241
+2025-06-01 18:52:24,613 — INFO — Order of 156 units received. Inventory: 397
+2025-06-01 18:52:24,613 — INFO — Order of 156 units received. Inventory: 553
+2025-06-01 18:52:24,613 — INFO — Demand: 21, Fulfilled: 21, Inventory: 532
+2025-06-01 18:52:24,613 — INFO — Order of 156 units received. Inventory: 688
+2025-06-01 18:52:24,613 — INFO — Demand: 32, Fulfilled: 32, Inventory: 656
+2025-06-01 18:52:24,613 — INFO — Demand: 29, Fulfilled: 29, Inventory: 627
+2025-06-01 18:52:24,613 — INFO — Demand: 6, Fulfilled: 6, Inventory: 621
+2025-06-01 18:52:24,613 — INFO — Demand: 20, Fulfilled: 20, Inventory: 601
+2025-06-01 18:52:24,613 — INFO — Demand: 22, Fulfilled: 22, Inventory: 579
+2025-06-01 18:52:24,613 — INFO — Demand: 27, Fulfilled: 27, Inventory: 552
+2025-06-01 18:52:24,613 — INFO — Demand: 13, Fulfilled: 13, Inventory: 539
+2025-06-01 18:52:24,613 — INFO — Demand: 38, Fulfilled: 38, Inventory: 501
+2025-06-01 18:52:24,613 — INFO — Demand: 13, Fulfilled: 13, Inventory: 488
+2025-06-01 18:52:24,614 — INFO — Demand: 31, Fulfilled: 31, Inventory: 457
+2025-06-01 18:52:24,614 — INFO — Demand: 16, Fulfilled: 16, Inventory: 441
+2025-06-01 18:52:24,614 — INFO — Demand: 31, Fulfilled: 31, Inventory: 410
+2025-06-01 18:52:24,614 — INFO — Demand: 14, Fulfilled: 14, Inventory: 396
+2025-06-01 18:52:24,614 — INFO — Demand: 21, Fulfilled: 21, Inventory: 375
+2025-06-01 18:52:24,614 — INFO — Demand: 24, Fulfilled: 24, Inventory: 351
+2025-06-01 18:52:24,614 — INFO — Demand: 42, Fulfilled: 42, Inventory: 309
+2025-06-01 18:52:24,614 — INFO — Demand: 15, Fulfilled: 15, Inventory: 294
+2025-06-01 18:52:24,614 — INFO — Demand: 19, Fulfilled: 19, Inventory: 275
+2025-06-01 18:52:24,614 — INFO — Demand: 17, Fulfilled: 17, Inventory: 258
+2025-06-01 18:52:24,614 — INFO — Demand: 15, Fulfilled: 15, Inventory: 243
+2025-06-01 18:52:24,614 — INFO — Demand: 15, Fulfilled: 15, Inventory: 228
+2025-06-01 18:52:24,614 — INFO — Demand: 18, Fulfilled: 18, Inventory: 210
+2025-06-01 18:52:24,614 — INFO — Demand: 20, Fulfilled: 20, Inventory: 190
+2025-06-01 18:52:24,614 — INFO — Demand: 14, Fulfilled: 14, Inventory: 176
+2025-06-01 18:52:24,614 — INFO — Demand: 15, Fulfilled: 15, Inventory: 161
+2025-06-01 18:52:24,614 — INFO — Demand: 7, Fulfilled: 7, Inventory: 154
+2025-06-01 18:52:24,614 — INFO — Demand: 17, Fulfilled: 17, Inventory: 137
+2025-06-01 18:52:24,614 — INFO — Demand: 14, Fulfilled: 14, Inventory: 123
+2025-06-01 18:52:24,614 — INFO — Demand: 24, Fulfilled: 24, Inventory: 99
+2025-06-01 18:52:24,614 — INFO — Demand: 28, Fulfilled: 28, Inventory: 71
+2025-06-01 18:52:24,614 — INFO — Demand: 15, Fulfilled: 15, Inventory: 56
+2025-06-01 18:52:24,615 — INFO — Demand: 27, Fulfilled: 27, Inventory: 29
+2025-06-01 18:52:24,615 — INFO — Demand: 18, Fulfilled: 18, Inventory: 11
+2025-06-01 18:52:24,615 — INFO — Placing order for 145 units
+2025-06-01 18:52:24,615 — INFO — Order of 145 units will arrive in 3 days
+2025-06-01 18:52:24,615 — INFO — Stockout! Demand: 22, Fulfilled: 11, Inventory: 0
+2025-06-01 18:52:24,615 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,615 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,615 — INFO — Stockout! Demand: 13, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,615 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,615 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,615 — INFO — Order of 145 units received. Inventory: 145
+2025-06-01 18:52:24,615 — INFO — Order of 156 units received. Inventory: 301
+2025-06-01 18:52:24,615 — INFO — Demand: 25, Fulfilled: 25, Inventory: 276
+2025-06-01 18:52:24,615 — INFO — Demand: 12, Fulfilled: 12, Inventory: 264
+2025-06-01 18:52:24,615 — INFO — Order of 156 units received. Inventory: 420
+2025-06-01 18:52:24,615 — INFO — Demand: 32, Fulfilled: 32, Inventory: 388
+2025-06-01 18:52:24,615 — INFO — Demand: 11, Fulfilled: 11, Inventory: 377
+2025-06-01 18:52:24,616 — INFO — Demand: 11, Fulfilled: 11, Inventory: 366
+2025-06-01 18:52:24,616 — INFO — Demand: 24, Fulfilled: 24, Inventory: 342
+2025-06-01 18:52:24,616 — INFO — Demand: 28, Fulfilled: 28, Inventory: 314
+2025-06-01 18:52:24,616 — INFO — Demand: 36, Fulfilled: 36, Inventory: 278
+2025-06-01 18:52:24,616 — INFO — Demand: 13, Fulfilled: 13, Inventory: 265
+2025-06-01 18:52:24,616 — INFO — Demand: 31, Fulfilled: 31, Inventory: 234
+2025-06-01 18:52:24,616 — INFO — Demand: 25, Fulfilled: 25, Inventory: 209
+2025-06-01 18:52:24,616 — INFO — Demand: 40, Fulfilled: 40, Inventory: 169
+2025-06-01 18:52:24,616 — INFO — Demand: 27, Fulfilled: 27, Inventory: 142
+2025-06-01 18:52:24,616 — INFO — Demand: 26, Fulfilled: 26, Inventory: 116
+2025-06-01 18:52:24,616 — INFO — Demand: 21, Fulfilled: 21, Inventory: 95
+2025-06-01 18:52:24,616 — INFO — Demand: 29, Fulfilled: 29, Inventory: 66
+2025-06-01 18:52:24,616 — INFO — Demand: 31, Fulfilled: 31, Inventory: 35
+2025-06-01 18:52:24,616 — INFO — Demand: 26, Fulfilled: 26, Inventory: 9
+2025-06-01 18:52:24,616 — INFO — Placing order for 147 units
+2025-06-01 18:52:24,616 — INFO — Order of 147 units will arrive in 5 days
+2025-06-01 18:52:24,616 — INFO — Stockout! Demand: 19, Fulfilled: 9, Inventory: 0
+2025-06-01 18:52:24,616 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,616 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,616 — INFO — Stockout! Demand: 14, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,616 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,616 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,616 — INFO — Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,616 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,616 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,616 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,616 — INFO — Order of 156 units received. Inventory: 312
+2025-06-01 18:52:24,616 — INFO — Demand: 13, Fulfilled: 13, Inventory: 299
+2025-06-01 18:52:24,616 — INFO — Order of 147 units received. Inventory: 446
+2025-06-01 18:52:24,616 — INFO — Order of 156 units received. Inventory: 602
+2025-06-01 18:52:24,617 — INFO — Demand: 27, Fulfilled: 27, Inventory: 575
+2025-06-01 18:52:24,617 — INFO — Demand: 30, Fulfilled: 30, Inventory: 545
+2025-06-01 18:52:24,617 — INFO — Demand: 21, Fulfilled: 21, Inventory: 524
+2025-06-01 18:52:24,617 — INFO — Demand: 19, Fulfilled: 19, Inventory: 505
+2025-06-01 18:52:24,617 — INFO — Demand: 5, Fulfilled: 5, Inventory: 500
+2025-06-01 18:52:24,617 — INFO — Demand: 19, Fulfilled: 19, Inventory: 481
+2025-06-01 18:52:24,617 — INFO — Demand: 21, Fulfilled: 21, Inventory: 460
+2025-06-01 18:52:24,617 — INFO — Demand: 20, Fulfilled: 20, Inventory: 440
+2025-06-01 18:52:24,617 — INFO — Demand: 25, Fulfilled: 25, Inventory: 415
+2025-06-01 18:52:24,617 — INFO — Demand: 30, Fulfilled: 30, Inventory: 385
+2025-06-01 18:52:24,617 — INFO — Demand: 18, Fulfilled: 18, Inventory: 367
+2025-06-01 18:52:24,617 — INFO — Demand: 21, Fulfilled: 21, Inventory: 346
+2025-06-01 18:52:24,617 — INFO — Demand: 8, Fulfilled: 8, Inventory: 338
+2025-06-01 18:52:24,617 — INFO — Demand: 9, Fulfilled: 9, Inventory: 329
+2025-06-01 18:52:24,617 — INFO — Demand: 16, Fulfilled: 16, Inventory: 313
+2025-06-01 18:52:24,617 — INFO — Demand: 24, Fulfilled: 24, Inventory: 289
+2025-06-01 18:52:24,617 — INFO — Demand: 14, Fulfilled: 14, Inventory: 275
+2025-06-01 18:52:24,617 — INFO — Demand: 39, Fulfilled: 39, Inventory: 236
+2025-06-01 18:52:24,617 — INFO — Demand: 26, Fulfilled: 26, Inventory: 210
+2025-06-01 18:52:24,617 — INFO — Demand: 28, Fulfilled: 28, Inventory: 182
+2025-06-01 18:52:24,617 — INFO — Demand: 27, Fulfilled: 27, Inventory: 155
+2025-06-01 18:52:24,617 — INFO — Demand: 31, Fulfilled: 31, Inventory: 124
+2025-06-01 18:52:24,617 — INFO — Demand: 26, Fulfilled: 26, Inventory: 98
+2025-06-01 18:52:24,617 — INFO — Demand: 29, Fulfilled: 29, Inventory: 69
+2025-06-01 18:52:24,617 — INFO — Demand: 30, Fulfilled: 30, Inventory: 39
+2025-06-01 18:52:24,617 — INFO — Demand: 30, Fulfilled: 30, Inventory: 9
+2025-06-01 18:52:24,617 — INFO — Placing order for 147 units
+2025-06-01 18:52:24,617 — INFO — Order of 147 units will arrive in 5 days
+2025-06-01 18:52:24,617 — INFO — Demand: 8, Fulfilled: 8, Inventory: 1
+2025-06-01 18:52:24,618 — INFO — Placing order for 155 units
+2025-06-01 18:52:24,618 — INFO — Order of 155 units will arrive in 5 days
+2025-06-01 18:52:24,618 — INFO — Stockout! Demand: 25, Fulfilled: 1, Inventory: 0
+2025-06-01 18:52:24,618 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,618 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,618 — INFO — Stockout! Demand: 14, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,618 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,618 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,618 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,618 — INFO — Demand: 11, Fulfilled: 11, Inventory: 145
+2025-06-01 18:52:24,618 — INFO — Order of 147 units received. Inventory: 292
+2025-06-01 18:52:24,618 — INFO — Demand: 7, Fulfilled: 7, Inventory: 285
+2025-06-01 18:52:24,618 — INFO — Order of 155 units received. Inventory: 440
+2025-06-01 18:52:24,618 — INFO — Demand: 14, Fulfilled: 14, Inventory: 426
+2025-06-01 18:52:24,618 — INFO — Demand: 14, Fulfilled: 14, Inventory: 412
+2025-06-01 18:52:24,618 — INFO — Order of 156 units received. Inventory: 568
+2025-06-01 18:52:24,618 — INFO — Demand: 17, Fulfilled: 17, Inventory: 551
+2025-06-01 18:52:24,618 — INFO — Demand: 3, Fulfilled: 3, Inventory: 548
+2025-06-01 18:52:24,618 — INFO — Demand: 13, Fulfilled: 13, Inventory: 535
+2025-06-01 18:52:24,618 — INFO — Demand: 19, Fulfilled: 19, Inventory: 516
+2025-06-01 18:52:24,618 — INFO — Demand: 25, Fulfilled: 25, Inventory: 491
+2025-06-01 18:52:24,618 — INFO — Demand: 15, Fulfilled: 15, Inventory: 476
+2025-06-01 18:52:24,618 — INFO — Demand: 23, Fulfilled: 23, Inventory: 453
+2025-06-01 18:52:24,618 — INFO — Demand: 27, Fulfilled: 27, Inventory: 426
+2025-06-01 18:52:24,618 — INFO — Demand: 11, Fulfilled: 11, Inventory: 415
+2025-06-01 18:52:24,618 — INFO — Demand: 16, Fulfilled: 16, Inventory: 399
+2025-06-01 18:52:24,618 — INFO — Demand: 0, Fulfilled: 0, Inventory: 399
+2025-06-01 18:52:24,618 — INFO — Demand: 13, Fulfilled: 13, Inventory: 386
+2025-06-01 18:52:24,618 — INFO — Demand: 26, Fulfilled: 26, Inventory: 360
+2025-06-01 18:52:24,618 — INFO — Demand: 26, Fulfilled: 26, Inventory: 334
+2025-06-01 18:52:24,618 — INFO — Demand: 19, Fulfilled: 19, Inventory: 315
+2025-06-01 18:52:24,618 — INFO — Demand: 21, Fulfilled: 21, Inventory: 294
+2025-06-01 18:52:24,618 — INFO — Demand: 17, Fulfilled: 17, Inventory: 277
+2025-06-01 18:52:24,619 — INFO — Demand: 16, Fulfilled: 16, Inventory: 261
+2025-06-01 18:52:24,619 — INFO — Demand: 15, Fulfilled: 15, Inventory: 246
+2025-06-01 18:52:24,619 — INFO — Demand: 24, Fulfilled: 24, Inventory: 222
+2025-06-01 18:52:24,619 — INFO — Demand: 3, Fulfilled: 3, Inventory: 219
+2025-06-01 18:52:24,619 — INFO — Demand: 26, Fulfilled: 26, Inventory: 193
+2025-06-01 18:52:24,619 — INFO — Demand: 23, Fulfilled: 23, Inventory: 170
+2025-06-01 18:52:24,619 — INFO — Demand: 28, Fulfilled: 28, Inventory: 142
+2025-06-01 18:52:24,619 — INFO — Demand: 18, Fulfilled: 18, Inventory: 124
+2025-06-01 18:52:24,619 — INFO — Demand: 4, Fulfilled: 4, Inventory: 120
+2025-06-01 18:52:24,619 — INFO — Demand: 11, Fulfilled: 11, Inventory: 109
+2025-06-01 18:52:24,619 — INFO — Demand: 24, Fulfilled: 24, Inventory: 85
+2025-06-01 18:52:24,619 — INFO — Demand: 18, Fulfilled: 18, Inventory: 67
+2025-06-01 18:52:24,619 — INFO — Demand: 23, Fulfilled: 23, Inventory: 44
+2025-06-01 18:52:24,619 — INFO — Demand: 18, Fulfilled: 18, Inventory: 26
+2025-06-01 18:52:24,619 — INFO — Demand: 21, Fulfilled: 21, Inventory: 5
+2025-06-01 18:52:24,619 — INFO — Placing order for 151 units
+2025-06-01 18:52:24,619 — INFO — Order of 151 units will arrive in 4 days
+2025-06-01 18:52:24,619 — INFO — Stockout! Demand: 20, Fulfilled: 5, Inventory: 0
+2025-06-01 18:52:24,619 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,619 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,619 — INFO — Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,619 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,620 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,620 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,620 — INFO — Demand: 23, Fulfilled: 23, Inventory: 133
+2025-06-01 18:52:24,620 — INFO — Order of 151 units received. Inventory: 284
+2025-06-01 18:52:24,620 — INFO — Demand: 28, Fulfilled: 28, Inventory: 256
+2025-06-01 18:52:24,620 — INFO — Demand: 13, Fulfilled: 13, Inventory: 243
+2025-06-01 18:52:24,620 — INFO — Order of 156 units received. Inventory: 399
+2025-06-01 18:52:24,620 — INFO — Demand: 14, Fulfilled: 14, Inventory: 385
+2025-06-01 18:52:24,620 — INFO — Demand: 30, Fulfilled: 30, Inventory: 355
+2025-06-01 18:52:24,620 — INFO — Demand: 38, Fulfilled: 38, Inventory: 317
+2025-06-01 18:52:24,620 — INFO — Demand: 26, Fulfilled: 26, Inventory: 291
+2025-06-01 18:52:24,620 — INFO — Demand: 35, Fulfilled: 35, Inventory: 256
+2025-06-01 18:52:24,620 — INFO — Demand: 19, Fulfilled: 19, Inventory: 237
+2025-06-01 18:52:24,620 — INFO — Demand: 21, Fulfilled: 21, Inventory: 216
+2025-06-01 18:52:24,620 — INFO — Demand: 10, Fulfilled: 10, Inventory: 206
+2025-06-01 18:52:24,620 — INFO — Demand: 15, Fulfilled: 15, Inventory: 191
+2025-06-01 18:52:24,620 — INFO — Demand: 32, Fulfilled: 32, Inventory: 159
+2025-06-01 18:52:24,620 — INFO — Demand: 21, Fulfilled: 21, Inventory: 138
+2025-06-01 18:52:24,620 — INFO — Demand: 33, Fulfilled: 33, Inventory: 105
+2025-06-01 18:52:24,620 — INFO — Demand: 17, Fulfilled: 17, Inventory: 88
+2025-06-01 18:52:24,620 — INFO — Demand: 13, Fulfilled: 13, Inventory: 75
+2025-06-01 18:52:24,620 — INFO — Demand: 32, Fulfilled: 32, Inventory: 43
+2025-06-01 18:52:24,620 — INFO — Demand: 16, Fulfilled: 16, Inventory: 27
+2025-06-01 18:52:24,621 — INFO — Demand: 11, Fulfilled: 11, Inventory: 16
+2025-06-01 18:52:24,621 — INFO — Placing order for 140 units
+2025-06-01 18:52:24,621 — INFO — Order of 140 units will arrive in 3 days
+2025-06-01 18:52:24,621 — INFO — Stockout! Demand: 19, Fulfilled: 16, Inventory: 0
+2025-06-01 18:52:24,621 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,621 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,621 — INFO — Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,621 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,621 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,621 — INFO — Order of 140 units received. Inventory: 140
+2025-06-01 18:52:24,621 — INFO — Demand: 18, Fulfilled: 18, Inventory: 122
+2025-06-01 18:52:24,621 — INFO — Order of 156 units received. Inventory: 278
+2025-06-01 18:52:24,621 — INFO — Demand: 35, Fulfilled: 35, Inventory: 243
+2025-06-01 18:52:24,621 — INFO — Demand: 27, Fulfilled: 27, Inventory: 216
+2025-06-01 18:52:24,621 — INFO — Order of 156 units received. Inventory: 372
+2025-06-01 18:52:24,621 — INFO — Demand: 30, Fulfilled: 30, Inventory: 342
+2025-06-01 18:52:24,621 — INFO — Demand: 26, Fulfilled: 26, Inventory: 316
+2025-06-01 18:52:24,621 — INFO — Demand: 23, Fulfilled: 23, Inventory: 293
+2025-06-01 18:52:24,621 — INFO — Demand: 25, Fulfilled: 25, Inventory: 268
+2025-06-01 18:52:24,621 — INFO — Demand: 13, Fulfilled: 13, Inventory: 255
+2025-06-01 18:52:24,621 — INFO — Demand: 22, Fulfilled: 22, Inventory: 233
+2025-06-01 18:52:24,621 — INFO — Demand: 20, Fulfilled: 20, Inventory: 213
+2025-06-01 18:52:24,621 — INFO — Demand: 26, Fulfilled: 26, Inventory: 187
+2025-06-01 18:52:24,621 — INFO — Demand: 24, Fulfilled: 24, Inventory: 163
+2025-06-01 18:52:24,621 — INFO — Demand: 22, Fulfilled: 22, Inventory: 141
+2025-06-01 18:52:24,621 — INFO — Demand: 21, Fulfilled: 21, Inventory: 120
+2025-06-01 18:52:24,621 — INFO — Demand: 16, Fulfilled: 16, Inventory: 104
+2025-06-01 18:52:24,621 — INFO — Demand: 27, Fulfilled: 27, Inventory: 77
+2025-06-01 18:52:24,621 — INFO — Demand: 22, Fulfilled: 22, Inventory: 55
+2025-06-01 18:52:24,621 — INFO — Demand: 21, Fulfilled: 21, Inventory: 34
+2025-06-01 18:52:24,621 — INFO — Demand: 26, Fulfilled: 26, Inventory: 8
+2025-06-01 18:52:24,622 — INFO — Placing order for 148 units
+2025-06-01 18:52:24,622 — INFO — Order of 148 units will arrive in 4 days
+2025-06-01 18:52:24,622 — INFO — Stockout! Demand: 13, Fulfilled: 8, Inventory: 0
+2025-06-01 18:52:24,622 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,622 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,622 — INFO — Stockout! Demand: 29, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,622 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,622 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,622 — INFO — Stockout! Demand: 29, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,622 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,622 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,622 — INFO — Order of 148 units received. Inventory: 148
+2025-06-01 18:52:24,622 — INFO — Demand: 14, Fulfilled: 14, Inventory: 134
+2025-06-01 18:52:24,622 — INFO — Order of 156 units received. Inventory: 290
+2025-06-01 18:52:24,622 — INFO — Order of 156 units received. Inventory: 446
+2025-06-01 18:52:24,622 — INFO — Demand: 17, Fulfilled: 17, Inventory: 429
+2025-06-01 18:52:24,622 — INFO — Order of 156 units received. Inventory: 585
+2025-06-01 18:52:24,622 — INFO — Demand: 11, Fulfilled: 11, Inventory: 574
+2025-06-01 18:52:24,622 — INFO — Demand: 19, Fulfilled: 19, Inventory: 555
+2025-06-01 18:52:24,622 — INFO — Demand: 14, Fulfilled: 14, Inventory: 541
+2025-06-01 18:52:24,622 — INFO — Demand: 27, Fulfilled: 27, Inventory: 514
+2025-06-01 18:52:24,622 — INFO — Demand: 23, Fulfilled: 23, Inventory: 491
+2025-06-01 18:52:24,622 — INFO — Demand: 10, Fulfilled: 10, Inventory: 481
+2025-06-01 18:52:24,622 — INFO — Demand: 23, Fulfilled: 23, Inventory: 458
+2025-06-01 18:52:24,622 — INFO — Demand: 16, Fulfilled: 16, Inventory: 442
+2025-06-01 18:52:24,622 — INFO — Demand: 26, Fulfilled: 26, Inventory: 416
+2025-06-01 18:52:24,622 — INFO — Demand: 30, Fulfilled: 30, Inventory: 386
+2025-06-01 18:52:24,622 — INFO — Demand: 32, Fulfilled: 32, Inventory: 354
+2025-06-01 18:52:24,622 — INFO — Demand: 39, Fulfilled: 39, Inventory: 315
+2025-06-01 18:52:24,622 — INFO — Demand: 39, Fulfilled: 39, Inventory: 276
+2025-06-01 18:52:24,622 — INFO — Demand: 16, Fulfilled: 16, Inventory: 260
+2025-06-01 18:52:24,622 — INFO — Demand: 25, Fulfilled: 25, Inventory: 235
+2025-06-01 18:52:24,622 — INFO — Demand: 14, Fulfilled: 14, Inventory: 221
+2025-06-01 18:52:24,623 — INFO — Demand: 14, Fulfilled: 14, Inventory: 207
+2025-06-01 18:52:24,623 — INFO — Demand: 24, Fulfilled: 24, Inventory: 183
+2025-06-01 18:52:24,623 — INFO — Demand: 20, Fulfilled: 20, Inventory: 163
+2025-06-01 18:52:24,623 — INFO — Demand: 18, Fulfilled: 18, Inventory: 145
+2025-06-01 18:52:24,623 — INFO — Demand: 15, Fulfilled: 15, Inventory: 130
+2025-06-01 18:52:24,623 — INFO — Demand: 8, Fulfilled: 8, Inventory: 122
+2025-06-01 18:52:24,623 — INFO — Demand: 15, Fulfilled: 15, Inventory: 107
+2025-06-01 18:52:24,623 — INFO — Demand: 26, Fulfilled: 26, Inventory: 81
+2025-06-01 18:52:24,623 — INFO — Demand: 17, Fulfilled: 17, Inventory: 64
+2025-06-01 18:52:24,623 — INFO — Demand: 0, Fulfilled: 0, Inventory: 64
+2025-06-01 18:52:24,623 — INFO — Demand: 11, Fulfilled: 11, Inventory: 53
+2025-06-01 18:52:24,623 — INFO — Demand: 16, Fulfilled: 16, Inventory: 37
+2025-06-01 18:52:24,623 — INFO — Demand: 31, Fulfilled: 31, Inventory: 6
+2025-06-01 18:52:24,623 — INFO — Placing order for 150 units
+2025-06-01 18:52:24,623 — INFO — Order of 150 units will arrive in 1 days
+2025-06-01 18:52:24,623 — INFO — Stockout! Demand: 31, Fulfilled: 6, Inventory: 0
+2025-06-01 18:52:24,623 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,623 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,623 — INFO — Order of 150 units received. Inventory: 150
+2025-06-01 18:52:24,623 — INFO — Demand: 19, Fulfilled: 19, Inventory: 131
+2025-06-01 18:52:24,623 — INFO — Demand: 10, Fulfilled: 10, Inventory: 121
+2025-06-01 18:52:24,623 — INFO — Demand: 14, Fulfilled: 14, Inventory: 107
+2025-06-01 18:52:24,623 — INFO — Order of 156 units received. Inventory: 263
+2025-06-01 18:52:24,623 — INFO — Demand: 14, Fulfilled: 14, Inventory: 249
+2025-06-01 18:52:24,623 — INFO — Demand: 22, Fulfilled: 22, Inventory: 227
+2025-06-01 18:52:24,623 — INFO — Demand: 27, Fulfilled: 27, Inventory: 200
+2025-06-01 18:52:24,623 — INFO — Demand: 12, Fulfilled: 12, Inventory: 188
+2025-06-01 18:52:24,623 — INFO — Demand: 42, Fulfilled: 42, Inventory: 146
+2025-06-01 18:52:24,623 — INFO — Demand: 10, Fulfilled: 10, Inventory: 136
+2025-06-01 18:52:24,623 — INFO — Demand: 29, Fulfilled: 29, Inventory: 107
+2025-06-01 18:52:24,623 — INFO — Demand: 34, Fulfilled: 34, Inventory: 73
+2025-06-01 18:52:24,623 — INFO — Demand: 10, Fulfilled: 10, Inventory: 63
+2025-06-01 18:52:24,623 — INFO — Demand: 9, Fulfilled: 9, Inventory: 54
+2025-06-01 18:52:24,624 — INFO — Demand: 16, Fulfilled: 16, Inventory: 38
+2025-06-01 18:52:24,624 — INFO — Demand: 17, Fulfilled: 17, Inventory: 21
+2025-06-01 18:52:24,624 — INFO — Placing order for 135 units
+2025-06-01 18:52:24,624 — INFO — Order of 135 units will arrive in 4 days
+2025-06-01 18:52:24,624 — INFO — Stockout! Demand: 27, Fulfilled: 21, Inventory: 0
+2025-06-01 18:52:24,624 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,624 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,624 — INFO — Stockout! Demand: 26, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,624 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,624 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,624 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,624 — INFO — Demand: 26, Fulfilled: 26, Inventory: 130
+2025-06-01 18:52:24,624 — INFO — Order of 135 units received. Inventory: 265
+2025-06-01 18:52:24,624 — INFO — Order of 156 units received. Inventory: 421
+2025-06-01 18:52:24,624 — INFO — Demand: 29, Fulfilled: 29, Inventory: 392
+2025-06-01 18:52:24,624 — INFO — Demand: 23, Fulfilled: 23, Inventory: 369
+2025-06-01 18:52:24,624 — INFO — Demand: 21, Fulfilled: 21, Inventory: 348
+2025-06-01 18:52:24,624 — INFO — Demand: 4, Fulfilled: 4, Inventory: 344
+2025-06-01 18:52:24,624 — INFO — Demand: 16, Fulfilled: 16, Inventory: 328
+2025-06-01 18:52:24,624 — INFO — Demand: 18, Fulfilled: 18, Inventory: 310
+2025-06-01 18:52:24,624 — INFO — Demand: 23, Fulfilled: 23, Inventory: 287
+2025-06-01 18:52:24,624 — INFO — Demand: 21, Fulfilled: 21, Inventory: 266
+2025-06-01 18:52:24,624 — INFO — Demand: 29, Fulfilled: 29, Inventory: 237
+2025-06-01 18:52:24,624 — INFO — Demand: 18, Fulfilled: 18, Inventory: 219
+2025-06-01 18:52:24,624 — INFO — Demand: 18, Fulfilled: 18, Inventory: 201
+2025-06-01 18:52:24,624 — INFO — Demand: 34, Fulfilled: 34, Inventory: 167
+2025-06-01 18:52:24,624 — INFO — Demand: 26, Fulfilled: 26, Inventory: 141
+2025-06-01 18:52:24,625 — INFO — Demand: 12, Fulfilled: 12, Inventory: 129
+2025-06-01 18:52:24,625 — INFO — Demand: 11, Fulfilled: 11, Inventory: 118
+2025-06-01 18:52:24,625 — INFO — Demand: 19, Fulfilled: 19, Inventory: 99
+2025-06-01 18:52:24,625 — INFO — Demand: 16, Fulfilled: 16, Inventory: 83
+2025-06-01 18:52:24,625 — INFO — Demand: 6, Fulfilled: 6, Inventory: 77
+2025-06-01 18:52:24,625 — INFO — Demand: 18, Fulfilled: 18, Inventory: 59
+2025-06-01 18:52:24,625 — INFO — Demand: 13, Fulfilled: 13, Inventory: 46
+2025-06-01 18:52:24,625 — INFO — Demand: 2, Fulfilled: 2, Inventory: 44
+2025-06-01 18:52:24,625 — INFO — Demand: 19, Fulfilled: 19, Inventory: 25
+2025-06-01 18:52:24,625 — INFO — Demand: 24, Fulfilled: 24, Inventory: 1
+2025-06-01 18:52:24,625 — INFO — Placing order for 155 units
+2025-06-01 18:52:24,625 — INFO — Order of 155 units will arrive in 2 days
+2025-06-01 18:52:24,625 — INFO — Stockout! Demand: 25, Fulfilled: 1, Inventory: 0
+2025-06-01 18:52:24,625 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,625 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,625 — INFO — Order of 155 units received. Inventory: 155
+2025-06-01 18:52:24,625 — INFO — Demand: 20, Fulfilled: 20, Inventory: 135
+2025-06-01 18:52:24,625 — INFO — Demand: 21, Fulfilled: 21, Inventory: 114
+2025-06-01 18:52:24,625 — INFO — Order of 156 units received. Inventory: 270
+2025-06-01 18:52:24,625 — INFO — Demand: 12, Fulfilled: 12, Inventory: 258
+2025-06-01 18:52:24,625 — INFO — Demand: -2, Fulfilled: -2, Inventory: 260
+2025-06-01 18:52:24,625 — INFO — Demand: 23, Fulfilled: 23, Inventory: 237
+2025-06-01 18:52:24,625 — INFO — Demand: 15, Fulfilled: 15, Inventory: 222
+2025-06-01 18:52:24,625 — INFO — Demand: 16, Fulfilled: 16, Inventory: 206
+2025-06-01 18:52:24,625 — INFO — Demand: 31, Fulfilled: 31, Inventory: 175
+2025-06-01 18:52:24,625 — INFO — Demand: 37, Fulfilled: 37, Inventory: 138
+2025-06-01 18:52:24,625 — INFO — Demand: 18, Fulfilled: 18, Inventory: 120
+2025-06-01 18:52:24,625 — INFO — Demand: 20, Fulfilled: 20, Inventory: 100
+2025-06-01 18:52:24,625 — INFO — Demand: 18, Fulfilled: 18, Inventory: 82
+2025-06-01 18:52:24,625 — INFO — Demand: 14, Fulfilled: 14, Inventory: 68
+2025-06-01 18:52:24,626 — INFO — Demand: 19, Fulfilled: 19, Inventory: 49
+2025-06-01 18:52:24,626 — INFO — Demand: 17, Fulfilled: 17, Inventory: 32
+2025-06-01 18:52:24,626 — INFO — Demand: 23, Fulfilled: 23, Inventory: 9
+2025-06-01 18:52:24,626 — INFO — Placing order for 147 units
+2025-06-01 18:52:24,626 — INFO — Order of 147 units will arrive in 4 days
+2025-06-01 18:52:24,626 — INFO — Stockout! Demand: 18, Fulfilled: 9, Inventory: 0
+2025-06-01 18:52:24,626 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,626 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,626 — INFO — Stockout! Demand: 26, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,626 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,626 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,626 — INFO — Stockout! Demand: 35, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,626 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,626 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,626 — INFO — Order of 147 units received. Inventory: 147
+2025-06-01 18:52:24,626 — INFO — Demand: 9, Fulfilled: 9, Inventory: 138
+2025-06-01 18:52:24,626 — INFO — Order of 156 units received. Inventory: 294
+2025-06-01 18:52:24,626 — INFO — Order of 156 units received. Inventory: 450
+2025-06-01 18:52:24,626 — INFO — Demand: 13, Fulfilled: 13, Inventory: 437
+2025-06-01 18:52:24,626 — INFO — Order of 156 units received. Inventory: 593
+2025-06-01 18:52:24,626 — INFO — Demand: 20, Fulfilled: 20, Inventory: 573
+2025-06-01 18:52:24,626 — INFO — Demand: 7, Fulfilled: 7, Inventory: 566
+2025-06-01 18:52:24,626 — INFO — Demand: 18, Fulfilled: 18, Inventory: 548
+2025-06-01 18:52:24,626 — INFO — Demand: 37, Fulfilled: 37, Inventory: 511
+2025-06-01 18:52:24,626 — INFO — Demand: 38, Fulfilled: 38, Inventory: 473
+2025-06-01 18:52:24,626 — INFO — Demand: 28, Fulfilled: 28, Inventory: 445
+2025-06-01 18:52:24,626 — INFO — Demand: 18, Fulfilled: 18, Inventory: 427
+2025-06-01 18:52:24,626 — INFO — Demand: 31, Fulfilled: 31, Inventory: 396
+2025-06-01 18:52:24,626 — INFO — Demand: 9, Fulfilled: 9, Inventory: 387
+2025-06-01 18:52:24,626 — INFO — Demand: 12, Fulfilled: 12, Inventory: 375
+2025-06-01 18:52:24,626 — INFO — Demand: 27, Fulfilled: 27, Inventory: 348
+2025-06-01 18:52:24,626 — INFO — Demand: 16, Fulfilled: 16, Inventory: 332
+2025-06-01 18:52:24,626 — INFO — Demand: 22, Fulfilled: 22, Inventory: 310
+2025-06-01 18:52:24,626 — INFO — Demand: 22, Fulfilled: 22, Inventory: 288
+2025-06-01 18:52:24,626 — INFO — Demand: 15, Fulfilled: 15, Inventory: 273
+2025-06-01 18:52:24,627 — INFO — Demand: 17, Fulfilled: 17, Inventory: 256
+2025-06-01 18:52:24,627 — INFO — Demand: 15, Fulfilled: 15, Inventory: 241
+2025-06-01 18:52:24,627 — INFO — Demand: 15, Fulfilled: 15, Inventory: 226
+2025-06-01 18:52:24,627 — INFO — Demand: 19, Fulfilled: 19, Inventory: 207
+2025-06-01 18:52:24,627 — INFO — Demand: 25, Fulfilled: 25, Inventory: 182
+2025-06-01 18:52:24,627 — INFO — Demand: 12, Fulfilled: 12, Inventory: 170
+2025-06-01 18:52:24,627 — INFO — Demand: 12, Fulfilled: 12, Inventory: 158
+2025-06-01 18:52:24,627 — INFO — Demand: 25, Fulfilled: 25, Inventory: 133
+2025-06-01 18:52:24,627 — INFO — Demand: 17, Fulfilled: 17, Inventory: 116
+2025-06-01 18:52:24,627 — INFO — Demand: 23, Fulfilled: 23, Inventory: 93
+2025-06-01 18:52:24,627 — INFO — Demand: 17, Fulfilled: 17, Inventory: 76
+2025-06-01 18:52:24,627 — INFO — Demand: 25, Fulfilled: 25, Inventory: 51
+2025-06-01 18:52:24,627 — INFO — Demand: 24, Fulfilled: 24, Inventory: 27
+2025-06-01 18:52:24,627 — INFO — Demand: 22, Fulfilled: 22, Inventory: 5
+2025-06-01 18:52:24,627 — INFO — Placing order for 151 units
+2025-06-01 18:52:24,627 — INFO — Order of 151 units will arrive in 3 days
+2025-06-01 18:52:24,627 — INFO — Stockout! Demand: 35, Fulfilled: 5, Inventory: 0
+2025-06-01 18:52:24,627 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,627 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,627 — INFO — Stockout! Demand: 23, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,627 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,627 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,627 — INFO — Order of 151 units received. Inventory: 151
+2025-06-01 18:52:24,627 — INFO — Demand: 18, Fulfilled: 18, Inventory: 133
+2025-06-01 18:52:24,627 — INFO — Demand: 15, Fulfilled: 15, Inventory: 118
+2025-06-01 18:52:24,627 — INFO — Demand: 16, Fulfilled: 16, Inventory: 102
+2025-06-01 18:52:24,627 — INFO — Order of 156 units received. Inventory: 258
+2025-06-01 18:52:24,627 — INFO — Order of 156 units received. Inventory: 414
+2025-06-01 18:52:24,627 — INFO — Demand: 3, Fulfilled: 3, Inventory: 411
+2025-06-01 18:52:24,627 — INFO — Demand: 26, Fulfilled: 26, Inventory: 385
+2025-06-01 18:52:24,627 — INFO — Demand: 23, Fulfilled: 23, Inventory: 362
+2025-06-01 18:52:24,627 — INFO — Demand: 34, Fulfilled: 34, Inventory: 328
+2025-06-01 18:52:24,627 — INFO — Demand: 7, Fulfilled: 7, Inventory: 321
+2025-06-01 18:52:24,627 — INFO — Demand: 21, Fulfilled: 21, Inventory: 300
+2025-06-01 18:52:24,627 — INFO — Demand: 8, Fulfilled: 8, Inventory: 292
+2025-06-01 18:52:24,628 — INFO — Demand: 22, Fulfilled: 22, Inventory: 270
+2025-06-01 18:52:24,628 — INFO — Demand: 36, Fulfilled: 36, Inventory: 234
+2025-06-01 18:52:24,628 — INFO — Demand: 32, Fulfilled: 32, Inventory: 202
+2025-06-01 18:52:24,628 — INFO — Demand: 32, Fulfilled: 32, Inventory: 170
+2025-06-01 18:52:24,628 — INFO — Demand: 26, Fulfilled: 26, Inventory: 144
+2025-06-01 18:52:24,628 — INFO — Demand: 25, Fulfilled: 25, Inventory: 119
+2025-06-01 18:52:24,628 — INFO — Demand: 31, Fulfilled: 31, Inventory: 88
+2025-06-01 18:52:24,628 — INFO — Demand: 26, Fulfilled: 26, Inventory: 62
+2025-06-01 18:52:24,628 — INFO — Demand: 6, Fulfilled: 6, Inventory: 56
+2025-06-01 18:52:24,628 — INFO — Demand: 15, Fulfilled: 15, Inventory: 41
+2025-06-01 18:52:24,628 — INFO — Demand: 29, Fulfilled: 29, Inventory: 12
+2025-06-01 18:52:24,628 — INFO — Placing order for 144 units
+2025-06-01 18:52:24,628 — INFO — Order of 144 units will arrive in 5 days
+2025-06-01 18:52:24,628 — INFO — Stockout! Demand: 17, Fulfilled: 12, Inventory: 0
+2025-06-01 18:52:24,628 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,628 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,628 — INFO — Stockout! Demand: 23, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,628 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,628 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,628 — INFO — Stockout! Demand: 9, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,628 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,628 — INFO — Order of 156 units will arrive in 5 days
+2025-06-01 18:52:24,628 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,628 — INFO — Demand: 23, Fulfilled: 23, Inventory: 133
+2025-06-01 18:52:24,628 — INFO — Order of 144 units received. Inventory: 277
+2025-06-01 18:52:24,628 — INFO — Order of 156 units received. Inventory: 433
+2025-06-01 18:52:24,628 — INFO — Demand: 20, Fulfilled: 20, Inventory: 413
+2025-06-01 18:52:24,628 — INFO — Demand: 22, Fulfilled: 22, Inventory: 391
+2025-06-01 18:52:24,628 — INFO — Demand: -5, Fulfilled: -5, Inventory: 396
+2025-06-01 18:52:24,628 — INFO — Order of 156 units received. Inventory: 552
+2025-06-01 18:52:24,628 — INFO — Demand: 25, Fulfilled: 25, Inventory: 527
+2025-06-01 18:52:24,628 — INFO — Demand: 9, Fulfilled: 9, Inventory: 518
+2025-06-01 18:52:24,628 — INFO — Demand: 26, Fulfilled: 26, Inventory: 492
+2025-06-01 18:52:24,628 — INFO — Demand: 30, Fulfilled: 30, Inventory: 462
+2025-06-01 18:52:24,628 — INFO — Demand: 26, Fulfilled: 26, Inventory: 436
+2025-06-01 18:52:24,629 — INFO — Demand: 18, Fulfilled: 18, Inventory: 418
+2025-06-01 18:52:24,629 — INFO — Demand: 18, Fulfilled: 18, Inventory: 400
+2025-06-01 18:52:24,629 — INFO — Demand: 36, Fulfilled: 36, Inventory: 364
+2025-06-01 18:52:24,629 — INFO — Demand: 26, Fulfilled: 26, Inventory: 338
+2025-06-01 18:52:24,629 — INFO — Demand: 22, Fulfilled: 22, Inventory: 316
+2025-06-01 18:52:24,629 — INFO — Demand: 18, Fulfilled: 18, Inventory: 298
+2025-06-01 18:52:24,629 — INFO — Demand: 14, Fulfilled: 14, Inventory: 284
+2025-06-01 18:52:24,629 — INFO — Demand: 25, Fulfilled: 25, Inventory: 259
+2025-06-01 18:52:24,629 — INFO — Demand: 19, Fulfilled: 19, Inventory: 240
+2025-06-01 18:52:24,629 — INFO — Demand: 20, Fulfilled: 20, Inventory: 220
+2025-06-01 18:52:24,629 — INFO — Demand: 7, Fulfilled: 7, Inventory: 213
+2025-06-01 18:52:24,629 — INFO — Demand: 21, Fulfilled: 21, Inventory: 192
+2025-06-01 18:52:24,629 — INFO — Demand: 13, Fulfilled: 13, Inventory: 179
+2025-06-01 18:52:24,629 — INFO — Demand: 15, Fulfilled: 15, Inventory: 164
+2025-06-01 18:52:24,629 — INFO — Demand: 26, Fulfilled: 26, Inventory: 138
+2025-06-01 18:52:24,629 — INFO — Demand: 30, Fulfilled: 30, Inventory: 108
+2025-06-01 18:52:24,629 — INFO — Demand: 34, Fulfilled: 34, Inventory: 74
+2025-06-01 18:52:24,629 — INFO — Demand: 11, Fulfilled: 11, Inventory: 63
+2025-06-01 18:52:24,629 — INFO — Demand: -3, Fulfilled: -3, Inventory: 66
+2025-06-01 18:52:24,629 — INFO — Demand: 19, Fulfilled: 19, Inventory: 47
+2025-06-01 18:52:24,629 — INFO — Demand: 14, Fulfilled: 14, Inventory: 33
+2025-06-01 18:52:24,629 — INFO — Demand: 32, Fulfilled: 32, Inventory: 1
+2025-06-01 18:52:24,629 — INFO — Placing order for 155 units
+2025-06-01 18:52:24,629 — INFO — Order of 155 units will arrive in 1 days
+2025-06-01 18:52:24,629 — INFO — Stockout! Demand: 21, Fulfilled: 1, Inventory: 0
+2025-06-01 18:52:24,629 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,629 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,629 — INFO — Order of 155 units received. Inventory: 155
+2025-06-01 18:52:24,630 — INFO — Demand: 13, Fulfilled: 13, Inventory: 142
+2025-06-01 18:52:24,630 — INFO — Order of 156 units received. Inventory: 298
+2025-06-01 18:52:24,630 — INFO — Demand: 17, Fulfilled: 17, Inventory: 281
+2025-06-01 18:52:24,630 — INFO — Demand: 27, Fulfilled: 27, Inventory: 254
+2025-06-01 18:52:24,630 — INFO — Demand: 10, Fulfilled: 10, Inventory: 244
+2025-06-01 18:52:24,630 — INFO — Demand: 12, Fulfilled: 12, Inventory: 232
+2025-06-01 18:52:24,630 — INFO — Demand: 11, Fulfilled: 11, Inventory: 221
+2025-06-01 18:52:24,630 — INFO — Demand: 14, Fulfilled: 14, Inventory: 207
+2025-06-01 18:52:24,630 — INFO — Demand: 12, Fulfilled: 12, Inventory: 195
+2025-06-01 18:52:24,630 — INFO — Demand: 14, Fulfilled: 14, Inventory: 181
+2025-06-01 18:52:24,630 — INFO — Demand: 15, Fulfilled: 15, Inventory: 166
+2025-06-01 18:52:24,630 — INFO — Demand: 26, Fulfilled: 26, Inventory: 140
+2025-06-01 18:52:24,630 — INFO — Demand: 27, Fulfilled: 27, Inventory: 113
+2025-06-01 18:52:24,630 — INFO — Demand: 25, Fulfilled: 25, Inventory: 88
+2025-06-01 18:52:24,630 — INFO — Demand: 19, Fulfilled: 19, Inventory: 69
+2025-06-01 18:52:24,630 — INFO — Demand: 26, Fulfilled: 26, Inventory: 43
+2025-06-01 18:52:24,630 — INFO — Demand: 9, Fulfilled: 9, Inventory: 34
+2025-06-01 18:52:24,630 — INFO — Demand: 28, Fulfilled: 28, Inventory: 6
+2025-06-01 18:52:24,630 — INFO — Placing order for 150 units
+2025-06-01 18:52:24,630 — INFO — Order of 150 units will arrive in 2 days
+2025-06-01 18:52:24,630 — INFO — Stockout! Demand: 22, Fulfilled: 6, Inventory: 0
+2025-06-01 18:52:24,630 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,630 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,630 — INFO — Order of 150 units received. Inventory: 150
+2025-06-01 18:52:24,630 — INFO — Demand: 12, Fulfilled: 12, Inventory: 138
+2025-06-01 18:52:24,630 — INFO — Demand: 21, Fulfilled: 21, Inventory: 117
+2025-06-01 18:52:24,630 — INFO — Order of 156 units received. Inventory: 273
+2025-06-01 18:52:24,630 — INFO — Demand: 20, Fulfilled: 20, Inventory: 253
+2025-06-01 18:52:24,630 — INFO — Demand: 13, Fulfilled: 13, Inventory: 240
+2025-06-01 18:52:24,630 — INFO — Demand: 17, Fulfilled: 17, Inventory: 223
+2025-06-01 18:52:24,630 — INFO — Demand: 18, Fulfilled: 18, Inventory: 205
+2025-06-01 18:52:24,631 — INFO — Demand: 20, Fulfilled: 20, Inventory: 185
+2025-06-01 18:52:24,631 — INFO — Demand: 16, Fulfilled: 16, Inventory: 169
+2025-06-01 18:52:24,631 — INFO — Demand: 21, Fulfilled: 21, Inventory: 148
+2025-06-01 18:52:24,631 — INFO — Demand: 35, Fulfilled: 35, Inventory: 113
+2025-06-01 18:52:24,631 — INFO — Demand: 16, Fulfilled: 16, Inventory: 97
+2025-06-01 18:52:24,631 — INFO — Demand: 20, Fulfilled: 20, Inventory: 77
+2025-06-01 18:52:24,631 — INFO — Demand: 16, Fulfilled: 16, Inventory: 61
+2025-06-01 18:52:24,631 — INFO — Demand: 29, Fulfilled: 29, Inventory: 32
+2025-06-01 18:52:24,631 — INFO — Demand: 21, Fulfilled: 21, Inventory: 11
+2025-06-01 18:52:24,631 — INFO — Placing order for 145 units
+2025-06-01 18:52:24,631 — INFO — Order of 145 units will arrive in 2 days
+2025-06-01 18:52:24,631 — INFO — Stockout! Demand: 20, Fulfilled: 11, Inventory: 0
+2025-06-01 18:52:24,631 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,631 — INFO — Order of 156 units will arrive in 1 days
+2025-06-01 18:52:24,631 — INFO — Order of 145 units received. Inventory: 145
+2025-06-01 18:52:24,631 — INFO — Demand: 9, Fulfilled: 9, Inventory: 136
+2025-06-01 18:52:24,631 — INFO — Order of 156 units received. Inventory: 292
+2025-06-01 18:52:24,631 — INFO — Demand: 18, Fulfilled: 18, Inventory: 274
+2025-06-01 18:52:24,631 — INFO — Demand: 15, Fulfilled: 15, Inventory: 259
+2025-06-01 18:52:24,631 — INFO — Demand: 22, Fulfilled: 22, Inventory: 237
+2025-06-01 18:52:24,631 — INFO — Demand: 22, Fulfilled: 22, Inventory: 215
+2025-06-01 18:52:24,631 — INFO — Demand: 21, Fulfilled: 21, Inventory: 194
+2025-06-01 18:52:24,631 — INFO — Demand: 20, Fulfilled: 20, Inventory: 174
+2025-06-01 18:52:24,631 — INFO — Demand: 9, Fulfilled: 9, Inventory: 165
+2025-06-01 18:52:24,631 — INFO — Demand: 6, Fulfilled: 6, Inventory: 159
+2025-06-01 18:52:24,631 — INFO — Demand: 22, Fulfilled: 22, Inventory: 137
+2025-06-01 18:52:24,631 — INFO — Demand: 4, Fulfilled: 4, Inventory: 133
+2025-06-01 18:52:24,631 — INFO — Demand: 23, Fulfilled: 23, Inventory: 110
+2025-06-01 18:52:24,631 — INFO — Demand: 27, Fulfilled: 27, Inventory: 83
+2025-06-01 18:52:24,631 — INFO — Demand: 15, Fulfilled: 15, Inventory: 68
+2025-06-01 18:52:24,631 — INFO — Demand: 12, Fulfilled: 12, Inventory: 56
+2025-06-01 18:52:24,631 — INFO — Demand: 9, Fulfilled: 9, Inventory: 47
+2025-06-01 18:52:24,631 — INFO — Demand: 20, Fulfilled: 20, Inventory: 27
+2025-06-01 18:52:24,631 — INFO — Demand: 23, Fulfilled: 23, Inventory: 4
+2025-06-01 18:52:24,631 — INFO — Placing order for 152 units
+2025-06-01 18:52:24,631 — INFO — Order of 152 units will arrive in 5 days
+2025-06-01 18:52:24,631 — INFO — Stockout! Demand: 16, Fulfilled: 4, Inventory: 0
+2025-06-01 18:52:24,632 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,632 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,632 — INFO — Stockout! Demand: 38, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,632 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,632 — INFO — Order of 156 units will arrive in 2 days
+2025-06-01 18:52:24,632 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,632 — INFO — Demand: 29, Fulfilled: 29, Inventory: 127
+2025-06-01 18:52:24,632 — INFO — Order of 156 units received. Inventory: 283
+2025-06-01 18:52:24,632 — INFO — Demand: 10, Fulfilled: 10, Inventory: 273
+2025-06-01 18:52:24,632 — INFO — Order of 152 units received. Inventory: 425
+2025-06-01 18:52:24,632 — INFO — Demand: 21, Fulfilled: 21, Inventory: 404
+2025-06-01 18:52:24,632 — INFO — Demand: 1, Fulfilled: 1, Inventory: 403
+2025-06-01 18:52:24,632 — INFO — Demand: 26, Fulfilled: 26, Inventory: 377
+2025-06-01 18:52:24,632 — INFO — Demand: 7, Fulfilled: 7, Inventory: 370
+2025-06-01 18:52:24,632 — INFO — Demand: 19, Fulfilled: 19, Inventory: 351
+2025-06-01 18:52:24,632 — INFO — Demand: 12, Fulfilled: 12, Inventory: 339
+2025-06-01 18:52:24,632 — INFO — Demand: 26, Fulfilled: 26, Inventory: 313
+2025-06-01 18:52:24,632 — INFO — Demand: 19, Fulfilled: 19, Inventory: 294
+2025-06-01 18:52:24,632 — INFO — Demand: 23, Fulfilled: 23, Inventory: 271
+2025-06-01 18:52:24,632 — INFO — Demand: 30, Fulfilled: 30, Inventory: 241
+2025-06-01 18:52:24,632 — INFO — Demand: 27, Fulfilled: 27, Inventory: 214
+2025-06-01 18:52:24,632 — INFO — Demand: 38, Fulfilled: 38, Inventory: 176
+2025-06-01 18:52:24,632 — INFO — Demand: 24, Fulfilled: 24, Inventory: 152
+2025-06-01 18:52:24,632 — INFO — Demand: 13, Fulfilled: 13, Inventory: 139
+2025-06-01 18:52:24,632 — INFO — Demand: 13, Fulfilled: 13, Inventory: 126
+2025-06-01 18:52:24,632 — INFO — Demand: 16, Fulfilled: 16, Inventory: 110
+2025-06-01 18:52:24,632 — INFO — Demand: 17, Fulfilled: 17, Inventory: 93
+2025-06-01 18:52:24,632 — INFO — Demand: 17, Fulfilled: 17, Inventory: 76
+2025-06-01 18:52:24,632 — INFO — Demand: 24, Fulfilled: 24, Inventory: 52
+2025-06-01 18:52:24,632 — INFO — Demand: 29, Fulfilled: 29, Inventory: 23
+2025-06-01 18:52:24,632 — INFO — Stockout! Demand: 28, Fulfilled: 23, Inventory: 0
+2025-06-01 18:52:24,632 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,632 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,632 — INFO — Stockout! Demand: 26, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,632 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,632 — INFO — Order of 156 units will arrive in 4 days
+2025-06-01 18:52:24,632 — INFO — Stockout! Demand: 6, Fulfilled: 0, Inventory: 0
+2025-06-01 18:52:24,632 — INFO — Placing order for 156 units
+2025-06-01 18:52:24,633 — INFO — Order of 156 units will arrive in 3 days
+2025-06-01 18:52:24,633 — INFO — Order of 156 units received. Inventory: 156
+2025-06-01 18:52:24,633 — INFO — Demand: 13, Fulfilled: 13, Inventory: 143
+2025-06-01 18:52:24,633 — INFO — Demand: 17, Fulfilled: 17, Inventory: 126
+2025-06-01 18:52:24,633 — INFO — Order of 156 units received. Inventory: 282
+2025-06-01 18:52:24,633 — INFO — Order of 156 units received. Inventory: 438
+2025-06-01 18:52:24,633 — INFO — Demand: 18, Fulfilled: 18, Inventory: 420
+2025-06-01 18:52:24,633 — INFO — Demand: 26, Fulfilled: 26, Inventory: 394
+2025-06-01 18:52:24,633 — INFO — Demand: 34, Fulfilled: 34, Inventory: 360
+2025-06-01 18:52:24,633 — INFO — Demand: 14, Fulfilled: 14, Inventory: 346
+2025-06-01 18:52:24,633 — INFO — Demand: 17, Fulfilled: 17, Inventory: 329
+2025-06-01 18:52:24,633 — INFO — Demand: 20, Fulfilled: 20, Inventory: 309
+2025-06-01 18:52:24,633 — INFO — Demand: 10, Fulfilled: 10, Inventory: 299
+2025-06-01 18:52:24,633 — INFO — Demand: 18, Fulfilled: 18, Inventory: 281
+2025-06-01 18:52:24,633 — INFO — Demand: 22, Fulfilled: 22, Inventory: 259
+2025-06-01 18:52:24,633 — INFO — Demand: 23, Fulfilled: 23, Inventory: 236
+2025-06-01 18:52:24,633 — INFO — Demand: 12, Fulfilled: 12, Inventory: 224
+2025-06-01 18:54:17,153 — INFO — Root endpoint accessed.
+2025-06-01 18:54:47,439 — INFO — Demand: 21, Fulfilled: 21, Inventory: 99
+2025-06-01 18:54:47,439 — INFO — Demand: 16, Fulfilled: 16, Inventory: 83
+2025-06-01 18:54:47,440 — INFO — Demand: 30, Fulfilled: 30, Inventory: 53
+2025-06-01 18:54:47,440 — INFO — Demand: 18, Fulfilled: 18, Inventory: 35
+2025-06-01 18:54:47,440 — INFO — Demand: 12, Fulfilled: 12, Inventory: 23
+2025-06-01 18:54:47,440 — INFO — Stockout! Demand: 24, Fulfilled: 23, Inventory: 0
+2025-06-01 18:54:47,441 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,441 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,441 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,441 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,441 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,441 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,441 — INFO — Demand: 24, Fulfilled: 24, Inventory: 96
+2025-06-01 18:54:47,441 — INFO — Order of 120 units received. Inventory: 216
+2025-06-01 18:54:47,441 — INFO — Demand: 18, Fulfilled: 18, Inventory: 198
+2025-06-01 18:54:47,441 — INFO — Demand: 3, Fulfilled: 3, Inventory: 195
+2025-06-01 18:54:47,441 — INFO — Demand: 11, Fulfilled: 11, Inventory: 184
+2025-06-01 18:54:47,441 — INFO — Demand: 17, Fulfilled: 17, Inventory: 167
+2025-06-01 18:54:47,441 — INFO — Demand: 19, Fulfilled: 19, Inventory: 148
+2025-06-01 18:54:47,441 — INFO — Demand: 12, Fulfilled: 12, Inventory: 136
+2025-06-01 18:54:47,442 — INFO — Demand: 28, Fulfilled: 28, Inventory: 108
+2025-06-01 18:54:47,442 — INFO — Demand: 29, Fulfilled: 29, Inventory: 79
+2025-06-01 18:54:47,442 — INFO — Demand: 28, Fulfilled: 28, Inventory: 51
+2025-06-01 18:54:47,442 — INFO — Demand: 16, Fulfilled: 16, Inventory: 35
+2025-06-01 18:54:47,442 — INFO — Demand: 12, Fulfilled: 12, Inventory: 23
+2025-06-01 18:54:47,442 — INFO — Stockout! Demand: 27, Fulfilled: 23, Inventory: 0
+2025-06-01 18:54:47,442 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,442 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,442 — INFO — Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,442 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,442 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,442 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,442 — INFO — Demand: 12, Fulfilled: 12, Inventory: 108
+2025-06-01 18:54:47,442 — INFO — Order of 120 units received. Inventory: 228
+2025-06-01 18:54:47,442 — INFO — Demand: 22, Fulfilled: 22, Inventory: 206
+2025-06-01 18:54:47,443 — INFO — Demand: 16, Fulfilled: 16, Inventory: 190
+2025-06-01 18:54:47,443 — INFO — Demand: 27, Fulfilled: 27, Inventory: 163
+2025-06-01 18:54:47,443 — INFO — Demand: 23, Fulfilled: 23, Inventory: 140
+2025-06-01 18:54:47,443 — INFO — Demand: 30, Fulfilled: 30, Inventory: 110
+2025-06-01 18:54:47,443 — INFO — Demand: 15, Fulfilled: 15, Inventory: 95
+2025-06-01 18:54:47,443 — INFO — Demand: 21, Fulfilled: 21, Inventory: 74
+2025-06-01 18:54:47,443 — INFO — Demand: 31, Fulfilled: 31, Inventory: 43
+2025-06-01 18:54:47,443 — INFO — Demand: 18, Fulfilled: 18, Inventory: 25
+2025-06-01 18:54:47,443 — INFO — Demand: 5, Fulfilled: 5, Inventory: 20
+2025-06-01 18:54:47,443 — INFO — Stockout! Demand: 26, Fulfilled: 20, Inventory: 0
+2025-06-01 18:54:47,443 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,443 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,443 — INFO — Stockout! Demand: 16, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,443 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,443 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,443 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,444 — INFO — Demand: 33, Fulfilled: 33, Inventory: 87
+2025-06-01 18:54:47,444 — INFO — Demand: 29, Fulfilled: 29, Inventory: 58
+2025-06-01 18:54:47,444 — INFO — Demand: 20, Fulfilled: 20, Inventory: 38
+2025-06-01 18:54:47,444 — INFO — Order of 120 units received. Inventory: 158
+2025-06-01 18:54:47,444 — INFO — Demand: 22, Fulfilled: 22, Inventory: 136
+2025-06-01 18:54:47,444 — INFO — Demand: 18, Fulfilled: 18, Inventory: 118
+2025-06-01 18:54:47,444 — INFO — Demand: 13, Fulfilled: 13, Inventory: 105
+2025-06-01 18:54:47,444 — INFO — Demand: 27, Fulfilled: 27, Inventory: 78
+2025-06-01 18:54:47,444 — INFO — Demand: 24, Fulfilled: 24, Inventory: 54
+2025-06-01 18:54:47,444 — INFO — Demand: 22, Fulfilled: 22, Inventory: 32
+2025-06-01 18:54:47,444 — INFO — Demand: 26, Fulfilled: 26, Inventory: 6
+2025-06-01 18:54:47,444 — INFO — Stockout! Demand: 19, Fulfilled: 6, Inventory: 0
+2025-06-01 18:54:47,444 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,445 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,445 — INFO — Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,445 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,445 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,445 — INFO — Stockout! Demand: 20, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,445 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,445 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,445 — INFO — Stockout! Demand: 29, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,445 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,445 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,445 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,445 — INFO — Demand: 18, Fulfilled: 18, Inventory: 102
+2025-06-01 18:54:47,446 — INFO — Order of 120 units received. Inventory: 222
+2025-06-01 18:54:47,446 — INFO — Order of 120 units received. Inventory: 342
+2025-06-01 18:54:47,446 — INFO — Demand: 13, Fulfilled: 13, Inventory: 329
+2025-06-01 18:54:47,446 — INFO — Demand: 14, Fulfilled: 14, Inventory: 315
+2025-06-01 18:54:47,446 — INFO — Order of 120 units received. Inventory: 435
+2025-06-01 18:54:47,446 — INFO — Demand: 15, Fulfilled: 15, Inventory: 420
+2025-06-01 18:54:47,446 — INFO — Demand: 4, Fulfilled: 4, Inventory: 416
+2025-06-01 18:54:47,446 — INFO — Demand: 9, Fulfilled: 9, Inventory: 407
+2025-06-01 18:54:47,447 — INFO — Demand: 15, Fulfilled: 15, Inventory: 392
+2025-06-01 18:54:47,447 — INFO — Demand: 33, Fulfilled: 33, Inventory: 359
+2025-06-01 18:54:47,447 — INFO — Demand: 18, Fulfilled: 18, Inventory: 341
+2025-06-01 18:54:47,447 — INFO — Demand: 25, Fulfilled: 25, Inventory: 316
+2025-06-01 18:54:47,447 — INFO — Demand: 10, Fulfilled: 10, Inventory: 306
+2025-06-01 18:54:47,447 — INFO — Demand: 18, Fulfilled: 18, Inventory: 288
+2025-06-01 18:54:47,447 — INFO — Demand: 29, Fulfilled: 29, Inventory: 259
+2025-06-01 18:54:47,447 — INFO — Demand: 17, Fulfilled: 17, Inventory: 242
+2025-06-01 18:54:47,447 — INFO — Demand: 26, Fulfilled: 26, Inventory: 216
+2025-06-01 18:54:47,447 — INFO — Demand: 12, Fulfilled: 12, Inventory: 204
+2025-06-01 18:54:47,447 — INFO — Demand: 18, Fulfilled: 18, Inventory: 186
+2025-06-01 18:54:47,447 — INFO — Demand: 14, Fulfilled: 14, Inventory: 172
+2025-06-01 18:54:47,447 — INFO — Demand: 20, Fulfilled: 20, Inventory: 152
+2025-06-01 18:54:47,447 — INFO — Demand: 25, Fulfilled: 25, Inventory: 127
+2025-06-01 18:54:47,448 — INFO — Demand: 19, Fulfilled: 19, Inventory: 108
+2025-06-01 18:54:47,448 — INFO — Demand: 18, Fulfilled: 18, Inventory: 90
+2025-06-01 18:54:47,448 — INFO — Demand: 5, Fulfilled: 5, Inventory: 85
+2025-06-01 18:54:47,448 — INFO — Demand: 18, Fulfilled: 18, Inventory: 67
+2025-06-01 18:54:47,448 — INFO — Demand: 22, Fulfilled: 22, Inventory: 45
+2025-06-01 18:54:47,448 — INFO — Demand: 13, Fulfilled: 13, Inventory: 32
+2025-06-01 18:54:47,448 — INFO — Demand: 22, Fulfilled: 22, Inventory: 10
+2025-06-01 18:54:47,448 — INFO — Demand: 5, Fulfilled: 5, Inventory: 5
+2025-06-01 18:54:47,448 — INFO — Stockout! Demand: 20, Fulfilled: 5, Inventory: 0
+2025-06-01 18:54:47,448 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,448 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,448 — INFO — Stockout! Demand: 7, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,448 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,449 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,449 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,449 — INFO — Demand: 28, Fulfilled: 28, Inventory: 92
+2025-06-01 18:54:47,449 — INFO — Order of 120 units received. Inventory: 212
+2025-06-01 18:54:47,449 — INFO — Demand: 34, Fulfilled: 34, Inventory: 178
+2025-06-01 18:54:47,449 — INFO — Demand: 21, Fulfilled: 21, Inventory: 157
+2025-06-01 18:54:47,449 — INFO — Demand: 21, Fulfilled: 21, Inventory: 136
+2025-06-01 18:54:47,449 — INFO — Demand: 10, Fulfilled: 10, Inventory: 126
+2025-06-01 18:54:47,449 — INFO — Demand: 16, Fulfilled: 16, Inventory: 110
+2025-06-01 18:54:47,449 — INFO — Demand: 5, Fulfilled: 5, Inventory: 105
+2025-06-01 18:54:47,449 — INFO — Demand: 11, Fulfilled: 11, Inventory: 94
+2025-06-01 18:54:47,449 — INFO — Demand: 23, Fulfilled: 23, Inventory: 71
+2025-06-01 18:54:47,449 — INFO — Demand: 8, Fulfilled: 8, Inventory: 63
+2025-06-01 18:54:47,449 — INFO — Demand: 20, Fulfilled: 20, Inventory: 43
+2025-06-01 18:54:47,449 — INFO — Demand: 17, Fulfilled: 17, Inventory: 26
+2025-06-01 18:54:47,450 — INFO — Demand: 15, Fulfilled: 15, Inventory: 11
+2025-06-01 18:54:47,450 — INFO — Stockout! Demand: 18, Fulfilled: 11, Inventory: 0
+2025-06-01 18:54:47,450 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,450 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,450 — INFO — Stockout! Demand: 26, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,450 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,450 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,450 — INFO — Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,450 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,450 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,450 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,450 — INFO — Order of 120 units received. Inventory: 240
+2025-06-01 18:54:47,450 — INFO — Demand: 13, Fulfilled: 13, Inventory: 227
+2025-06-01 18:54:47,450 — INFO — Demand: 37, Fulfilled: 37, Inventory: 190
+2025-06-01 18:54:47,451 — INFO — Demand: 20, Fulfilled: 20, Inventory: 170
+2025-06-01 18:54:47,451 — INFO — Demand: 30, Fulfilled: 30, Inventory: 140
+2025-06-01 18:54:47,451 — INFO — Order of 120 units received. Inventory: 260
+2025-06-01 18:54:47,451 — INFO — Demand: 10, Fulfilled: 10, Inventory: 250
+2025-06-01 18:54:47,451 — INFO — Demand: 11, Fulfilled: 11, Inventory: 239
+2025-06-01 18:54:47,451 — INFO — Demand: 26, Fulfilled: 26, Inventory: 213
+2025-06-01 18:54:47,451 — INFO — Demand: 23, Fulfilled: 23, Inventory: 190
+2025-06-01 18:54:47,451 — INFO — Demand: 9, Fulfilled: 9, Inventory: 181
+2025-06-01 18:54:47,451 — INFO — Demand: 21, Fulfilled: 21, Inventory: 160
+2025-06-01 18:54:47,451 — INFO — Demand: 10, Fulfilled: 10, Inventory: 150
+2025-06-01 18:54:47,451 — INFO — Demand: 10, Fulfilled: 10, Inventory: 140
+2025-06-01 18:54:47,451 — INFO — Demand: 27, Fulfilled: 27, Inventory: 113
+2025-06-01 18:54:47,452 — INFO — Demand: 15, Fulfilled: 15, Inventory: 98
+2025-06-01 18:54:47,452 — INFO — Demand: 15, Fulfilled: 15, Inventory: 83
+2025-06-01 18:54:47,452 — INFO — Demand: 25, Fulfilled: 25, Inventory: 58
+2025-06-01 18:54:47,452 — INFO — Demand: 18, Fulfilled: 18, Inventory: 40
+2025-06-01 18:54:47,452 — INFO — Demand: 16, Fulfilled: 16, Inventory: 24
+2025-06-01 18:54:47,452 — INFO — Demand: 24, Fulfilled: 24, Inventory: 0
+2025-06-01 18:54:47,452 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,452 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,452 — INFO — Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,452 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,452 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,452 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,452 — INFO — Demand: 26, Fulfilled: 26, Inventory: 94
+2025-06-01 18:54:47,452 — INFO — Order of 120 units received. Inventory: 214
+2025-06-01 18:54:47,452 — INFO — Demand: 28, Fulfilled: 28, Inventory: 186
+2025-06-01 18:54:47,452 — INFO — Demand: 6, Fulfilled: 6, Inventory: 180
+2025-06-01 18:54:47,453 — INFO — Demand: 13, Fulfilled: 13, Inventory: 167
+2025-06-01 18:54:47,453 — INFO — Demand: 11, Fulfilled: 11, Inventory: 156
+2025-06-01 18:54:47,453 — INFO — Demand: 28, Fulfilled: 28, Inventory: 128
+2025-06-01 18:54:47,453 — INFO — Demand: 16, Fulfilled: 16, Inventory: 112
+2025-06-01 18:54:47,453 — INFO — Demand: 16, Fulfilled: 16, Inventory: 96
+2025-06-01 18:54:47,453 — INFO — Demand: 13, Fulfilled: 13, Inventory: 83
+2025-06-01 18:54:47,453 — INFO — Demand: 20, Fulfilled: 20, Inventory: 63
+2025-06-01 18:54:47,453 — INFO — Demand: 21, Fulfilled: 21, Inventory: 42
+2025-06-01 18:54:47,453 — INFO — Demand: 32, Fulfilled: 32, Inventory: 10
+2025-06-01 18:54:47,453 — INFO — Stockout! Demand: 31, Fulfilled: 10, Inventory: 0
+2025-06-01 18:54:47,453 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,453 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,453 — INFO — Stockout! Demand: 17, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,453 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,453 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,454 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,454 — INFO — Demand: 25, Fulfilled: 25, Inventory: 95
+2025-06-01 18:54:47,454 — INFO — Demand: 20, Fulfilled: 20, Inventory: 75
+2025-06-01 18:54:47,454 — INFO — Order of 120 units received. Inventory: 195
+2025-06-01 18:54:47,454 — INFO — Demand: 12, Fulfilled: 12, Inventory: 183
+2025-06-01 18:54:47,454 — INFO — Demand: 20, Fulfilled: 20, Inventory: 163
+2025-06-01 18:54:47,454 — INFO — Demand: 23, Fulfilled: 23, Inventory: 140
+2025-06-01 18:54:47,454 — INFO — Demand: 24, Fulfilled: 24, Inventory: 116
+2025-06-01 18:54:47,454 — INFO — Demand: 21, Fulfilled: 21, Inventory: 95
+2025-06-01 18:54:47,454 — INFO — Demand: 26, Fulfilled: 26, Inventory: 69
+2025-06-01 18:54:47,454 — INFO — Demand: 1, Fulfilled: 1, Inventory: 68
+2025-06-01 18:54:47,454 — INFO — Demand: 22, Fulfilled: 22, Inventory: 46
+2025-06-01 18:54:47,454 — INFO — Demand: 17, Fulfilled: 17, Inventory: 29
+2025-06-01 18:54:47,454 — INFO — Demand: 20, Fulfilled: 20, Inventory: 9
+2025-06-01 18:54:47,454 — INFO — Stockout! Demand: 23, Fulfilled: 9, Inventory: 0
+2025-06-01 18:54:47,454 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,455 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,455 — INFO — Stockout! Demand: 7, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,455 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,455 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,455 — INFO — Stockout! Demand: 23, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,455 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,455 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,455 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,455 — INFO — Demand: 26, Fulfilled: 26, Inventory: 94
+2025-06-01 18:54:47,455 — INFO — Order of 120 units received. Inventory: 214
+2025-06-01 18:54:47,455 — INFO — Demand: 32, Fulfilled: 32, Inventory: 182
+2025-06-01 18:54:47,456 — INFO — Order of 120 units received. Inventory: 302
+2025-06-01 18:54:47,456 — INFO — Demand: 24, Fulfilled: 24, Inventory: 278
+2025-06-01 18:54:47,456 — INFO — Demand: 18, Fulfilled: 18, Inventory: 260
+2025-06-01 18:54:47,456 — INFO — Demand: 24, Fulfilled: 24, Inventory: 236
+2025-06-01 18:54:47,456 — INFO — Demand: 33, Fulfilled: 33, Inventory: 203
+2025-06-01 18:54:47,456 — INFO — Demand: 18, Fulfilled: 18, Inventory: 185
+2025-06-01 18:54:47,456 — INFO — Demand: 10, Fulfilled: 10, Inventory: 175
+2025-06-01 18:54:47,456 — INFO — Demand: 20, Fulfilled: 20, Inventory: 155
+2025-06-01 18:54:47,456 — INFO — Demand: 9, Fulfilled: 9, Inventory: 146
+2025-06-01 18:54:47,457 — INFO — Demand: 15, Fulfilled: 15, Inventory: 131
+2025-06-01 18:54:47,457 — INFO — Demand: 29, Fulfilled: 29, Inventory: 102
+2025-06-01 18:54:47,457 — INFO — Demand: 30, Fulfilled: 30, Inventory: 72
+2025-06-01 18:54:47,457 — INFO — Demand: 17, Fulfilled: 17, Inventory: 55
+2025-06-01 18:54:47,457 — INFO — Demand: 26, Fulfilled: 26, Inventory: 29
+2025-06-01 18:54:47,457 — INFO — Demand: 27, Fulfilled: 27, Inventory: 2
+2025-06-01 18:54:47,457 — INFO — Placing order for 118 units
+2025-06-01 18:54:47,457 — INFO — Order of 118 units will arrive in 2 days
+2025-06-01 18:54:47,457 — INFO — Stockout! Demand: 16, Fulfilled: 2, Inventory: 0
+2025-06-01 18:54:47,457 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,457 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,457 — INFO — Order of 118 units received. Inventory: 118
+2025-06-01 18:54:47,457 — INFO — Demand: 14, Fulfilled: 14, Inventory: 104
+2025-06-01 18:54:47,457 — INFO — Demand: 12, Fulfilled: 12, Inventory: 92
+2025-06-01 18:54:47,457 — INFO — Order of 120 units received. Inventory: 212
+2025-06-01 18:54:47,457 — INFO — Demand: 13, Fulfilled: 13, Inventory: 199
+2025-06-01 18:54:47,457 — INFO — Demand: 18, Fulfilled: 18, Inventory: 181
+2025-06-01 18:54:47,457 — INFO — Demand: 19, Fulfilled: 19, Inventory: 162
+2025-06-01 18:54:47,458 — INFO — Demand: 27, Fulfilled: 27, Inventory: 135
+2025-06-01 18:54:47,458 — INFO — Demand: 21, Fulfilled: 21, Inventory: 114
+2025-06-01 18:54:47,458 — INFO — Demand: 28, Fulfilled: 28, Inventory: 86
+2025-06-01 18:54:47,458 — INFO — Demand: 6, Fulfilled: 6, Inventory: 80
+2025-06-01 18:54:47,458 — INFO — Demand: 29, Fulfilled: 29, Inventory: 51
+2025-06-01 18:54:47,458 — INFO — Demand: 36, Fulfilled: 36, Inventory: 15
+2025-06-01 18:54:47,458 — INFO — Stockout! Demand: 30, Fulfilled: 15, Inventory: 0
+2025-06-01 18:54:47,458 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,458 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,458 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,458 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,458 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,458 — INFO — Stockout! Demand: 31, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,458 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,458 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,458 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,458 — INFO — Demand: 33, Fulfilled: 33, Inventory: 87
+2025-06-01 18:54:47,458 — INFO — Order of 120 units received. Inventory: 207
+2025-06-01 18:54:47,458 — INFO — Order of 120 units received. Inventory: 327
+2025-06-01 18:54:47,458 — INFO — Demand: 22, Fulfilled: 22, Inventory: 305
+2025-06-01 18:54:47,459 — INFO — Demand: 12, Fulfilled: 12, Inventory: 293
+2025-06-01 18:54:47,459 — INFO — Demand: 14, Fulfilled: 14, Inventory: 279
+2025-06-01 18:54:47,459 — INFO — Demand: 15, Fulfilled: 15, Inventory: 264
+2025-06-01 18:54:47,459 — INFO — Demand: 1, Fulfilled: 1, Inventory: 263
+2025-06-01 18:54:47,459 — INFO — Demand: 13, Fulfilled: 13, Inventory: 250
+2025-06-01 18:54:47,459 — INFO — Demand: 18, Fulfilled: 18, Inventory: 232
+2025-06-01 18:54:47,459 — INFO — Demand: 15, Fulfilled: 15, Inventory: 217
+2025-06-01 18:54:47,459 — INFO — Demand: 32, Fulfilled: 32, Inventory: 185
+2025-06-01 18:54:47,459 — INFO — Demand: 13, Fulfilled: 13, Inventory: 172
+2025-06-01 18:54:47,459 — INFO — Demand: 19, Fulfilled: 19, Inventory: 153
+2025-06-01 18:54:47,459 — INFO — Demand: 15, Fulfilled: 15, Inventory: 138
+2025-06-01 18:54:47,459 — INFO — Demand: 24, Fulfilled: 24, Inventory: 114
+2025-06-01 18:54:47,459 — INFO — Demand: 13, Fulfilled: 13, Inventory: 101
+2025-06-01 18:54:47,459 — INFO — Demand: 33, Fulfilled: 33, Inventory: 68
+2025-06-01 18:54:47,459 — INFO — Demand: 28, Fulfilled: 28, Inventory: 40
+2025-06-01 18:54:47,459 — INFO — Demand: 27, Fulfilled: 27, Inventory: 13
+2025-06-01 18:54:47,459 — INFO — Demand: 8, Fulfilled: 8, Inventory: 5
+2025-06-01 18:54:47,459 — INFO — Stockout! Demand: 11, Fulfilled: 5, Inventory: 0
+2025-06-01 18:54:47,460 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,460 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,460 — INFO — Stockout! Demand: 29, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,460 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,460 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,460 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,460 — INFO — Demand: 16, Fulfilled: 16, Inventory: 104
+2025-06-01 18:54:47,460 — INFO — Order of 120 units received. Inventory: 224
+2025-06-01 18:54:47,461 — INFO — Demand: 16, Fulfilled: 16, Inventory: 208
+2025-06-01 18:54:47,461 — INFO — Demand: 5, Fulfilled: 5, Inventory: 203
+2025-06-01 18:54:47,461 — INFO — Demand: 24, Fulfilled: 24, Inventory: 179
+2025-06-01 18:54:47,461 — INFO — Demand: 35, Fulfilled: 35, Inventory: 144
+2025-06-01 18:54:47,461 — INFO — Demand: 16, Fulfilled: 16, Inventory: 128
+2025-06-01 18:54:47,461 — INFO — Demand: 28, Fulfilled: 28, Inventory: 100
+2025-06-01 18:54:47,461 — INFO — Demand: 29, Fulfilled: 29, Inventory: 71
+2025-06-01 18:54:47,461 — INFO — Demand: 19, Fulfilled: 19, Inventory: 52
+2025-06-01 18:54:47,461 — INFO — Demand: 24, Fulfilled: 24, Inventory: 28
+2025-06-01 18:54:47,461 — INFO — Demand: 13, Fulfilled: 13, Inventory: 15
+2025-06-01 18:54:47,461 — INFO — Stockout! Demand: 22, Fulfilled: 15, Inventory: 0
+2025-06-01 18:54:47,461 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,462 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,462 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,462 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,462 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,462 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,462 — INFO — Demand: 0, Fulfilled: 0, Inventory: 120
+2025-06-01 18:54:47,462 — INFO — Demand: 1, Fulfilled: 1, Inventory: 119
+2025-06-01 18:54:47,462 — INFO — Demand: 23, Fulfilled: 23, Inventory: 96
+2025-06-01 18:54:47,462 — INFO — Order of 120 units received. Inventory: 216
+2025-06-01 18:54:47,462 — INFO — Demand: 19, Fulfilled: 19, Inventory: 197
+2025-06-01 18:54:47,462 — INFO — Demand: 27, Fulfilled: 27, Inventory: 170
+2025-06-01 18:54:47,462 — INFO — Demand: 19, Fulfilled: 19, Inventory: 151
+2025-06-01 18:54:47,462 — INFO — Demand: 12, Fulfilled: 12, Inventory: 139
+2025-06-01 18:54:47,462 — INFO — Demand: 23, Fulfilled: 23, Inventory: 116
+2025-06-01 18:54:47,462 — INFO — Demand: 22, Fulfilled: 22, Inventory: 94
+2025-06-01 18:54:47,462 — INFO — Demand: 20, Fulfilled: 20, Inventory: 74
+2025-06-01 18:54:47,462 — INFO — Demand: 25, Fulfilled: 25, Inventory: 49
+2025-06-01 18:54:47,462 — INFO — Demand: 23, Fulfilled: 23, Inventory: 26
+2025-06-01 18:54:47,462 — INFO — Demand: 16, Fulfilled: 16, Inventory: 10
+2025-06-01 18:54:47,463 — INFO — Stockout! Demand: 15, Fulfilled: 10, Inventory: 0
+2025-06-01 18:54:47,463 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,463 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,463 — INFO — Stockout! Demand: 3, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,463 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,463 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,463 — INFO — Stockout! Demand: 20, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,463 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,463 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,463 — INFO — Stockout! Demand: 26, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,463 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,463 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,463 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,463 — INFO — Order of 120 units received. Inventory: 240
+2025-06-01 18:54:47,463 — INFO — Demand: 20, Fulfilled: 20, Inventory: 220
+2025-06-01 18:54:47,463 — INFO — Order of 120 units received. Inventory: 340
+2025-06-01 18:54:47,463 — INFO — Demand: 23, Fulfilled: 23, Inventory: 317
+2025-06-01 18:54:47,463 — INFO — Order of 120 units received. Inventory: 437
+2025-06-01 18:54:47,463 — INFO — Demand: 29, Fulfilled: 29, Inventory: 408
+2025-06-01 18:54:47,463 — INFO — Demand: 32, Fulfilled: 32, Inventory: 376
+2025-06-01 18:54:47,464 — INFO — Demand: 19, Fulfilled: 19, Inventory: 357
+2025-06-01 18:54:47,464 — INFO — Demand: 31, Fulfilled: 31, Inventory: 326
+2025-06-01 18:54:47,464 — INFO — Demand: 27, Fulfilled: 27, Inventory: 299
+2025-06-01 18:54:47,464 — INFO — Demand: 4, Fulfilled: 4, Inventory: 295
+2025-06-01 18:54:47,464 — INFO — Demand: 21, Fulfilled: 21, Inventory: 274
+2025-06-01 18:54:47,464 — INFO — Demand: 29, Fulfilled: 29, Inventory: 245
+2025-06-01 18:54:47,464 — INFO — Demand: 25, Fulfilled: 25, Inventory: 220
+2025-06-01 18:54:47,464 — INFO — Demand: 20, Fulfilled: 20, Inventory: 200
+2025-06-01 18:54:47,464 — INFO — Demand: 14, Fulfilled: 14, Inventory: 186
+2025-06-01 18:54:47,464 — INFO — Demand: 24, Fulfilled: 24, Inventory: 162
+2025-06-01 18:54:47,464 — INFO — Demand: 14, Fulfilled: 14, Inventory: 148
+2025-06-01 18:54:47,464 — INFO — Demand: 22, Fulfilled: 22, Inventory: 126
+2025-06-01 18:54:47,464 — INFO — Demand: 21, Fulfilled: 21, Inventory: 105
+2025-06-01 18:54:47,464 — INFO — Demand: 7, Fulfilled: 7, Inventory: 98
+2025-06-01 18:54:47,464 — INFO — Demand: 25, Fulfilled: 25, Inventory: 73
+2025-06-01 18:54:47,464 — INFO — Demand: 30, Fulfilled: 30, Inventory: 43
+2025-06-01 18:54:47,464 — INFO — Demand: 17, Fulfilled: 17, Inventory: 26
+2025-06-01 18:54:47,464 — INFO — Stockout! Demand: 42, Fulfilled: 26, Inventory: 0
+2025-06-01 18:54:47,464 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,464 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,464 — INFO — Stockout! Demand: 9, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,464 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,465 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,465 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,465 — INFO — Demand: 30, Fulfilled: 30, Inventory: 90
+2025-06-01 18:54:47,465 — INFO — Demand: 19, Fulfilled: 19, Inventory: 71
+2025-06-01 18:54:47,465 — INFO — Demand: 18, Fulfilled: 18, Inventory: 53
+2025-06-01 18:54:47,465 — INFO — Demand: 20, Fulfilled: 20, Inventory: 33
+2025-06-01 18:54:47,465 — INFO — Order of 120 units received. Inventory: 153
+2025-06-01 18:54:47,465 — INFO — Demand: 32, Fulfilled: 32, Inventory: 121
+2025-06-01 18:54:47,465 — INFO — Demand: 28, Fulfilled: 28, Inventory: 93
+2025-06-01 18:54:47,465 — INFO — Demand: 37, Fulfilled: 37, Inventory: 56
+2025-06-01 18:54:47,465 — INFO — Demand: 21, Fulfilled: 21, Inventory: 35
+2025-06-01 18:54:47,465 — INFO — Stockout! Demand: 40, Fulfilled: 35, Inventory: 0
+2025-06-01 18:54:47,465 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,465 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,465 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,465 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,466 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,466 — INFO — Stockout! Demand: 9, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,466 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,466 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,466 — INFO — Stockout! Demand: 32, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,466 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,466 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,466 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,466 — INFO — Demand: 13, Fulfilled: 13, Inventory: 107
+2025-06-01 18:54:47,466 — INFO — Order of 120 units received. Inventory: 227
+2025-06-01 18:54:47,466 — INFO — Demand: 27, Fulfilled: 27, Inventory: 200
+2025-06-01 18:54:47,466 — INFO — Order of 120 units received. Inventory: 320
+2025-06-01 18:54:47,466 — INFO — Demand: 23, Fulfilled: 23, Inventory: 297
+2025-06-01 18:54:47,466 — INFO — Order of 120 units received. Inventory: 417
+2025-06-01 18:54:47,466 — INFO — Demand: 21, Fulfilled: 21, Inventory: 396
+2025-06-01 18:54:47,466 — INFO — Demand: 16, Fulfilled: 16, Inventory: 380
+2025-06-01 18:54:47,466 — INFO — Demand: 30, Fulfilled: 30, Inventory: 350
+2025-06-01 18:54:47,466 — INFO — Demand: 36, Fulfilled: 36, Inventory: 314
+2025-06-01 18:54:47,466 — INFO — Demand: 24, Fulfilled: 24, Inventory: 290
+2025-06-01 18:54:47,467 — INFO — Demand: 18, Fulfilled: 18, Inventory: 272
+2025-06-01 18:54:47,467 — INFO — Demand: 12, Fulfilled: 12, Inventory: 260
+2025-06-01 18:54:47,467 — INFO — Demand: 27, Fulfilled: 27, Inventory: 233
+2025-06-01 18:54:47,467 — INFO — Demand: 10, Fulfilled: 10, Inventory: 223
+2025-06-01 18:54:47,467 — INFO — Demand: 30, Fulfilled: 30, Inventory: 193
+2025-06-01 18:54:47,467 — INFO — Demand: 23, Fulfilled: 23, Inventory: 170
+2025-06-01 18:54:47,467 — INFO — Demand: 15, Fulfilled: 15, Inventory: 155
+2025-06-01 18:54:47,467 — INFO — Demand: 21, Fulfilled: 21, Inventory: 134
+2025-06-01 18:54:47,467 — INFO — Demand: 30, Fulfilled: 30, Inventory: 104
+2025-06-01 18:54:47,467 — INFO — Demand: 19, Fulfilled: 19, Inventory: 85
+2025-06-01 18:54:47,467 — INFO — Demand: 20, Fulfilled: 20, Inventory: 65
+2025-06-01 18:54:47,467 — INFO — Demand: 12, Fulfilled: 12, Inventory: 53
+2025-06-01 18:54:47,467 — INFO — Demand: 0, Fulfilled: 0, Inventory: 53
+2025-06-01 18:54:47,467 — INFO — Demand: 20, Fulfilled: 20, Inventory: 33
+2025-06-01 18:54:47,467 — INFO — Demand: 26, Fulfilled: 26, Inventory: 7
+2025-06-01 18:54:47,467 — INFO — Stockout! Demand: 26, Fulfilled: 7, Inventory: 0
+2025-06-01 18:54:47,467 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,467 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,467 — INFO — Stockout! Demand: 39, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,467 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,467 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,467 — INFO — Stockout! Demand: 9, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,467 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,467 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,468 — INFO — Stockout! Demand: 10, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,468 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,468 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,468 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,468 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,468 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,468 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,468 — INFO — Order of 120 units received. Inventory: 240
+2025-06-01 18:54:47,468 — INFO — Demand: 8, Fulfilled: 8, Inventory: 232
+2025-06-01 18:54:47,468 — INFO — Order of 120 units received. Inventory: 352
+2025-06-01 18:54:47,468 — INFO — Order of 120 units received. Inventory: 472
+2025-06-01 18:54:47,468 — INFO — Demand: 18, Fulfilled: 18, Inventory: 454
+2025-06-01 18:54:47,468 — INFO — Order of 120 units received. Inventory: 574
+2025-06-01 18:54:47,468 — INFO — Demand: 15, Fulfilled: 15, Inventory: 559
+2025-06-01 18:54:47,468 — INFO — Demand: 31, Fulfilled: 31, Inventory: 528
+2025-06-01 18:54:47,468 — INFO — Demand: 17, Fulfilled: 17, Inventory: 511
+2025-06-01 18:54:47,469 — INFO — Demand: 25, Fulfilled: 25, Inventory: 486
+2025-06-01 18:54:47,469 — INFO — Demand: 22, Fulfilled: 22, Inventory: 464
+2025-06-01 18:54:47,469 — INFO — Demand: 11, Fulfilled: 11, Inventory: 453
+2025-06-01 18:54:47,469 — INFO — Demand: 25, Fulfilled: 25, Inventory: 428
+2025-06-01 18:54:47,469 — INFO — Demand: 30, Fulfilled: 30, Inventory: 398
+2025-06-01 18:54:47,469 — INFO — Demand: 21, Fulfilled: 21, Inventory: 377
+2025-06-01 18:54:47,469 — INFO — Demand: 8, Fulfilled: 8, Inventory: 369
+2025-06-01 18:54:47,469 — INFO — Demand: 16, Fulfilled: 16, Inventory: 353
+2025-06-01 18:54:47,469 — INFO — Demand: 32, Fulfilled: 32, Inventory: 321
+2025-06-01 18:54:47,470 — INFO — Demand: 13, Fulfilled: 13, Inventory: 308
+2025-06-01 18:54:47,470 — INFO — Demand: 17, Fulfilled: 17, Inventory: 291
+2025-06-01 18:54:47,470 — INFO — Demand: 16, Fulfilled: 16, Inventory: 275
+2025-06-01 18:54:47,470 — INFO — Demand: 14, Fulfilled: 14, Inventory: 261
+2025-06-01 18:54:47,470 — INFO — Demand: 23, Fulfilled: 23, Inventory: 238
+2025-06-01 18:54:47,470 — INFO — Demand: 8, Fulfilled: 8, Inventory: 230
+2025-06-01 18:54:47,470 — INFO — Demand: 14, Fulfilled: 14, Inventory: 216
+2025-06-01 18:54:47,470 — INFO — Demand: 19, Fulfilled: 19, Inventory: 197
+2025-06-01 18:54:47,470 — INFO — Demand: 9, Fulfilled: 9, Inventory: 188
+2025-06-01 18:54:47,470 — INFO — Demand: 18, Fulfilled: 18, Inventory: 170
+2025-06-01 18:54:47,470 — INFO — Demand: 30, Fulfilled: 30, Inventory: 140
+2025-06-01 18:54:47,470 — INFO — Demand: 13, Fulfilled: 13, Inventory: 127
+2025-06-01 18:54:47,471 — INFO — Demand: 19, Fulfilled: 19, Inventory: 108
+2025-06-01 18:54:47,471 — INFO — Demand: 11, Fulfilled: 11, Inventory: 97
+2025-06-01 18:54:47,471 — INFO — Demand: 17, Fulfilled: 17, Inventory: 80
+2025-06-01 18:54:47,471 — INFO — Demand: 27, Fulfilled: 27, Inventory: 53
+2025-06-01 18:54:47,471 — INFO — Demand: 24, Fulfilled: 24, Inventory: 29
+2025-06-01 18:54:47,471 — INFO — Demand: 25, Fulfilled: 25, Inventory: 4
+2025-06-01 18:54:47,471 — INFO — Placing order for 116 units
+2025-06-01 18:54:47,471 — INFO — Order of 116 units will arrive in 2 days
+2025-06-01 18:54:47,471 — INFO — Stockout! Demand: 25, Fulfilled: 4, Inventory: 0
+2025-06-01 18:54:47,471 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,471 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,471 — INFO — Order of 116 units received. Inventory: 116
+2025-06-01 18:54:47,471 — INFO — Demand: 38, Fulfilled: 38, Inventory: 78
+2025-06-01 18:54:47,471 — INFO — Order of 120 units received. Inventory: 198
+2025-06-01 18:54:47,471 — INFO — Demand: 22, Fulfilled: 22, Inventory: 176
+2025-06-01 18:54:47,471 — INFO — Demand: 18, Fulfilled: 18, Inventory: 158
+2025-06-01 18:54:47,471 — INFO — Demand: 23, Fulfilled: 23, Inventory: 135
+2025-06-01 18:54:47,471 — INFO — Demand: 8, Fulfilled: 8, Inventory: 127
+2025-06-01 18:54:47,471 — INFO — Demand: 14, Fulfilled: 14, Inventory: 113
+2025-06-01 18:54:47,471 — INFO — Demand: 38, Fulfilled: 38, Inventory: 75
+2025-06-01 18:54:47,471 — INFO — Demand: 24, Fulfilled: 24, Inventory: 51
+2025-06-01 18:54:47,471 — INFO — Demand: 26, Fulfilled: 26, Inventory: 25
+2025-06-01 18:54:47,471 — INFO — Stockout! Demand: 28, Fulfilled: 25, Inventory: 0
+2025-06-01 18:54:47,471 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,471 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,471 — INFO — Stockout! Demand: 25, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,472 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,472 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,472 — INFO — Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,472 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,472 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,472 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,472 — INFO — Order of 120 units received. Inventory: 240
+2025-06-01 18:54:47,472 — INFO — Demand: 37, Fulfilled: 37, Inventory: 203
+2025-06-01 18:54:47,472 — INFO — Order of 120 units received. Inventory: 323
+2025-06-01 18:54:47,472 — INFO — Demand: 26, Fulfilled: 26, Inventory: 297
+2025-06-01 18:54:47,472 — INFO — Demand: 20, Fulfilled: 20, Inventory: 277
+2025-06-01 18:54:47,472 — INFO — Demand: 27, Fulfilled: 27, Inventory: 250
+2025-06-01 18:54:47,472 — INFO — Demand: 26, Fulfilled: 26, Inventory: 224
+2025-06-01 18:54:47,472 — INFO — Demand: 32, Fulfilled: 32, Inventory: 192
+2025-06-01 18:54:47,472 — INFO — Demand: 27, Fulfilled: 27, Inventory: 165
+2025-06-01 18:54:47,472 — INFO — Demand: 28, Fulfilled: 28, Inventory: 137
+2025-06-01 18:54:47,472 — INFO — Demand: 18, Fulfilled: 18, Inventory: 119
+2025-06-01 18:54:47,472 — INFO — Demand: 28, Fulfilled: 28, Inventory: 91
+2025-06-01 18:54:47,472 — INFO — Demand: 19, Fulfilled: 19, Inventory: 72
+2025-06-01 18:54:47,472 — INFO — Demand: 18, Fulfilled: 18, Inventory: 54
+2025-06-01 18:54:47,472 — INFO — Demand: 15, Fulfilled: 15, Inventory: 39
+2025-06-01 18:54:47,472 — INFO — Demand: 11, Fulfilled: 11, Inventory: 28
+2025-06-01 18:54:47,472 — INFO — Demand: 9, Fulfilled: 9, Inventory: 19
+2025-06-01 18:54:47,472 — INFO — Demand: -6, Fulfilled: -6, Inventory: 25
+2025-06-01 18:54:47,472 — INFO — Demand: 9, Fulfilled: 9, Inventory: 16
+2025-06-01 18:54:47,472 — INFO — Demand: 4, Fulfilled: 4, Inventory: 12
+2025-06-01 18:54:47,472 — INFO — Stockout! Demand: 25, Fulfilled: 12, Inventory: 0
+2025-06-01 18:54:47,473 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,473 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,473 — INFO — Stockout! Demand: 11, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,473 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,473 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,473 — INFO — Stockout! Demand: 12, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,473 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,473 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,473 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,473 — INFO — Order of 120 units received. Inventory: 240
+2025-06-01 18:54:47,473 — INFO — Demand: 24, Fulfilled: 24, Inventory: 216
+2025-06-01 18:54:47,473 — INFO — Demand: 30, Fulfilled: 30, Inventory: 186
+2025-06-01 18:54:47,473 — INFO — Demand: 26, Fulfilled: 26, Inventory: 160
+2025-06-01 18:54:47,473 — INFO — Demand: 3, Fulfilled: 3, Inventory: 157
+2025-06-01 18:54:47,473 — INFO — Order of 120 units received. Inventory: 277
+2025-06-01 18:54:47,473 — INFO — Demand: 29, Fulfilled: 29, Inventory: 248
+2025-06-01 18:54:47,473 — INFO — Demand: 24, Fulfilled: 24, Inventory: 224
+2025-06-01 18:54:47,473 — INFO — Demand: 25, Fulfilled: 25, Inventory: 199
+2025-06-01 18:54:47,473 — INFO — Demand: 10, Fulfilled: 10, Inventory: 189
+2025-06-01 18:54:47,473 — INFO — Demand: 21, Fulfilled: 21, Inventory: 168
+2025-06-01 18:54:47,473 — INFO — Demand: 16, Fulfilled: 16, Inventory: 152
+2025-06-01 18:54:47,473 — INFO — Demand: 18, Fulfilled: 18, Inventory: 134
+2025-06-01 18:54:47,473 — INFO — Demand: 9, Fulfilled: 9, Inventory: 125
+2025-06-01 18:54:47,473 — INFO — Demand: 15, Fulfilled: 15, Inventory: 110
+2025-06-01 18:54:47,473 — INFO — Demand: 19, Fulfilled: 19, Inventory: 91
+2025-06-01 18:54:47,473 — INFO — Demand: 25, Fulfilled: 25, Inventory: 66
+2025-06-01 18:54:47,473 — INFO — Demand: 36, Fulfilled: 36, Inventory: 30
+2025-06-01 18:54:47,473 — INFO — Demand: 12, Fulfilled: 12, Inventory: 18
+2025-06-01 18:54:47,474 — INFO — Stockout! Demand: 28, Fulfilled: 18, Inventory: 0
+2025-06-01 18:54:47,474 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,474 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,474 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,474 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,474 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,474 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,474 — INFO — Demand: 28, Fulfilled: 28, Inventory: 92
+2025-06-01 18:54:47,474 — INFO — Order of 120 units received. Inventory: 212
+2025-06-01 18:54:47,474 — INFO — Demand: 14, Fulfilled: 14, Inventory: 198
+2025-06-01 18:54:47,474 — INFO — Demand: 24, Fulfilled: 24, Inventory: 174
+2025-06-01 18:54:47,474 — INFO — Demand: 24, Fulfilled: 24, Inventory: 150
+2025-06-01 18:54:47,474 — INFO — Demand: 21, Fulfilled: 21, Inventory: 129
+2025-06-01 18:54:47,474 — INFO — Demand: 20, Fulfilled: 20, Inventory: 109
+2025-06-01 18:54:47,474 — INFO — Demand: 24, Fulfilled: 24, Inventory: 85
+2025-06-01 18:54:47,474 — INFO — Demand: 37, Fulfilled: 37, Inventory: 48
+2025-06-01 18:54:47,474 — INFO — Demand: 25, Fulfilled: 25, Inventory: 23
+2025-06-01 18:54:47,474 — INFO — Demand: 11, Fulfilled: 11, Inventory: 12
+2025-06-01 18:54:47,474 — INFO — Stockout! Demand: 13, Fulfilled: 12, Inventory: 0
+2025-06-01 18:54:47,474 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,474 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,474 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,474 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,474 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,475 — INFO — Stockout! Demand: 16, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,475 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,475 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,475 — INFO — Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,475 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,475 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,475 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,475 — INFO — Order of 120 units received. Inventory: 240
+2025-06-01 18:54:47,475 — INFO — Demand: 29, Fulfilled: 29, Inventory: 211
+2025-06-01 18:54:47,475 — INFO — Order of 120 units received. Inventory: 331
+2025-06-01 18:54:47,475 — INFO — Order of 120 units received. Inventory: 451
+2025-06-01 18:54:47,475 — INFO — Demand: 22, Fulfilled: 22, Inventory: 429
+2025-06-01 18:54:47,475 — INFO — Demand: 17, Fulfilled: 17, Inventory: 412
+2025-06-01 18:54:47,475 — INFO — Demand: 13, Fulfilled: 13, Inventory: 399
+2025-06-01 18:54:47,475 — INFO — Demand: 22, Fulfilled: 22, Inventory: 377
+2025-06-01 18:54:47,475 — INFO — Demand: 21, Fulfilled: 21, Inventory: 356
+2025-06-01 18:54:47,475 — INFO — Demand: 22, Fulfilled: 22, Inventory: 334
+2025-06-01 18:54:47,475 — INFO — Demand: 12, Fulfilled: 12, Inventory: 322
+2025-06-01 18:54:47,475 — INFO — Demand: 25, Fulfilled: 25, Inventory: 297
+2025-06-01 18:54:47,475 — INFO — Demand: 31, Fulfilled: 31, Inventory: 266
+2025-06-01 18:54:47,475 — INFO — Demand: 22, Fulfilled: 22, Inventory: 244
+2025-06-01 18:54:47,475 — INFO — Demand: 16, Fulfilled: 16, Inventory: 228
+2025-06-01 18:54:47,475 — INFO — Demand: 24, Fulfilled: 24, Inventory: 204
+2025-06-01 18:54:47,476 — INFO — Demand: 31, Fulfilled: 31, Inventory: 173
+2025-06-01 18:54:47,476 — INFO — Demand: 18, Fulfilled: 18, Inventory: 155
+2025-06-01 18:54:47,476 — INFO — Demand: 21, Fulfilled: 21, Inventory: 134
+2025-06-01 18:54:47,476 — INFO — Demand: 24, Fulfilled: 24, Inventory: 110
+2025-06-01 18:54:47,476 — INFO — Demand: 18, Fulfilled: 18, Inventory: 92
+2025-06-01 18:54:47,476 — INFO — Demand: 13, Fulfilled: 13, Inventory: 79
+2025-06-01 18:54:47,476 — INFO — Demand: 28, Fulfilled: 28, Inventory: 51
+2025-06-01 18:54:47,476 — INFO — Demand: 7, Fulfilled: 7, Inventory: 44
+2025-06-01 18:54:47,476 — INFO — Demand: 23, Fulfilled: 23, Inventory: 21
+2025-06-01 18:54:47,476 — INFO — Stockout! Demand: 24, Fulfilled: 21, Inventory: 0
+2025-06-01 18:54:47,476 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,476 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,476 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,476 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,476 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,476 — INFO — Stockout! Demand: 10, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,476 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,476 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,476 — INFO — Stockout! Demand: 26, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,476 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,476 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,476 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,476 — INFO — Demand: 22, Fulfilled: 22, Inventory: 98
+2025-06-01 18:54:47,476 — INFO — Order of 120 units received. Inventory: 218
+2025-06-01 18:54:47,476 — INFO — Demand: 16, Fulfilled: 16, Inventory: 202
+2025-06-01 18:54:47,476 — INFO — Order of 120 units received. Inventory: 322
+2025-06-01 18:54:47,476 — INFO — Demand: 15, Fulfilled: 15, Inventory: 307
+2025-06-01 18:54:47,476 — INFO — Demand: 15, Fulfilled: 15, Inventory: 292
+2025-06-01 18:54:47,476 — INFO — Order of 120 units received. Inventory: 412
+2025-06-01 18:54:47,476 — INFO — Demand: 12, Fulfilled: 12, Inventory: 400
+2025-06-01 18:54:47,477 — INFO — Demand: 25, Fulfilled: 25, Inventory: 375
+2025-06-01 18:54:47,477 — INFO — Demand: 22, Fulfilled: 22, Inventory: 353
+2025-06-01 18:54:47,477 — INFO — Demand: 24, Fulfilled: 24, Inventory: 329
+2025-06-01 18:54:47,477 — INFO — Demand: 7, Fulfilled: 7, Inventory: 322
+2025-06-01 18:54:47,477 — INFO — Demand: 29, Fulfilled: 29, Inventory: 293
+2025-06-01 18:54:47,477 — INFO — Demand: 26, Fulfilled: 26, Inventory: 267
+2025-06-01 18:54:47,477 — INFO — Demand: 22, Fulfilled: 22, Inventory: 245
+2025-06-01 18:54:47,477 — INFO — Demand: 17, Fulfilled: 17, Inventory: 228
+2025-06-01 18:54:47,477 — INFO — Demand: 16, Fulfilled: 16, Inventory: 212
+2025-06-01 18:54:47,477 — INFO — Demand: 10, Fulfilled: 10, Inventory: 202
+2025-06-01 18:54:47,477 — INFO — Demand: 9, Fulfilled: 9, Inventory: 193
+2025-06-01 18:54:47,477 — INFO — Demand: 28, Fulfilled: 28, Inventory: 165
+2025-06-01 18:54:47,477 — INFO — Demand: 37, Fulfilled: 37, Inventory: 128
+2025-06-01 18:54:47,477 — INFO — Demand: 25, Fulfilled: 25, Inventory: 103
+2025-06-01 18:54:47,477 — INFO — Demand: 13, Fulfilled: 13, Inventory: 90
+2025-06-01 18:54:47,477 — INFO — Demand: 25, Fulfilled: 25, Inventory: 65
+2025-06-01 18:54:47,477 — INFO — Demand: 22, Fulfilled: 22, Inventory: 43
+2025-06-01 18:54:47,477 — INFO — Demand: 27, Fulfilled: 27, Inventory: 16
+2025-06-01 18:54:47,477 — INFO — Stockout! Demand: 34, Fulfilled: 16, Inventory: 0
+2025-06-01 18:54:47,477 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,477 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,477 — INFO — Stockout! Demand: 41, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,477 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,477 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,477 — INFO — Stockout! Demand: 15, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,477 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,477 — INFO — Order of 120 units will arrive in 4 days
+2025-06-01 18:54:47,477 — INFO — Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,477 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,477 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,478 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,478 — INFO — Demand: 21, Fulfilled: 21, Inventory: 99
+2025-06-01 18:54:47,478 — INFO — Demand: 9, Fulfilled: 9, Inventory: 90
+2025-06-01 18:54:47,478 — INFO — Order of 120 units received. Inventory: 210
+2025-06-01 18:54:47,478 — INFO — Order of 120 units received. Inventory: 330
+2025-06-01 18:54:47,478 — INFO — Order of 120 units received. Inventory: 450
+2025-06-01 18:54:47,478 — INFO — Demand: 9, Fulfilled: 9, Inventory: 441
+2025-06-01 18:54:47,478 — INFO — Demand: 11, Fulfilled: 11, Inventory: 430
+2025-06-01 18:54:47,478 — INFO — Demand: 22, Fulfilled: 22, Inventory: 408
+2025-06-01 18:54:47,478 — INFO — Demand: 44, Fulfilled: 44, Inventory: 364
+2025-06-01 18:54:47,478 — INFO — Demand: 33, Fulfilled: 33, Inventory: 331
+2025-06-01 18:54:47,478 — INFO — Demand: 9, Fulfilled: 9, Inventory: 322
+2025-06-01 18:54:47,478 — INFO — Demand: 20, Fulfilled: 20, Inventory: 302
+2025-06-01 18:54:47,478 — INFO — Demand: 16, Fulfilled: 16, Inventory: 286
+2025-06-01 18:54:47,478 — INFO — Demand: 3, Fulfilled: 3, Inventory: 283
+2025-06-01 18:54:47,478 — INFO — Demand: 22, Fulfilled: 22, Inventory: 261
+2025-06-01 18:54:47,478 — INFO — Demand: 29, Fulfilled: 29, Inventory: 232
+2025-06-01 18:54:47,478 — INFO — Demand: 31, Fulfilled: 31, Inventory: 201
+2025-06-01 18:54:47,478 — INFO — Demand: 16, Fulfilled: 16, Inventory: 185
+2025-06-01 18:54:47,478 — INFO — Demand: 21, Fulfilled: 21, Inventory: 164
+2025-06-01 18:54:47,478 — INFO — Demand: 12, Fulfilled: 12, Inventory: 152
+2025-06-01 18:54:47,478 — INFO — Demand: 22, Fulfilled: 22, Inventory: 130
+2025-06-01 18:54:47,478 — INFO — Demand: 23, Fulfilled: 23, Inventory: 107
+2025-06-01 18:54:47,478 — INFO — Demand: 22, Fulfilled: 22, Inventory: 85
+2025-06-01 18:54:47,478 — INFO — Demand: 17, Fulfilled: 17, Inventory: 68
+2025-06-01 18:54:47,478 — INFO — Demand: 20, Fulfilled: 20, Inventory: 48
+2025-06-01 18:54:47,478 — INFO — Demand: 10, Fulfilled: 10, Inventory: 38
+2025-06-01 18:54:47,478 — INFO — Demand: 13, Fulfilled: 13, Inventory: 25
+2025-06-01 18:54:47,478 — INFO — Stockout! Demand: 28, Fulfilled: 25, Inventory: 0
+2025-06-01 18:54:47,478 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,478 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,479 — INFO — Stockout! Demand: 10, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,479 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,479 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,479 — INFO — Stockout! Demand: 11, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,479 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,479 — INFO — Order of 120 units will arrive in 2 days
+2025-06-01 18:54:47,479 — INFO — Stockout! Demand: 5, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,479 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,479 — INFO — Order of 120 units will arrive in 5 days
+2025-06-01 18:54:47,479 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,479 — INFO — Demand: 25, Fulfilled: 25, Inventory: 95
+2025-06-01 18:54:47,479 — INFO — Order of 120 units received. Inventory: 215
+2025-06-01 18:54:47,479 — INFO — Demand: 18, Fulfilled: 18, Inventory: 197
+2025-06-01 18:54:47,479 — INFO — Order of 120 units received. Inventory: 317
+2025-06-01 18:54:47,479 — INFO — Demand: 23, Fulfilled: 23, Inventory: 294
+2025-06-01 18:54:47,479 — INFO — Demand: 18, Fulfilled: 18, Inventory: 276
+2025-06-01 18:54:47,479 — INFO — Order of 120 units received. Inventory: 396
+2025-06-01 18:54:47,479 — INFO — Demand: 26, Fulfilled: 26, Inventory: 370
+2025-06-01 18:54:47,479 — INFO — Demand: 20, Fulfilled: 20, Inventory: 350
+2025-06-01 18:54:47,479 — INFO — Demand: 27, Fulfilled: 27, Inventory: 323
+2025-06-01 18:54:47,479 — INFO — Demand: 27, Fulfilled: 27, Inventory: 296
+2025-06-01 18:54:47,479 — INFO — Demand: 19, Fulfilled: 19, Inventory: 277
+2025-06-01 18:54:47,479 — INFO — Demand: 16, Fulfilled: 16, Inventory: 261
+2025-06-01 18:54:47,480 — INFO — Demand: 24, Fulfilled: 24, Inventory: 237
+2025-06-01 18:54:47,480 — INFO — Demand: 10, Fulfilled: 10, Inventory: 227
+2025-06-01 18:54:47,480 — INFO — Demand: 31, Fulfilled: 31, Inventory: 196
+2025-06-01 18:54:47,480 — INFO — Demand: 26, Fulfilled: 26, Inventory: 170
+2025-06-01 18:54:47,480 — INFO — Demand: 24, Fulfilled: 24, Inventory: 146
+2025-06-01 18:54:47,480 — INFO — Demand: 3, Fulfilled: 3, Inventory: 143
+2025-06-01 18:54:47,480 — INFO — Demand: 13, Fulfilled: 13, Inventory: 130
+2025-06-01 18:54:47,480 — INFO — Demand: 17, Fulfilled: 17, Inventory: 113
+2025-06-01 18:54:47,480 — INFO — Demand: 7, Fulfilled: 7, Inventory: 106
+2025-06-01 18:54:47,480 — INFO — Demand: 18, Fulfilled: 18, Inventory: 88
+2025-06-01 18:54:47,480 — INFO — Demand: 29, Fulfilled: 29, Inventory: 59
+2025-06-01 18:54:47,480 — INFO — Demand: 13, Fulfilled: 13, Inventory: 46
+2025-06-01 18:54:47,480 — INFO — Demand: 34, Fulfilled: 34, Inventory: 12
+2025-06-01 18:54:47,480 — INFO — Demand: 3, Fulfilled: 3, Inventory: 9
+2025-06-01 18:54:47,480 — INFO — Stockout! Demand: 19, Fulfilled: 9, Inventory: 0
+2025-06-01 18:54:47,480 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,480 — INFO — Order of 120 units will arrive in 1 days
+2025-06-01 18:54:47,480 — INFO — Stockout! Demand: 22, Fulfilled: 0, Inventory: 0
+2025-06-01 18:54:47,480 — INFO — Placing order for 120 units
+2025-06-01 18:54:47,480 — INFO — Order of 120 units will arrive in 3 days
+2025-06-01 18:54:47,480 — INFO — Order of 120 units received. Inventory: 120
+2025-06-01 18:54:47,481 — INFO — Demand: 15, Fulfilled: 15, Inventory: 105
+2025-06-01 18:54:47,481 — INFO — Demand: 10, Fulfilled: 10, Inventory: 95
+2025-06-01 18:54:47,481 — INFO — Order of 120 units received. Inventory: 215
+2025-06-01 18:54:47,481 — INFO — Demand: 21, Fulfilled: 21, Inventory: 194
+2025-06-01 18:54:47,481 — INFO — Demand: 29, Fulfilled: 29, Inventory: 165
+2025-06-01 18:54:47,481 — INFO — Demand: 21, Fulfilled: 21, Inventory: 144
