@@ -121,7 +121,7 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
     lead_time_func = lambda: random.randint(1, 5)
 
     # Daily demand: Poisson(20)
-    demand_func = lambda: random.normalvariate(20,1)
+    demand_func = lambda: random.normalvariate(20,8)
 
     order_cost = 50
     holding_cost = 1
