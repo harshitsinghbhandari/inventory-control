@@ -3,6 +3,7 @@ import random
 import statistics
 import logging
 from datetime import datetime
+import matplotlib.pyplot as plt
 
 logger = logging.getLogger("InventoryLogger")
 logger.setLevel(logging.INFO)
@@ -49,12 +50,16 @@ class InventorySystem:
 
         # State
         self.inventory_level = S
+        self.order_limit = 2.5*S
 
         # KPIs
         self.total_demand = 0
         self.total_fulfilled = 0
         self.stockouts = 0
         self.inventory_levels = []
+        self.orders=[]
+        self.order_received = []
+        self.lost_sales = []
         self.total_ordering_cost = 0
         self.total_holding_cost = 0
 
@@ -80,6 +85,7 @@ class InventorySystem:
             else:
                 self.total_fulfilled += self.inventory_level
                 self.log(f"Stockout! Demand: {demand}, Fulfilled: {self.inventory_level}, Inventory: 0")
+                self.lost_sales.append(demand - self.inventory_level)
                 self.stockouts += 1
                 self.inventory_level = 0
 
@@ -89,10 +95,11 @@ class InventorySystem:
     def inventory_monitor(self):
         while True:
             yield self.env.timeout(1)
-            if self.inventory_level < self.s:
+            if self.inventory_level < self.s and sum(self.orders) - sum(self.order_received) < self.order_limit:
                 order_qty = self.S - self.inventory_level
                 self.total_ordering_cost += self.order_cost
-                self.log(f"Placing order for {order_qty} units")
+                self.orders.append(order_qty)
+                self.log(f"Placing order for {order_qty} units (Inventory: {self.inventory_level}, Threshold: {self.s})")
                 self.env.process(self.receive_order(order_qty))
 
     def receive_order(self, amount):
@@ -101,6 +108,7 @@ class InventorySystem:
         yield self.env.timeout(lead_time)
         self.inventory_level += amount
         self.log(f"Order of {amount} units received. Inventory: {self.inventory_level}")
+        self.order_received.append(amount)
 
     def get_kpis(self):
         fill_rate = self.total_fulfilled / self.total_demand if self.total_demand else 0
@@ -113,9 +121,14 @@ class InventorySystem:
             'Total Holding Cost': round(self.total_holding_cost, 2),
             'Total Cost': round(self.total_ordering_cost + self.total_holding_cost, 2)
         }
+    def get_data(self):
+        return {
+            'inventory_levels': self.inventory_levels,
+            'orders': self.orders,
+            'lost_sales': self.lost_sales
+        }   
 
-
-def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True, lead_time_func = lambda: int(random.randint(1, 5)), demand_func = lambda: int(random.normalvariate(20,8))):
+def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True, lead_time_func = lambda: int(random.randint(1, 5)), demand_func = lambda: abs(int(random.normalvariate(20,8)))):
     random.seed(seed)
 
     order_cost = 50
@@ -130,9 +143,23 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True, lead_time_f
     # print(kpis)
     # for k, v in kpis.items():
     #     print(f"{k}: {v}")
-    return kpis
+    return kpis, system.get_data()
+def plot_inventory_levels(inventory_data):
+    plt.figure(figsize=(12, 6))
+    plt.plot(inventory_data['inventory_levels'], label='Inventory Level', color='blue', marker='o', markersize=2)
+    plt.title('Inventory Levels Over Time')
+    plt.xlabel('Days')
+    plt.ylabel('Inventory Level')
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    # plt.savefig('inventory_levels.png')
+    plt.show()
 
 
 if __name__ == "__main__":
-    run_simulation()
-    
+    kpis,data=run_simulation()
+    print("\n=== Simulation KPIs ===")
+    for k, v in kpis.items():
+        print(f"{k}: {v}")
+    plot_inventory_levels(data)
