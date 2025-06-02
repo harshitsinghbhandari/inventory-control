@@ -50,7 +50,7 @@ class InventorySystem:
 
         # State
         self.inventory_level = S
-        self.order_limit = 2.5*S
+        self.order_limit = 2*S
 
         # KPIs
         self.total_demand = 0
@@ -153,12 +153,11 @@ def plot_inventory_levels(inventory_data):
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
-    # plt.savefig('inventory_levels.png')
     plt.show()
 
 
 if __name__ == "__main__":
-    kpis,data=run_simulation(s=12,S=124)
+    kpis,data=run_simulation(s=0,S=10)
     print("\n=== Simulation KPIs ===")
     for k, v in kpis.items():
         print(f"{k}: {v}")
