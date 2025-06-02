@@ -57,7 +57,7 @@ class InventorySystem:
         self.total_fulfilled = 0
         self.stockouts = 0
         self.inventory_levels = []
-        self.orders=[]
+        self.orders={}
         self.order_received = []
         self.lost_sales = []
         self.total_ordering_cost = 0
@@ -95,10 +95,10 @@ class InventorySystem:
     def inventory_monitor(self):
         while True:
             yield self.env.timeout(1)
-            if self.inventory_level < self.s and sum(self.orders) - sum(self.order_received) < self.order_limit:
+            if self.inventory_level < self.s and sum(list(self.orders.values())) - sum(self.order_received) < self.order_limit:
                 order_qty = self.S - self.inventory_level
                 self.total_ordering_cost += self.order_cost
-                self.orders.append(order_qty)
+                self.orders[self.env.now] = order_qty
                 self.log(f"Placing order for {order_qty} units (Inventory: {self.inventory_level}, Threshold: {self.s})")
                 self.env.process(self.receive_order(order_qty))
 
@@ -158,7 +158,7 @@ def plot_inventory_levels(inventory_data):
 
 
 if __name__ == "__main__":
-    kpis,data=run_simulation()
+    kpis,data=run_simulation(s=12,S=124)
     print("\n=== Simulation KPIs ===")
     for k, v in kpis.items():
         print(f"{k}: {v}")
