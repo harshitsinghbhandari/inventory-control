@@ -29,12 +29,15 @@ def leastStockouts(kpi_results, data_results):
 def bestFillRate(kpi_results, data_results):
     best_s, best_S = None, None
     max_fill_rate = float('-inf')
-
+    fill_rate_95 = []
     for s, S, kpis in kpi_results:
         if kpis['Fill Rate'] > max_fill_rate:
             max_fill_rate = kpis['Fill Rate']
             best_s, best_S = s, S
-
+    #     if kpis['Fill Rate'] >= 0.95:
+    #         fill_rate_95.append((s, S, kpis['Fill Rate']))
+    # if fill_rate_95:
+    #     print(f"Fill rates >= 95%: {fill_rate_95}")
     return best_s, best_S, max_fill_rate
 def bestAverageInventory(kpi_results, data_results):
     best_s, best_S = None, None
@@ -49,7 +52,6 @@ def bestAverageInventory(kpi_results, data_results):
 def bestTotalCost(kpi_results, data_results):
     best_s, best_S = None, None
     min_total_cost = float('inf')
-
     for s, S, kpis in kpi_results:
         total_cost = kpis['Total Cost']
         if total_cost < min_total_cost:
@@ -79,6 +81,21 @@ def bestTotalHoldingCost(kpi_results, data_results):
             best_s, best_S = s, S
 
     return best_s, best_S, min_holding_cost
+def leastLostOrders(kpi_results, data_results):
+    best_s, best_S = None, None
+    lostOrders = float('inf')
+
+    def total(lst):
+        return sum(int(i) for i in lst)
+
+    for s, S, data in data_results:
+        current_lost = total(data['lost_sales'])
+        if current_lost < lostOrders:
+            lostOrders = current_lost
+            best_s, best_S = s, S
+
+    return best_s, best_S, lostOrders
+
 def bestFinder():
     kpi_results, data_results = simulate_many()
     best_s, best_S, min_stockouts = leastStockouts(kpi_results, data_results)
@@ -98,6 +115,8 @@ def bestFinder():
 
     best_s, best_S, min_holding_cost = bestTotalHoldingCost(kpi_results, data_results)
     print(f"Best (s, S) for lowest holding cost: ({best_s}, {best_S}) with holding cost {min_holding_cost}")
+    best_s, best_S, lostOrders = leastLostOrders(kpi_results, data_results)
+    print(f"Best (s, S) for least lost orders: ({best_s}, {best_S}) with lost orders {lostOrders}")
 if __name__ == "__main__":
     bestFinder()
     # Uncomment below to run the simulation with specific (s, S) values
