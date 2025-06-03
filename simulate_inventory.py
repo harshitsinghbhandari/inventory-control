@@ -37,6 +37,27 @@ def log_normal_lead_time_generator(mu: float, sigma: float):
         lead_time = np.random.lognormal(mean=mu, sigma=sigma)
         yield lead_time
 
+
+def amount_based_lead_time_generator(a: float=0.1, b: float=0.5, mu: float = 0.0, sigma: float = 0.1):
+    """
+    Yield lead time based on amount ordered, with randomness.
+    
+    Args:
+        a: scaling factor for amount
+        b: exponent for nonlinear growth
+        mu: mean of log-normal noise (usually 0)
+        sigma: standard deviation of log-normal noise
+    """
+    while True:
+        amount = yield  # wait for amount input
+        if amount is None:
+            continue
+        base_time = int(a * (amount ** b))
+        noise = np.random.lognormal(mean=mu, sigma=sigma)
+        lead_time = base_time * noise
+        yield lead_time
+
+
 def ar1_demand_generator(phi=0.8, mu=0, sigma=8, base_demand=20, min_demand=0):
     """
     Returns a generator that simulates AR(1) demand over time.
@@ -54,7 +75,6 @@ def ar1_demand_generator(phi=0.8, mu=0, sigma=8, base_demand=20, min_demand=0):
         new_demand = max(min_demand, int(round(new_demand)))
         prev_demand = new_demand
         yield new_demand
-import random
 
 def lumpy_ar1_demand_generator(
     phi=0.8,
@@ -112,7 +132,8 @@ class InventorySystem:
         self.simulation_time = simulation_time
         self.verbose = verbose
         self.demand_gen = lumpy_ar1_demand_generator()
-        self.lead_time_gen = log_normal_lead_time_generator(mu=0, sigma=1)  
+        self.lead_time_gen = amount_based_lead_time_generator(a=1,b=0.5,mu=0.04, sigma=0.1)
+
         # State
         self.inventory_level = S
         self.order_limit = 2*S
@@ -125,6 +146,7 @@ class InventorySystem:
         self.orders={}
         self.order_received = []
         self.lost_sales = []
+        self.lead_times = []
         self.total_ordering_cost = 0
         self.total_holding_cost = 0
         
@@ -139,8 +161,11 @@ class InventorySystem:
     
     def get_demand(self):
         return next(self.demand_gen)
-    def lead_time_func(self):
-        return int(next(self.lead_time_gen))
+    def lead_time_func(self,amount):
+        gen = self.lead_time_gen
+        next(gen)
+        lead_time = gen.send(amount)
+        return int(lead_time)
 
 
     def customer_demand(self):
@@ -174,8 +199,9 @@ class InventorySystem:
                 self.env.process(self.receive_order(order_qty))
 
     def receive_order(self, amount):
-        lead_time = self.lead_time_func()
+        lead_time = self.lead_time_func(amount=amount)
         self.log(f"Order of {amount} units will arrive in {lead_time} days")
+        self.lead_times.append(lead_time)
         yield self.env.timeout(lead_time)
         self.inventory_level += amount
         self.log(f"Order of {amount} units received. Inventory: {self.inventory_level}")
@@ -197,6 +223,7 @@ class InventorySystem:
             'inventory_levels': self.inventory_levels,
             'orders': self.orders,
             'lost_sales': self.lost_sales
+            ,'lead_times': self.lead_times
         }   
 
 def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
@@ -233,3 +260,6 @@ if __name__ == "__main__":
     for k, v in kpis.items():
         print(f"{k}: {v}")
     plot_inventory_levels(data)
+    for k, v in data.items():
+        print(f"{k}: {list(v)[:10]}...")
+        print(f"Average {k}: {statistics.mean(list(v)):.2f}")
