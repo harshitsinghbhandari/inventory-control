@@ -38,7 +38,7 @@ def positive_normal_lead_time_generator(mu: float = 2, sigma: float = 0.5):
     - A positive sample from the normal distribution each time next() is called
     """
     while True:
-        lead_time = np.random.normal(loc=mu, scale=sigma)
+        lead_time = round(np.random.normal(loc=mu, scale=sigma))
         if lead_time > 0:
             yield lead_time
 
@@ -54,7 +54,7 @@ def log_normal_lead_time_generator(mu: float = 0, sigma: float = 0.1):
     - A single random sample of lead time each time next() is called
     """
     while True:
-        lead_time = np.random.lognormal(mean=mu, sigma=sigma)
+        lead_time = round(np.random.lognormal(mean=mu, sigma=sigma))
         yield lead_time
 
 
