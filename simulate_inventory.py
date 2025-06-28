@@ -24,7 +24,25 @@ file_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
 
-def log_normal_lead_time_generator(mu: float, sigma: float):
+import numpy as np
+
+def positive_normal_lead_time_generator(mu: float = 2, sigma: float = 0.5):
+    """
+    Infinite generator yielding positive lead times from a normal distribution.
+    
+    Parameters:
+    - mu: mean of the normal distribution
+    - sigma: standard deviation of the normal distribution
+    
+    Yields:
+    - A positive sample from the normal distribution each time next() is called
+    """
+    while True:
+        lead_time = np.random.normal(loc=mu, scale=sigma)
+        if lead_time > 0:
+            yield lead_time
+
+def log_normal_lead_time_generator(mu: float = 0, sigma: float = 0.1):
     """
     Infinite generator yielding lead times following a log-normal distribution.
     
@@ -109,6 +127,12 @@ def lumpy_ar1_demand_generator(
             new_demand = 0  # No demand this period
 
         yield new_demand
+generator_list = {
+    'log_normal_lt': log_normal_lead_time_generator,
+    'positive_normal_lt': positive_normal_lead_time_generator,
+    'ar1_demand': ar1_demand_generator,
+    'lumpy_ar1_demand': lumpy_ar1_demand_generator
+}
 
 class DayFilter(logging.Filter):
     def __init__(self):
@@ -225,7 +249,7 @@ class InventorySystem:
             ,'lead_times': self.lead_times
         }   
 
-def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
+def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True,demand_func=None, lead_time_func=None):
     random.seed(seed)
 
     order_cost = 50
@@ -233,8 +257,12 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
 
     env = simpy.Environment()
     system = InventorySystem(env, s, S, order_cost, holding_cost, sim_time, verbose=verbose)
+    print(f"Running simulation with parameters: s={s}, S={S}, simulation_time={sim_time}, seed={seed}, demand_func={demand_func}, lead_time_func={lead_time_func}")
+    if demand_func:
+        system.demand_gen = generator_list[demand_func]()
+    if lead_time_func:
+        system.lead_time_gen = generator_list[lead_time_func]()
     env.run(until=sim_time)
-
     kpis = system.get_kpis()
 
     print("\n=== Simulation KPIs ===")

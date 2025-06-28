@@ -7,7 +7,7 @@ from fastapi.staticfiles import StaticFiles
 from dotenv import load_dotenv
 import logging
 import uuid
-from simulate_inventory import run_simulation
+from simulate_inventory import run_simulation, log_normal_lead_time_generator, lumpy_ar1_demand_generator,ar1_demand_generator,positive_normal_lead_time_generator
 templates = Jinja2Templates(directory="templates")
 logging.basicConfig(
     level=logging.INFO,
@@ -21,8 +21,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 app = FastAPI()
 result_store = {}
-def my_function(threshold, final, sim_time, seed):
-    kpis = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed)[0]
+def my_function(threshold, final, sim_time, seed,demand_func, lead_time_func):
+    kpis,data = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func)
     return {
         "status": "Success",
         "fill_rate": kpis["Fill Rate"],
@@ -41,9 +41,11 @@ async def submit_data(
     threshold_inventory: int = Form(...),
     final_inventory: int = Form(...),
     simulation_time: int = Form(...),
-    seed: int = Form(...)
+    seed: int = Form(...),
+    lead_time_generator: str = Form(...),
+    demand_time_generator: str = Form(...),
 ):
-    result = my_function(threshold_inventory, final_inventory, simulation_time, seed)
+    result = my_function(threshold_inventory, final_inventory, simulation_time, seed,demand_func=demand_time_generator, lead_time_func=lead_time_generator)
 
     # Generate unique ID and store result
     result_id = str(uuid.uuid4())

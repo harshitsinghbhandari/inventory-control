@@ -83,6 +83,21 @@
                 />
               </label>
             </div>
+              <label for="lead_time_generator">Select Lead Time Generator:</label>
+              <select name="lead_time_generator" id="lead_time_generator"
+              class="form-input flex min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
+              required>
+                <option value="log_normal_lt" selected>Log-Normal</option>
+                <option value="positive_normal_lt">Positive Normal</option>
+              </select>
+              <label for="demand_time_generator">Select Demand Time Generator:</label>
+              <select name="demand_time_generator" id="demand_time_generator"
+              class="form-input flex min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
+              required>
+                <option value="ar1_demand" selected>AR(1) Demand Generator</option>
+                <option value="lumpy_ar1_demand">Lumpy AR(1) Demand Generator</option>
+              </select>
+                        
             <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
               <label class="flex flex-col min-w-40 flex-1">
                 <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Seed for Randomization</p>
