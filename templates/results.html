@@ -16,7 +16,7 @@
   {% else %}
     <div class="result-box">
       <p><strong>Status:</strong> {{ result.status }}</p>
-      <p><strong>Fill Rate:</strong> {{ result.fill_rate }}</p>
+      <p><strong>Fill Rate:</strong> {{ (result.fill_rate * 100) | round(2) }}%</p>
       <p><strong>Stockouts:</strong> {{ result.stockouts }}</p>
       <p><strong>Average Inventory Level:</strong> {{ result.average_inventory_level }}</p>
       <p><strong>Total Ordering Cost:</strong> {{ result.total_ordering_cost }}</p>

@@ -1,21 +1,35 @@
 from simulate_inventory import run_simulation
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+from multiprocessing import Pool,Process
 
+# def worker(args,kpis_list, data_list):
+#     s, S = args
+#     kpis, data = run_simulation(s=s, S=S, verbose=False)
+#     kpis_list.append((s, S, kpis))
+#     data_list.append((s, S, data))
+#     return (s, S, kpis), (s, S, data)
 def simulate_many():
     kpi_results = []
     data_results = []
+
     for i in range(20):
         for j in range(20):
             s = i * 5 + 5
             S = j * 5 + 10
             if s+20 <= S:
                 continue
-            # Run simulation with the current (s, S)
+            print(f"Running simulation with (s, S): ({s}, {S})")
             kpis,data = run_simulation(s=s, S=S,verbose=False)
 
             kpi_results.append((s,S,kpis))
             data_results.append((s,S,data))
 
     return kpi_results, data_results
+
+
+
 def leastStockouts(kpi_results, data_results):
     best_s, best_S = None, None
     min_stockouts = float('inf')
@@ -98,7 +112,24 @@ def leastLostOrders(kpi_results, data_results):
 
 def bestFinder():
     kpi_results, data_results = simulate_many()
+    s_list = []
+    S_list = []
+    fill_rates_list = []
+    for s, S, kpis in kpi_results:
+        s_list.append(s)
+        S_list.append(S)
+        fill_rates_list.append(kpis['Fill Rate'])
+    df = pd.DataFrame({
+        's': s_list,
+        'S': S_list,
+        'Fill Rate': fill_rates_list
+    })
+    pivot = df.pivot(index='s', columns='S', values='Fill Rate')
+    sns.heatmap(pivot, fmt=".2f", cmap='coolwarm')
+    plt.show()
+
     best_s, best_S, min_stockouts = leastStockouts(kpi_results, data_results)
+
     print(f"Best (s, S) for least stockouts: ({best_s}, {best_S}) with {min_stockouts} stockouts")
 
     best_s, best_S, max_fill_rate = bestFillRate(kpi_results, data_results)

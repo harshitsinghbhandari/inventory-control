@@ -5,6 +5,8 @@ import logging
 from datetime import datetime
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
+import seaborn as sns
 
 logger = logging.getLogger("InventoryLogger")
 logger.setLevel(logging.INFO)
@@ -52,7 +54,7 @@ def amount_based_lead_time_generator(a: float=0.1, b: float=0.5, mu: float = 0.0
         amount = yield  # wait for amount input
         if amount is None:
             continue
-        base_time = int(a * (amount ** b))
+        base_time = (a * (int(amount) ** b))
         noise = np.random.lognormal(mean=mu, sigma=sigma)
         lead_time = base_time * noise
         yield lead_time
@@ -77,7 +79,7 @@ def ar1_demand_generator(phi=0.8, mu=0, sigma=8, base_demand=20, min_demand=0):
         yield new_demand
 
 def lumpy_ar1_demand_generator(
-    phi=0.8,
+    phi=0.5,
     mu=0,
     sigma=8,
     base_demand=20,
@@ -132,11 +134,11 @@ class InventorySystem:
         self.simulation_time = simulation_time
         self.verbose = verbose
         self.demand_gen = lumpy_ar1_demand_generator()
-        self.lead_time_gen = amount_based_lead_time_generator(a=1,b=0.5,mu=0.04, sigma=0.1)
+        self.lead_time_gen = log_normal_lead_time_generator(mu=0, sigma=0.1)
 
         # State
         self.inventory_level = S
-        self.order_limit = 2*S
+        self.order_limit = 1.2*S
 
         # KPIs
         self.total_demand = 0
@@ -161,11 +163,8 @@ class InventorySystem:
     
     def get_demand(self):
         return next(self.demand_gen)
-    def lead_time_func(self,amount):
-        gen = self.lead_time_gen
-        next(gen)
-        lead_time = gen.send(amount)
-        return int(lead_time)
+    def lead_time_func(self):
+        return next(self.lead_time_gen)
 
 
     def customer_demand(self):
@@ -198,8 +197,8 @@ class InventorySystem:
                 self.log(f"Placing order for {order_qty} units (Inventory: {self.inventory_level}, Threshold: {self.s})")
                 self.env.process(self.receive_order(order_qty))
 
-    def receive_order(self, amount):
-        lead_time = self.lead_time_func(amount=amount)
+    def receive_order(self,amount):
+        lead_time = self.lead_time_func()
         self.log(f"Order of {amount} units will arrive in {lead_time} days")
         self.lead_times.append(lead_time)
         yield self.env.timeout(lead_time)
@@ -237,8 +236,9 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True):
     env.run(until=sim_time)
 
     kpis = system.get_kpis()
-    # print("\n=== Simulation KPIs ===")
-    # print(kpis)
+
+    print("\n=== Simulation KPIs ===")
+    print(kpis)
     # for k, v in kpis.items():
     #     print(f"{k}: {v}")
     return kpis, system.get_data()

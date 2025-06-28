@@ -22,7 +22,7 @@ load_dotenv()
 app = FastAPI()
 result_store = {}
 def my_function(threshold, final, sim_time, seed):
-    kpis = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed)
+    kpis = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed)[0]
     return {
         "status": "Success",
         "fill_rate": kpis["Fill Rate"],
