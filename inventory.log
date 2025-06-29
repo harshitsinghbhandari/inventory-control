@@ -1,0 +1,269 @@
+[19:51:41][DAY 1] Demand: 21, Fulfilled: 21, Inventory: 79
+[19:51:41][DAY 2] Demand: 19, Fulfilled: 19, Inventory: 60
+[19:51:41][DAY 3] Demand: 24, Fulfilled: 24, Inventory: 36
+[19:51:41][DAY 4] Demand: 23, Fulfilled: 23, Inventory: 13
+[19:51:41][DAY 4] Placing order for 87 units (Inventory: 13, Threshold: 20)
+[19:51:41][DAY 4] Order of 87 units will arrive in 7 days
+[19:51:41][DAY 5] Stockout! Demand: 18, Fulfilled: 13, Inventory: 0
+[19:51:41][DAY 5] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 5] Order of 100 units will arrive in 4 days
+[19:51:41][DAY 6] Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 7] Stockout! Demand: 16, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 8] Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 9] Order of 100 units received. Inventory: 100
+[19:51:41][DAY 9] Demand: 22, Fulfilled: 22, Inventory: 78
+[19:51:41][DAY 10] Demand: 26, Fulfilled: 26, Inventory: 52
+[19:51:41][DAY 11] Order of 87 units received. Inventory: 139
+[19:51:41][DAY 11] Demand: 31, Fulfilled: 31, Inventory: 108
+[19:51:41][DAY 12] Demand: 37, Fulfilled: 37, Inventory: 71
+[19:51:41][DAY 13] Demand: 43, Fulfilled: 43, Inventory: 28
+[19:51:41][DAY 14] Stockout! Demand: 37, Fulfilled: 28, Inventory: 0
+[19:51:41][DAY 14] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 14] Order of 100 units will arrive in 11 days
+[19:51:41][DAY 15] Stockout! Demand: 40, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 15] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 15] Order of 100 units will arrive in 1 days
+[19:51:41][DAY 16] Stockout! Demand: 42, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 16] Order of 100 units received. Inventory: 100
+[19:51:41][DAY 17] Demand: 39, Fulfilled: 39, Inventory: 61
+[19:51:41][DAY 18] Demand: 33, Fulfilled: 33, Inventory: 28
+[19:51:41][DAY 19] Demand: 27, Fulfilled: 27, Inventory: 1
+[19:51:41][DAY 19] Placing order for 99 units (Inventory: 1, Threshold: 20)
+[19:51:41][DAY 19] Order of 99 units will arrive in 2 days
+[19:51:41][DAY 20] Stockout! Demand: 22, Fulfilled: 1, Inventory: 0
+[19:51:41][DAY 21] Order of 99 units received. Inventory: 99
+[19:51:41][DAY 21] Demand: 23, Fulfilled: 23, Inventory: 76
+[19:51:41][DAY 22] Demand: 21, Fulfilled: 21, Inventory: 55
+[19:51:41][DAY 23] Demand: 23, Fulfilled: 23, Inventory: 32
+[19:51:41][DAY 24] Demand: 14, Fulfilled: 14, Inventory: 18
+[19:51:41][DAY 24] Placing order for 82 units (Inventory: 18, Threshold: 20)
+[19:51:41][DAY 24] Order of 82 units will arrive in 2 days
+[19:51:41][DAY 25] Order of 100 units received. Inventory: 118
+[19:51:41][DAY 25] Demand: 11, Fulfilled: 11, Inventory: 107
+[19:51:41][DAY 26] Order of 82 units received. Inventory: 189
+[19:51:41][DAY 26] Demand: 14, Fulfilled: 14, Inventory: 175
+[19:51:41][DAY 27] Demand: 13, Fulfilled: 13, Inventory: 162
+[19:51:41][DAY 28] Demand: 18, Fulfilled: 18, Inventory: 144
+[19:51:41][DAY 29] Demand: 20, Fulfilled: 20, Inventory: 124
+[19:51:41][DAY 30] Demand: 25, Fulfilled: 25, Inventory: 99
+[19:51:41][DAY 31] Demand: 22, Fulfilled: 22, Inventory: 77
+[19:51:41][DAY 32] Demand: 22, Fulfilled: 22, Inventory: 55
+[19:51:41][DAY 33] Demand: 27, Fulfilled: 27, Inventory: 28
+[19:51:41][DAY 34] Demand: 25, Fulfilled: 25, Inventory: 3
+[19:51:41][DAY 34] Placing order for 97 units (Inventory: 3, Threshold: 20)
+[19:51:41][DAY 34] Order of 97 units will arrive in 3 days
+[19:51:41][DAY 35] Stockout! Demand: 17, Fulfilled: 3, Inventory: 0
+[19:51:41][DAY 35] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 35] Order of 100 units will arrive in 2 days
+[19:51:41][DAY 36] Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 37] Order of 97 units received. Inventory: 97
+[19:51:41][DAY 37] Order of 100 units received. Inventory: 197
+[19:51:41][DAY 37] Demand: 16, Fulfilled: 16, Inventory: 181
+[19:51:41][DAY 38] Demand: 19, Fulfilled: 19, Inventory: 162
+[19:51:41][DAY 39] Demand: 15, Fulfilled: 15, Inventory: 147
+[19:51:41][DAY 40] Demand: 11, Fulfilled: 11, Inventory: 136
+[19:51:41][DAY 41] Demand: 6, Fulfilled: 6, Inventory: 130
+[19:51:41][DAY 42] Demand: 12, Fulfilled: 12, Inventory: 118
+[19:51:41][DAY 43] Demand: 14, Fulfilled: 14, Inventory: 104
+[19:51:41][DAY 44] Demand: 11, Fulfilled: 11, Inventory: 93
+[19:51:41][DAY 45] Demand: 14, Fulfilled: 14, Inventory: 79
+[19:51:41][DAY 46] Demand: 19, Fulfilled: 19, Inventory: 60
+[19:51:41][DAY 47] Demand: 23, Fulfilled: 23, Inventory: 37
+[19:51:41][DAY 48] Demand: 21, Fulfilled: 21, Inventory: 16
+[19:51:41][DAY 48] Placing order for 84 units (Inventory: 16, Threshold: 20)
+[19:51:41][DAY 48] Order of 84 units will arrive in 1 days
+[19:51:41][DAY 49] Demand: 15, Fulfilled: 15, Inventory: 1
+[19:51:41][DAY 49] Placing order for 99 units (Inventory: 1, Threshold: 20)
+[19:51:41][DAY 49] Order of 99 units will arrive in 6 days
+[19:51:41][DAY 49] Order of 84 units received. Inventory: 85
+[19:51:41][DAY 50] Demand: 18, Fulfilled: 18, Inventory: 67
+[19:51:41][DAY 51] Demand: 18, Fulfilled: 18, Inventory: 49
+[19:51:41][DAY 52] Demand: 18, Fulfilled: 18, Inventory: 31
+[19:51:41][DAY 53] Demand: 19, Fulfilled: 19, Inventory: 12
+[19:51:41][DAY 53] Placing order for 88 units (Inventory: 12, Threshold: 20)
+[19:51:41][DAY 53] Order of 88 units will arrive in 8 days
+[19:51:41][DAY 54] Stockout! Demand: 16, Fulfilled: 12, Inventory: 0
+[19:51:41][DAY 55] Order of 99 units received. Inventory: 99
+[19:51:41][DAY 55] Demand: 16, Fulfilled: 16, Inventory: 83
+[19:51:41][DAY 56] Demand: 13, Fulfilled: 13, Inventory: 70
+[19:51:41][DAY 57] Demand: 12, Fulfilled: 12, Inventory: 58
+[19:51:41][DAY 58] Demand: 11, Fulfilled: 11, Inventory: 47
+[19:51:41][DAY 59] Demand: 5, Fulfilled: 5, Inventory: 42
+[19:51:41][DAY 60] Demand: 3, Fulfilled: 3, Inventory: 39
+[19:51:41][DAY 61] Order of 88 units received. Inventory: 127
+[19:51:41][DAY 61] Demand: 4, Fulfilled: 4, Inventory: 123
+[19:51:41][DAY 62] Demand: 14, Fulfilled: 14, Inventory: 109
+[19:51:41][DAY 63] Demand: 14, Fulfilled: 14, Inventory: 95
+[19:51:41][DAY 64] Demand: 18, Fulfilled: 18, Inventory: 77
+[19:51:41][DAY 65] Demand: 14, Fulfilled: 14, Inventory: 63
+[19:51:41][DAY 66] Demand: 14, Fulfilled: 14, Inventory: 49
+[19:51:41][DAY 67] Demand: 20, Fulfilled: 20, Inventory: 29
+[19:51:41][DAY 68] Demand: 19, Fulfilled: 19, Inventory: 10
+[19:51:41][DAY 68] Placing order for 90 units (Inventory: 10, Threshold: 20)
+[19:51:41][DAY 68] Order of 90 units will arrive in 5 days
+[19:51:41][DAY 69] Stockout! Demand: 23, Fulfilled: 10, Inventory: 0
+[19:51:41][DAY 69] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 69] Order of 100 units will arrive in 9 days
+[19:51:41][DAY 70] Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 71] Stockout! Demand: 18, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 72] Stockout! Demand: 16, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 73] Order of 90 units received. Inventory: 90
+[19:51:41][DAY 73] Demand: 17, Fulfilled: 17, Inventory: 73
+[19:51:41][DAY 74] Demand: 20, Fulfilled: 20, Inventory: 53
+[19:51:41][DAY 75] Demand: 20, Fulfilled: 20, Inventory: 33
+[19:51:41][DAY 76] Demand: 19, Fulfilled: 19, Inventory: 14
+[19:51:41][DAY 76] Placing order for 86 units (Inventory: 14, Threshold: 20)
+[19:51:41][DAY 76] Order of 86 units will arrive in 2 days
+[19:51:41][DAY 77] Demand: 12, Fulfilled: 12, Inventory: 2
+[19:51:41][DAY 78] Order of 100 units received. Inventory: 102
+[19:51:41][DAY 78] Order of 86 units received. Inventory: 188
+[19:51:41][DAY 78] Demand: 13, Fulfilled: 13, Inventory: 175
+[19:51:41][DAY 79] Demand: 16, Fulfilled: 16, Inventory: 159
+[19:51:41][DAY 80] Demand: 13, Fulfilled: 13, Inventory: 146
+[19:51:41][DAY 81] Demand: 16, Fulfilled: 16, Inventory: 130
+[19:51:41][DAY 82] Demand: 9, Fulfilled: 9, Inventory: 121
+[19:51:41][DAY 83] Demand: 11, Fulfilled: 11, Inventory: 110
+[19:51:41][DAY 84] Demand: 9, Fulfilled: 9, Inventory: 101
+[19:51:41][DAY 85] Demand: 13, Fulfilled: 13, Inventory: 88
+[19:51:41][DAY 86] Demand: 12, Fulfilled: 12, Inventory: 76
+[19:51:41][DAY 87] Demand: 17, Fulfilled: 17, Inventory: 59
+[19:51:41][DAY 88] Demand: 19, Fulfilled: 19, Inventory: 40
+[19:51:41][DAY 89] Demand: 18, Fulfilled: 18, Inventory: 22
+[19:51:41][DAY 90] Demand: 21, Fulfilled: 21, Inventory: 1
+[19:51:41][DAY 90] Placing order for 99 units (Inventory: 1, Threshold: 20)
+[19:51:41][DAY 90] Order of 99 units will arrive in 1 days
+[19:51:41][DAY 91] Stockout! Demand: 14, Fulfilled: 1, Inventory: 0
+[19:51:41][DAY 91] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 91] Order of 100 units will arrive in 4 days
+[19:51:41][DAY 91] Order of 99 units received. Inventory: 99
+[19:51:41][DAY 92] Demand: 12, Fulfilled: 12, Inventory: 87
+[19:51:41][DAY 93] Demand: 15, Fulfilled: 15, Inventory: 72
+[19:51:41][DAY 94] Demand: 11, Fulfilled: 11, Inventory: 61
+[19:51:41][DAY 95] Order of 100 units received. Inventory: 161
+[19:51:41][DAY 95] Demand: 7, Fulfilled: 7, Inventory: 154
+[19:51:41][DAY 96] Demand: 6, Fulfilled: 6, Inventory: 148
+[19:51:41][DAY 97] Demand: 8, Fulfilled: 8, Inventory: 140
+[19:51:41][DAY 98] Demand: 18, Fulfilled: 18, Inventory: 122
+[19:51:41][DAY 99] Demand: 22, Fulfilled: 22, Inventory: 100
+[19:51:41][DAY 100] Demand: 16, Fulfilled: 16, Inventory: 84
+[19:51:41][DAY 101] Demand: 13, Fulfilled: 13, Inventory: 71
+[19:51:41][DAY 102] Demand: 16, Fulfilled: 16, Inventory: 55
+[19:51:41][DAY 103] Demand: 18, Fulfilled: 18, Inventory: 37
+[19:51:41][DAY 104] Demand: 18, Fulfilled: 18, Inventory: 19
+[19:51:41][DAY 104] Placing order for 81 units (Inventory: 19, Threshold: 20)
+[19:51:41][DAY 104] Order of 81 units will arrive in 4 days
+[19:51:41][DAY 105] Demand: 18, Fulfilled: 18, Inventory: 1
+[19:51:41][DAY 105] Placing order for 99 units (Inventory: 1, Threshold: 20)
+[19:51:41][DAY 105] Order of 99 units will arrive in 4 days
+[19:51:41][DAY 106] Stockout! Demand: 20, Fulfilled: 1, Inventory: 0
+[19:51:41][DAY 107] Stockout! Demand: 24, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 108] Order of 81 units received. Inventory: 81
+[19:51:41][DAY 108] Demand: 23, Fulfilled: 23, Inventory: 58
+[19:51:41][DAY 109] Order of 99 units received. Inventory: 157
+[19:51:41][DAY 109] Demand: 28, Fulfilled: 28, Inventory: 129
+[19:51:41][DAY 110] Demand: 32, Fulfilled: 32, Inventory: 97
+[19:51:41][DAY 111] Demand: 27, Fulfilled: 27, Inventory: 70
+[19:51:41][DAY 112] Demand: 29, Fulfilled: 29, Inventory: 41
+[19:51:41][DAY 113] Demand: 25, Fulfilled: 25, Inventory: 16
+[19:51:41][DAY 113] Placing order for 84 units (Inventory: 16, Threshold: 20)
+[19:51:41][DAY 113] Order of 84 units will arrive in 2 days
+[19:51:41][DAY 114] Stockout! Demand: 22, Fulfilled: 16, Inventory: 0
+[19:51:41][DAY 114] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 114] Order of 100 units will arrive in 2 days
+[19:51:41][DAY 115] Order of 84 units received. Inventory: 84
+[19:51:41][DAY 115] Demand: 25, Fulfilled: 25, Inventory: 59
+[19:51:41][DAY 116] Order of 100 units received. Inventory: 159
+[19:51:41][DAY 116] Demand: 26, Fulfilled: 26, Inventory: 133
+[19:51:41][DAY 117] Demand: 14, Fulfilled: 14, Inventory: 119
+[19:51:41][DAY 118] Demand: 15, Fulfilled: 15, Inventory: 104
+[19:51:41][DAY 119] Demand: 19, Fulfilled: 19, Inventory: 85
+[19:51:41][DAY 120] Demand: 11, Fulfilled: 11, Inventory: 74
+[19:51:41][DAY 121] Demand: 17, Fulfilled: 17, Inventory: 57
+[19:51:41][DAY 122] Demand: 19, Fulfilled: 19, Inventory: 38
+[19:51:41][DAY 123] Demand: 24, Fulfilled: 24, Inventory: 14
+[19:51:41][DAY 123] Placing order for 86 units (Inventory: 14, Threshold: 20)
+[19:51:41][DAY 123] Order of 86 units will arrive in 2 days
+[19:51:41][DAY 124] Stockout! Demand: 18, Fulfilled: 14, Inventory: 0
+[19:51:41][DAY 124] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 124] Order of 100 units will arrive in 9 days
+[19:51:41][DAY 125] Order of 86 units received. Inventory: 86
+[19:51:41][DAY 125] Demand: 21, Fulfilled: 21, Inventory: 65
+[19:51:41][DAY 126] Demand: 22, Fulfilled: 22, Inventory: 43
+[19:51:41][DAY 127] Demand: 20, Fulfilled: 20, Inventory: 23
+[19:51:41][DAY 128] Demand: 14, Fulfilled: 14, Inventory: 9
+[19:51:41][DAY 128] Placing order for 91 units (Inventory: 9, Threshold: 20)
+[19:51:41][DAY 128] Order of 91 units will arrive in 6 days
+[19:51:41][DAY 129] Stockout! Demand: 16, Fulfilled: 9, Inventory: 0
+[19:51:41][DAY 130] Stockout! Demand: 22, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 131] Stockout! Demand: 21, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 132] Stockout! Demand: 22, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 133] Order of 100 units received. Inventory: 100
+[19:51:41][DAY 133] Demand: 13, Fulfilled: 13, Inventory: 87
+[19:51:41][DAY 134] Order of 91 units received. Inventory: 178
+[19:51:41][DAY 134] Demand: 17, Fulfilled: 17, Inventory: 161
+[19:51:41][DAY 135] Demand: 15, Fulfilled: 15, Inventory: 146
+[19:51:41][DAY 136] Demand: 15, Fulfilled: 15, Inventory: 131
+[19:51:41][DAY 137] Demand: 12, Fulfilled: 12, Inventory: 119
+[19:51:41][DAY 138] Demand: 21, Fulfilled: 21, Inventory: 98
+[19:51:41][DAY 139] Demand: 18, Fulfilled: 18, Inventory: 80
+[19:51:41][DAY 140] Demand: 17, Fulfilled: 17, Inventory: 63
+[19:51:41][DAY 141] Demand: 20, Fulfilled: 20, Inventory: 43
+[19:51:41][DAY 142] Demand: 19, Fulfilled: 19, Inventory: 24
+[19:51:41][DAY 143] Demand: 17, Fulfilled: 17, Inventory: 7
+[19:51:41][DAY 143] Placing order for 93 units (Inventory: 7, Threshold: 20)
+[19:51:41][DAY 143] Order of 93 units will arrive in 1 days
+[19:51:41][DAY 144] Stockout! Demand: 20, Fulfilled: 7, Inventory: 0
+[19:51:41][DAY 144] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 144] Order of 100 units will arrive in 7 days
+[19:51:41][DAY 144] Order of 93 units received. Inventory: 93
+[19:51:41][DAY 145] Demand: 14, Fulfilled: 14, Inventory: 79
+[19:51:41][DAY 146] Demand: 17, Fulfilled: 17, Inventory: 62
+[19:51:41][DAY 147] Demand: 26, Fulfilled: 26, Inventory: 36
+[19:51:41][DAY 148] Demand: 26, Fulfilled: 26, Inventory: 10
+[19:51:41][DAY 148] Placing order for 90 units (Inventory: 10, Threshold: 20)
+[19:51:41][DAY 148] Order of 90 units will arrive in 7 days
+[19:51:41][DAY 149] Stockout! Demand: 21, Fulfilled: 10, Inventory: 0
+[19:51:41][DAY 150] Stockout! Demand: 19, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 151] Order of 100 units received. Inventory: 100
+[19:51:41][DAY 151] Demand: 12, Fulfilled: 12, Inventory: 88
+[19:51:41][DAY 152] Demand: 14, Fulfilled: 14, Inventory: 74
+[19:51:41][DAY 153] Demand: 23, Fulfilled: 23, Inventory: 51
+[19:51:41][DAY 154] Demand: 18, Fulfilled: 18, Inventory: 33
+[19:51:41][DAY 155] Order of 90 units received. Inventory: 123
+[19:51:41][DAY 155] Demand: 19, Fulfilled: 19, Inventory: 104
+[19:51:41][DAY 156] Demand: 18, Fulfilled: 18, Inventory: 86
+[19:51:41][DAY 157] Demand: 32, Fulfilled: 32, Inventory: 54
+[19:51:41][DAY 158] Demand: 37, Fulfilled: 37, Inventory: 17
+[19:51:41][DAY 158] Placing order for 83 units (Inventory: 17, Threshold: 20)
+[19:51:41][DAY 158] Order of 83 units will arrive in 3 days
+[19:51:41][DAY 159] Stockout! Demand: 37, Fulfilled: 17, Inventory: 0
+[19:51:41][DAY 159] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 159] Order of 100 units will arrive in 3 days
+[19:51:41][DAY 160] Stockout! Demand: 39, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 161] Order of 83 units received. Inventory: 83
+[19:51:41][DAY 161] Demand: 35, Fulfilled: 35, Inventory: 48
+[19:51:41][DAY 162] Order of 100 units received. Inventory: 148
+[19:51:41][DAY 162] Demand: 27, Fulfilled: 27, Inventory: 121
+[19:51:41][DAY 163] Demand: 29, Fulfilled: 29, Inventory: 92
+[19:51:41][DAY 164] Demand: 28, Fulfilled: 28, Inventory: 64
+[19:51:41][DAY 165] Demand: 22, Fulfilled: 22, Inventory: 42
+[19:51:41][DAY 166] Demand: 19, Fulfilled: 19, Inventory: 23
+[19:51:41][DAY 167] Demand: 20, Fulfilled: 20, Inventory: 3
+[19:51:41][DAY 167] Placing order for 97 units (Inventory: 3, Threshold: 20)
+[19:51:41][DAY 167] Order of 97 units will arrive in 3 days
+[19:51:41][DAY 168] Stockout! Demand: 14, Fulfilled: 3, Inventory: 0
+[19:51:41][DAY 168] Placing order for 100 units (Inventory: 0, Threshold: 20)
+[19:51:41][DAY 168] Order of 100 units will arrive in 3 days
+[19:51:41][DAY 169] Stockout! Demand: 17, Fulfilled: 0, Inventory: 0
+[19:51:41][DAY 170] Order of 97 units received. Inventory: 97
+[19:51:41][DAY 170] Demand: 16, Fulfilled: 16, Inventory: 81
+[19:51:41][DAY 171] Order of 100 units received. Inventory: 181
+[19:51:41][DAY 171] Demand: 16, Fulfilled: 16, Inventory: 165
+[19:51:41][DAY 172] Demand: 11, Fulfilled: 11, Inventory: 154
+[19:51:41][DAY 173] Demand: 15, Fulfilled: 15, Inventory: 139
+[19:51:41][DAY 174] Demand: 12, Fulfilled: 12, Inventory: 127
+[19:51:41][DAY 175] Demand: 11, Fulfilled: 11, Inventory: 116
+[19:51:41][DAY 176] Demand: 14, Fulfilled: 14, Inventory: 102
+[19:51:41][DAY 177] Demand: 13, Fulfilled: 13, Inventory: 89
+[19:51:41][DAY 178] Demand: 14, Fulfilled: 14, Inventory: 75
+[19:51:41][DAY 179] Demand: 12, Fulfilled: 12, Inventory: 63

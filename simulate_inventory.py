@@ -42,7 +42,7 @@ def positive_normal_lead_time_generator(mu: float = 2, sigma: float = 0.5):
         if lead_time > 0:
             yield lead_time
 
-def log_normal_lead_time_generator(mu: float = 0, sigma: float = 0.1):
+def log_normal_lead_time_generator(mu: float = 1.2, sigma: float = 0.6):
     """
     Infinite generator yielding lead times following a log-normal distribution.
     
@@ -78,7 +78,7 @@ def amount_based_lead_time_generator(a: float=0.1, b: float=0.5, mu: float = 0.0
         yield lead_time
 
 
-def ar1_demand_generator(phi=0.8, mu=0, sigma=8, base_demand=20, min_demand=0):
+def ar1_demand_generator(phi=0.5, mu=4, sigma=4, base_demand=50, min_demand=0):
     """
     Returns a generator that simulates AR(1) demand over time.
     
@@ -102,7 +102,7 @@ def lumpy_ar1_demand_generator(
     sigma=8,
     base_demand=20,
     min_demand=0,
-    p_occurrence=0.8  # Probability that demand occurs in a time period
+    p_occurence=0.8  # Probability that demand occurs in a time period
 ):
     """
     Generator that simulates lumpy (intermittent) demand using an AR(1) process.
@@ -117,7 +117,7 @@ def lumpy_ar1_demand_generator(
 
     while True:
         # Step 1: Determine if demand occurs
-        if random.random() < p_occurrence:
+        if random.random() < p_occurence:
             # Step 2: Generate demand using AR(1)
             noise = random.normalvariate(mu, sigma)
             new_demand = phi * prev_demand + (1 - phi) * base_demand + noise
@@ -157,8 +157,18 @@ class InventorySystem:
         self.holding_cost = holding_cost
         self.simulation_time = simulation_time
         self.verbose = verbose
-        self.demand_gen = lumpy_ar1_demand_generator()
-        self.lead_time_gen = log_normal_lead_time_generator(mu=0, sigma=0.1)
+        self.muPositiveNormal = 2
+        self.sigmaPositiveNormal = 0.5
+        self.muLogNormal = 1.2
+        self.sigmaLogNormal = 0.6
+        self.muAR1 = 4
+        self.sigmaAR1 = 4
+        self.base_demand = 50
+        self.min_demand = 0
+        self.pOccurence = 0.8
+        self.phi=0.8
+        self.demand_gen = ar1_demand_generator()
+        self.lead_time_gen = positive_normal_lead_time_generator()
 
         # State
         self.inventory_level = S
@@ -249,26 +259,42 @@ class InventorySystem:
             ,'lead_times': self.lead_times
         }   
 
-def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True,demand_func=None, lead_time_func=None):
+def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True,demand_func='lumpy_ar1_demand', lead_time_func=None,muLeadTime=4,sigmaLeadTime=2,MuLogNormal=1.2,sigmaLogNormal=0.6,muAR1=0,sigmaAR1=4,base_demand=20,min_demand=0,pOccurence=0.8,phi=0.8):
     random.seed(seed)
 
     order_cost = 50
     holding_cost = 1
+    sim_time = 180
 
     env = simpy.Environment()
     system = InventorySystem(env, s, S, order_cost, holding_cost, sim_time, verbose=verbose)
-    print(f"Running simulation with parameters: s={s}, S={S}, simulation_time={sim_time}, seed={seed}, demand_func={demand_func}, lead_time_func={lead_time_func}")
-    if demand_func:
-        system.demand_gen = generator_list[demand_func]()
-    if lead_time_func:
-        system.lead_time_gen = generator_list[lead_time_func]()
+    system.muPositiveNormal = muLeadTime
+    system.sigmaPositiveNormal = sigmaLeadTime
+    system.muLogNormal = MuLogNormal
+    system.sigmaLogNormal = sigmaLogNormal
+    system.muAR1 = muAR1
+    system.sigmaAR1 = sigmaAR1
+    system.base_demand = base_demand
+    system.min_demand = min_demand
+    system.pOccurence = pOccurence
+    system.phi=phi
+    
+    match demand_func:
+        case 'ar1_demand':
+            system.demand_gen = generator_list[demand_func](mu=system.muAR1, sigma=system.sigmaAR1, base_demand=system.base_demand, min_demand=system.min_demand,phi=system.phi)
+        case 'lumpy_ar1_demand':
+            system.demand_gen = generator_list[demand_func](mu=system.muAR1, sigma=system.sigmaAR1, base_demand=system.base_demand, min_demand=system.min_demand, p_occurence=system.pOccurence,phi=system.phi)
+    match lead_time_func:
+        case 'log_normal_lt':
+            system.lead_time_gen = generator_list[lead_time_func](system.muLogNormal, system.sigmaLogNormal)
+        case 'positive_normal_lt':
+            system.lead_time_gen = generator_list[lead_time_func](system.muPositiveNormal, system.sigmaPositiveNormal)
     env.run(until=sim_time)
     kpis = system.get_kpis()
 
     print("\n=== Simulation KPIs ===")
     print(kpis)
-    # for k, v in kpis.items():
-    #     print(f"{k}: {v}")
+    print(f"Running simulation with parameters: s={s}, S={S}, simulation_time={sim_time}, seed={seed}, demand_func={demand_func}, lead_time_func={lead_time_func}, muLeadTime={muLeadTime}, sigmaLeadTime={sigmaLeadTime}, MuLogNormal={MuLogNormal}, sigmaLogNormal={sigmaLogNormal}, muAR1={muAR1}, sigmaAR1={sigmaAR1}, base_demand={base_demand}, min_demand={min_demand}, pOccurence={pOccurence}, phi={phi}")
     return kpis, system.get_data()
 def plot_inventory_levels(inventory_data):
     plt.figure(figsize=(12, 6))
@@ -283,11 +309,12 @@ def plot_inventory_levels(inventory_data):
 
 
 if __name__ == "__main__":
-    kpis,data=run_simulation(s=20,S=100)
+    kpis,data=run_simulation(s=50,S=400)
     print("\n=== Simulation KPIs ===")
     for k, v in kpis.items():
         print(f"{k}: {v}")
-    plot_inventory_levels(data)
+    # plot_inventory_levels(data)
     for k, v in data.items():
         print(f"{k}: {list(v)[:10]}...")
         print(f"Average {k}: {statistics.mean(list(v)):.2f}")
+    print(f"Total Lost Sales: {sum(data['lost_sales'])}")

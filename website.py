@@ -21,8 +21,9 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 app = FastAPI()
 result_store = {}
-def my_function(threshold, final, sim_time, seed,demand_func, lead_time_func):
-    kpis,data = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func)
+def my_function(threshold, final, sim_time, seed,demand_func, lead_time_func,avgLeadTime, varLeadTime, lumpiness):
+    kpis,data = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func,muLeadTime=avgLeadTime,sigmaLeadTime=varLeadTime,pOccurence=lumpiness)
+    # print("Simulation with parameters: s={}, S={}, sim_time={}, seed={}, demand_func={}, lead_time_func={}, avgLeadTime={}, varLeadTime={}, lumpiness={}".format())
     return {
         "status": "Success",
         "fill_rate": kpis["Fill Rate"],
@@ -44,8 +45,11 @@ async def submit_data(
     seed: int = Form(...),
     lead_time_generator: str = Form(...),
     demand_time_generator: str = Form(...),
+    avgLeadTime: int = Form(...),
+    varLeadTime: float = Form(...),
+    lumpiness: float = Form(...),
 ):
-    result = my_function(threshold_inventory, final_inventory, simulation_time, seed,demand_func=demand_time_generator, lead_time_func=lead_time_generator)
+    result = my_function(threshold_inventory, final_inventory, simulation_time, seed,demand_func=demand_time_generator, lead_time_func=lead_time_generator,avgLeadTime=avgLeadTime,varLeadTime=varLeadTime,lumpiness=lumpiness)
 
     # Generate unique ID and store result
     result_id = str(uuid.uuid4())

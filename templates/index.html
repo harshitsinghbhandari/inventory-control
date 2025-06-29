@@ -7,7 +7,39 @@
       onload="this.rel='stylesheet'"
       href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
     />
+    <style>
+      #lumpyOptions {
+        display: none; /* Hide initially */
+        margin-top: 10px;
+      }
+      .advanced-container {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.4s ease-out;
+    }
 
+    .advanced-container.open {
+      max-height: 500px; /* enough to fit content */
+      transition: max-height 0.4s ease-in;
+    }
+
+    .advanced-settings {
+      background-color: #f9f9f9;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-top: 10px;
+    }
+
+    .toggle-button {
+      cursor: pointer;
+      color: #0066cc;
+      background: none;
+      border: none;
+      font-size: 16px;
+      padding: 5px;
+      text-decoration: underline;
+    }
+    </style>
     <title>Simulation Page</title>
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
 
@@ -84,32 +116,50 @@
               </label>
             </div>
               <label for="lead_time_generator">Select Lead Time Generator:</label>
-              <select name="lead_time_generator" id="lead_time_generator"
+              <select onchange="toggleLogNormalOptions()" name="lead_time_generator" id="lead_time_generator"
               class="form-input flex min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
               required>
                 <option value="log_normal_lt" selected>Log-Normal</option>
                 <option value="positive_normal_lt">Positive Normal</option>
               </select>
               <label for="demand_time_generator">Select Demand Time Generator:</label>
-              <select name="demand_time_generator" id="demand_time_generator"
+              <select onchange="toggleLumpyOptions()"
+              name="demand_time_generator" id="demand_time_generator"
               class="form-input flex min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
               required>
                 <option value="ar1_demand" selected>AR(1) Demand Generator</option>
                 <option value="lumpy_ar1_demand">Lumpy AR(1) Demand Generator</option>
               </select>
-                        
-            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
-              <label class="flex flex-col min-w-40 flex-1">
-                <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Seed for Randomization</p>
-                <input
-                type="number"
-                  name="seed"
-                  placeholder="Enter seed for randomization"
-                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
-                  value="42"
-                />
-              </label>
-            </div>
+
+
+<button type="button" class="toggle-button" onclick="toggleAdvanced()">Show Advanced Settings</button>
+
+  <div id="advancedContainer" class="advanced-container">
+    <div class="advanced-settings">
+      <label for="avgLeadTime">Average Lead Time: </label>
+      <input class="w-[70px]" type="number" max="4" name="avgLeadTime" min="0" id="avgLeadTime" value="2"><br>
+
+      <label for="varLeadTime">Variance in Lead Time (Std Deviation): </label>
+      <input class="w-[70px]" type="number" step="any" name="varLeadTime" id="varLeadTime" max="2" min="0" value="0.5"> <br>
+    </div>
+    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+      <label class="flex flex-col min-w-40 flex-1">
+        <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Seed for Randomization</p>
+        <input
+        type="number"
+          name="seed"
+          placeholder="Enter seed for randomization"
+          class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
+          value="42"
+        />
+      </label>
+    </div>
+    <div id="lumpyOptions">
+      <label for="lumpiness">Lumpiness Factor:</label>
+      <input type="number" id="lumpiness" name="lumpiness" min="0" max="10" step="0.1" value="1">
+    </div>          
+  </div>
+
             <div class="flex px-4 py-3 justify-end">
               <button
                 type="submit"
@@ -119,6 +169,33 @@
               </button>
             </div>
             </form>
+            <script>
+              function toggleLumpyOptions() {
+                const leadTimeGenerator = document.getElementById('demand_time_generator').value;
+                console.log('Selected Lead Time Generator:', leadTimeGenerator);
+                const lumpyOptions = document.getElementById('lumpyOptions');
+                if (leadTimeGenerator === 'lumpy_ar1_demand') {
+                  lumpyOptions.style.display = 'block'; // Show options
+                } else {
+                  lumpyOptions.style.display = 'none'; // Hide options
+                }
+              }
+              function toggleAdvanced() {
+      const container = document.getElementById('advancedContainer');
+      const button = document.querySelector('.toggle-button');
+
+      container.classList.toggle('open');
+      button.textContent = container.classList.contains('open') ? 'Hide Advanced Settings' : 'Show Advanced Settings';
+    }
+    function toggleLogNormalOptions() {
+      const leadTimeGenerator = document.getElementById('lead_time_generator').value;
+      const logNormalOptions = document.getElementById('logNormalOptions');
+      if (leadTimeGenerator === 'log_normal_lt') {
+        logNormalOptions.style.display = 'block'; // Show options
+      } else {
+        logNormalOptions.style.display = 'none'; // Hide options
+      }}
+            </script>
           </div>
         </div>
       </div>
