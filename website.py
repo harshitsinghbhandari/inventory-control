@@ -13,7 +13,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s — %(levelname)s — %(message)s",
     handlers=[
-        logging.FileHandler("website.log"),
+        logging.FileHandler("website.log",mode="w"),
         logging.StreamHandler()
     ]
 )
@@ -61,6 +61,6 @@ async def submit_data(
 async def show_results(request: Request, rid: str):
     result = result_store.get(rid)
     if not result:
-        return templates.TemplateResponse("results.html", {"request": request, "error": "Result not found."})
+        return templates.TemplateResponse("results.html", {"request": request, "error": "Result not found."},404)
 
-    return templates.TemplateResponse("results.html", {"request": request, "result": result})
+    return templates.TemplateResponse("results.html", {"request": request, "result": result},200)

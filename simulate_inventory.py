@@ -264,7 +264,7 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True,demand_func=
 
     order_cost = 50
     holding_cost = 1
-    sim_time = 180
+    sim_time = sim_time
 
     env = simpy.Environment()
     system = InventorySystem(env, s, S, order_cost, holding_cost, sim_time, verbose=verbose)
@@ -309,11 +309,11 @@ def plot_inventory_levels(inventory_data):
 
 
 if __name__ == "__main__":
-    kpis,data=run_simulation(s=50,S=400)
+    kpis,data=run_simulation(s=20,S=100)
     print("\n=== Simulation KPIs ===")
     for k, v in kpis.items():
         print(f"{k}: {v}")
-    # plot_inventory_levels(data)
+    plot_inventory_levels(data)
     for k, v in data.items():
         print(f"{k}: {list(v)[:10]}...")
         print(f"Average {k}: {statistics.mean(list(v)):.2f}")
