@@ -51,26 +51,9 @@
         <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf4] px-10 py-3">
           <div class="flex items-center gap-4 text-[#0d141c]">
             <div class="size-4">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M4 42.4379C4 42.4379 14.0962 36.0744 24 41.1692C35.0664 46.8624 44 42.2078 44 42.2078L44 7.01134C44 7.01134 35.068 11.6577 24.0031 5.96913C14.0971 0.876274 4 7.27094 4 7.27094L4 42.4379Z"
-                  fill="currentColor"
-                ></path>
-              </svg>
             </div>
-            <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em]">Garvit Inventory</h2>
           </div>
           <div class="flex flex-1 justify-end gap-8">
-            <div class="flex items-center gap-9">
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Dashboard</a>
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Simulation</a>
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Reports</a>
-              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Settings</a>
-            </div>
-            <div
-              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
-              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCObNDfj6Y_wxbNIlsFnuqdp18EtI2Wd2E9kNxI4bdhK0E2Y4PeurR1cALYyNHTkzzGqapnxHOPZn0qvGBjOzmRGWdMr6_N6ISnePu6OpJyNPJZhaZMIl4X3IxcQhJTBumCy0RPGwsPXzykgX0etSu7E5z8DEqWrdc1SDb--zO8PFaBnY8Ve6dnwiGb0jJJ78Bcg9BOF4JuCA9kw5P84swQq-LAo5yOEELb9oVN3Ze65UcXx6bZuKfSQZqZ7Ww620XiJic5xV-NUSj8");'
-            ></div>
           </div>
         </header>
         <div class="px-40 flex flex-1 justify-center py-5">
@@ -111,7 +94,7 @@
                   name="simulation_time"
                   placeholder="Enter simulation time"
                   class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
-                  value="365"
+                  value="100"
                 />
               </label>
             </div>
@@ -135,13 +118,6 @@
 <button type="button" class="toggle-button" onclick="toggleAdvanced()">Show Advanced Settings</button>
 
   <div id="advancedContainer" class="advanced-container">
-    <div class="advanced-settings">
-      <label for="avgLeadTime">Average Lead Time: </label>
-      <input class="w-[70px]" type="number" max="4" name="avgLeadTime" min="0" id="avgLeadTime" value="2"><br>
-
-      <label for="varLeadTime">Variance in Lead Time (Std Deviation): </label>
-      <input class="w-[70px]" type="number" step="any" name="varLeadTime" id="varLeadTime" max="2" min="0" value="0.5"> <br>
-    </div>
     <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
       <label class="flex flex-col min-w-40 flex-1">
         <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Seed for Randomization</p>
@@ -151,6 +127,18 @@
           placeholder="Enter seed for randomization"
           class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
           value="42"
+        />
+      </label>      <label class="flex flex-col min-w-40 flex-1">
+        <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Average Lead Time</p>
+        <input
+        type="number" max="4" name="avgLeadTime" min="0" id="avgLeadTime" value="2"
+          class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
+        />
+      </label>      <label class="flex flex-col min-w-40 flex-1">
+        <p class="text-[#0d141c] text-base font-medium leading-normal pb-2">Variance in Lead Time (Std Deviation):</p>
+        <input
+        type="number" step="any" name="varLeadTime" id="varLeadTime" max="2" min="0" value="0.5"
+          class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-14 placeholder:text-[#49739c] p-[15px] text-base font-normal leading-normal"
         />
       </label>
     </div>

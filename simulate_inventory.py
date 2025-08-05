@@ -1,132 +1,18 @@
+# Import the modules
 import simpy
 import random
 import statistics
 import logging
-from datetime import datetime
 import matplotlib.pyplot as plt
-import numpy as np
-import pandas as pd
-import seaborn as sns
+from dataclasses import dataclass
+# Import the necessary helper functions
+from utils.log_setup import setup_logger
+from functions.leadtime import positive_normal_lead_time_generator, log_normal_lead_time_generator
+from functions.demand import ar1_demand_generator, lumpy_ar1_demand_generator
+logger = setup_logger('InventoryLogger', 'inventory.log')
 
-logger = logging.getLogger("InventoryLogger")
-logger.setLevel(logging.INFO)
-
-formatter = logging.Formatter("[%(asctime)s][DAY %(day)d] %(message)s", "%H:%M:%S")
-
-console_handler = logging.StreamHandler()
-console_handler.setFormatter(formatter)
-
-
-file_handler = logging.FileHandler('inventory.log', mode='w')
-file_handler.setFormatter(formatter)
-
-
-logger.addHandler(console_handler)
-logger.addHandler(file_handler)
-
-import numpy as np
-
-def positive_normal_lead_time_generator(mu: float = 2, sigma: float = 0.5):
-    """
-    Infinite generator yielding positive lead times from a normal distribution.
-    
-    Parameters:
-    - mu: mean of the normal distribution
-    - sigma: standard deviation of the normal distribution
-    
-    Yields:
-    - A positive sample from the normal distribution each time next() is called
-    """
-    while True:
-        lead_time = round(np.random.normal(loc=mu, scale=sigma))
-        if lead_time > 0:
-            yield lead_time
-
-def log_normal_lead_time_generator(mu: float = 1.2, sigma: float = 0.6):
-    """
-    Infinite generator yielding lead times following a log-normal distribution.
-    
-    Parameters:
-    - mu: mean of the underlying normal distribution (log scale)
-    - sigma: standard deviation of the underlying normal distribution (log scale)
-    
-    Yields:
-    - A single random sample of lead time each time next() is called
-    """
-    while True:
-        lead_time = round(np.random.lognormal(mean=mu, sigma=sigma))
-        yield lead_time
-
-
-def amount_based_lead_time_generator(a: float=0.1, b: float=0.5, mu: float = 0.0, sigma: float = 0.1):
-    """
-    Yield lead time based on amount ordered, with randomness.
-    
-    Args:
-        a: scaling factor for amount
-        b: exponent for nonlinear growth
-        mu: mean of log-normal noise (usually 0)
-        sigma: standard deviation of log-normal noise
-    """
-    while True:
-        amount = yield  # wait for amount input
-        if amount is None:
-            continue
-        base_time = (a * (int(amount) ** b))
-        noise = np.random.lognormal(mean=mu, sigma=sigma)
-        lead_time = base_time * noise
-        yield lead_time
-
-
-def ar1_demand_generator(phi=0.5, mu=4, sigma=4, base_demand=50, min_demand=0):
-    """
-    Returns a generator that simulates AR(1) demand over time.
-    
-    - phi: autocorrelation coefficient
-    - mu, sigma: parameters for noise
-    - base_demand: long-run mean demand level
-    - min_demand: minimum demand allowed (e.g., 0)
-    """
-    prev_demand = base_demand  # Initialize at mean demand
-
-    while True:
-        noise = random.normalvariate(mu, sigma)
-        new_demand = phi * prev_demand + (1 - phi) * base_demand + noise
-        new_demand = max(min_demand, int(round(new_demand)))
-        prev_demand = new_demand
-        yield new_demand
-
-def lumpy_ar1_demand_generator(
-    phi=0.5,
-    mu=0,
-    sigma=8,
-    base_demand=20,
-    min_demand=0,
-    p_occurence=0.8  # Probability that demand occurs in a time period
-):
-    """
-    Generator that simulates lumpy (intermittent) demand using an AR(1) process.
-    
-    - phi: AR(1) autocorrelation coefficient
-    - mu, sigma: noise parameters for AR(1)
-    - base_demand: long-run mean demand level
-    - min_demand: minimum possible demand (e.g., 0)
-    - p_occurrence: probability that demand occurs in a given time period
-    """
-    prev_demand = base_demand
-
-    while True:
-        # Step 1: Determine if demand occurs
-        if random.random() < p_occurence:
-            # Step 2: Generate demand using AR(1)
-            noise = random.normalvariate(mu, sigma)
-            new_demand = phi * prev_demand + (1 - phi) * base_demand + noise
-            new_demand = max(min_demand, int(round(new_demand)))
-            prev_demand = new_demand
-        else:
-            new_demand = 0  # No demand this period
-
-        yield new_demand
+LIVEORDER = False
+# A dictionary to map demand and lead time functions to their respective generators
 generator_list = {
     'log_normal_lt': log_normal_lead_time_generator,
     'positive_normal_lt': positive_normal_lead_time_generator,
@@ -134,6 +20,7 @@ generator_list = {
     'lumpy_ar1_demand': lumpy_ar1_demand_generator
 }
 
+# Custom logging filter to add the current day to log records
 class DayFilter(logging.Filter):
     def __init__(self):
         super().__init__()
@@ -147,9 +34,9 @@ day_filter = DayFilter()
 logger.addFilter(day_filter)
 
 
-
 class InventorySystem:
     def __init__(self, env, s, S, order_cost, holding_cost, simulation_time, verbose=True):
+        # Environment Variables
         self.env = env
         self.s = s
         self.S = S
@@ -157,6 +44,7 @@ class InventorySystem:
         self.holding_cost = holding_cost
         self.simulation_time = simulation_time
         self.verbose = verbose
+        # Demand and Lead Time Generators Params
         self.muPositiveNormal = 2
         self.sigmaPositiveNormal = 0.5
         self.muLogNormal = 1.2
@@ -167,12 +55,13 @@ class InventorySystem:
         self.min_demand = 0
         self.pOccurence = 0.8
         self.phi=0.8
+        # Demand and Lead Time Generators
         self.demand_gen = ar1_demand_generator()
         self.lead_time_gen = positive_normal_lead_time_generator()
 
         # State
         self.inventory_level = S
-        self.order_limit = 1.2*S
+        self.order_limit = 1*S
 
         # KPIs
         self.total_demand = 0
@@ -200,7 +89,7 @@ class InventorySystem:
     def lead_time_func(self):
         return next(self.lead_time_gen)
 
-
+# ============ Customer Demand Process =============
     def customer_demand(self):
         while True:
             yield self.env.timeout(1)
@@ -220,26 +109,33 @@ class InventorySystem:
 
             self.inventory_levels.append(self.inventory_level)
             self.total_holding_cost += self.inventory_level * self.holding_cost
-
+# ============ Inventory Monitoring Process =============
     def inventory_monitor(self):
+        global LIVEORDER
         while True:
             yield self.env.timeout(1)
-            if self.inventory_level < self.s and sum(list(self.orders.values())) - sum(self.order_received) < self.order_limit:
+            if self.inventory_level < self.s and not LIVEORDER:
+                print(f"Current orders: {sum(list(self.orders.values())) - sum(self.order_received)}")
                 order_qty = self.S - self.inventory_level
                 self.total_ordering_cost += self.order_cost
                 self.orders[self.env.now] = order_qty
                 self.log(f"Placing order for {order_qty} units (Inventory: {self.inventory_level}, Threshold: {self.s})")
+                LIVEORDER = True
                 self.env.process(self.receive_order(order_qty))
-
+# ============ Order Receiving Process =============
     def receive_order(self,amount):
+        global LIVEORDER
         lead_time = self.lead_time_func()
+        # lead_time = 1
         self.log(f"Order of {amount} units will arrive in {lead_time} days")
         self.lead_times.append(lead_time)
         yield self.env.timeout(lead_time)
+        LIVEORDER = False
         self.inventory_level += amount
         self.log(f"Order of {amount} units received. Inventory: {self.inventory_level}")
         self.order_received.append(amount)
 
+# ============ KPI Calculation =============
     def get_kpis(self):
         fill_rate = self.total_fulfilled / self.total_demand if self.total_demand else 0
         avg_inventory = statistics.mean(self.inventory_levels)
@@ -259,6 +155,7 @@ class InventorySystem:
             ,'lead_times': self.lead_times
         }   
 
+# ============= Simulation Function =============
 def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True,demand_func='lumpy_ar1_demand', lead_time_func=None,muLeadTime=4,sigmaLeadTime=2,MuLogNormal=1.2,sigmaLogNormal=0.6,muAR1=0,sigmaAR1=4,base_demand=20,min_demand=0,pOccurence=0.8,phi=0.8):
     random.seed(seed)
 
@@ -296,7 +193,8 @@ def run_simulation(s=20, S=100, sim_time=365, seed=42, verbose=True,demand_func=
     print(kpis)
     print(f"Running simulation with parameters: s={s}, S={S}, simulation_time={sim_time}, seed={seed}, demand_func={demand_func}, lead_time_func={lead_time_func}, muLeadTime={muLeadTime}, sigmaLeadTime={sigmaLeadTime}, MuLogNormal={MuLogNormal}, sigmaLogNormal={sigmaLogNormal}, muAR1={muAR1}, sigmaAR1={sigmaAR1}, base_demand={base_demand}, min_demand={min_demand}, pOccurence={pOccurence}, phi={phi}")
     return kpis, system.get_data()
-def plot_inventory_levels(inventory_data):
+# ============= Plotting Function =============
+def plot_inventory_levels(inventory_data,save=False):
     plt.figure(figsize=(12, 6))
     plt.plot(inventory_data['inventory_levels'], label='Inventory Level', color='blue', marker='o', markersize=2)
     plt.title('Inventory Levels Over Time')
@@ -305,7 +203,10 @@ def plot_inventory_levels(inventory_data):
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
-    plt.show()
+    if save:
+        plt.savefig('static/inventory_levels.png')
+    else:
+        plt.show()
 
 
 if __name__ == "__main__":

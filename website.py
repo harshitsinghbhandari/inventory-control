@@ -1,13 +1,12 @@
-from fastapi import FastAPI, Request, HTTPException,Form
+from fastapi import FastAPI, Request,Form
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse, FileResponse,RedirectResponse
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-# import psycopg2
 from dotenv import load_dotenv
+from fastapi.staticfiles import StaticFiles
 import logging
 import uuid
-from simulate_inventory import run_simulation, log_normal_lead_time_generator, lumpy_ar1_demand_generator,ar1_demand_generator,positive_normal_lead_time_generator
+from simulate_inventory import run_simulation, plot_inventory_levels
+
 templates = Jinja2Templates(directory="templates")
 logging.basicConfig(
     level=logging.INFO,
@@ -20,10 +19,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 load_dotenv()
 app = FastAPI()
+app.mount("/static", StaticFiles(directory="static"), name="static")
 result_store = {}
 def my_function(threshold, final, sim_time, seed,demand_func, lead_time_func,avgLeadTime, varLeadTime, lumpiness):
-    kpis,data = run_simulation(s=threshold, S=final, sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func,muLeadTime=avgLeadTime,sigmaLeadTime=varLeadTime,pOccurence=lumpiness)
+    kpis,data = run_simulation(s=threshold, S=final, verbose=False,sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func,muLeadTime=avgLeadTime,sigmaLeadTime=varLeadTime,pOccurence=lumpiness)
     # print("Simulation with parameters: s={}, S={}, sim_time={}, seed={}, demand_func={}, lead_time_func={}, avgLeadTime={}, varLeadTime={}, lumpiness={}".format())
+    plot_inventory_levels(data, save=True)
     return {
         "status": "Success",
         "fill_rate": kpis["Fill Rate"],
