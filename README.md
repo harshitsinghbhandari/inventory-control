@@ -2,6 +2,8 @@
 Simulate Different (s,S) inventory control policies by varying demand and lead time function. 
 You can use the web interface to easily understand how and what things you can tweak.
 
+---
+
 ## Features
 - Editable Variable
     - Threshold Inventory (Reorder Point)
