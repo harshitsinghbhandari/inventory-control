@@ -1,9 +1,9 @@
 # Inventory Control
 Simulate Different (s,S) inventory control policies by varying demand and lead time function. 
 You can use the web interface to easily understand how and what things you can tweak.
----
+
 ## Features
-- What you control
+- Editable Variable
     - Threshold Inventory (Reorder Point)
     - Final Inventory (Stock to full upto)
     - Simulation Time (in Days)
@@ -19,7 +19,7 @@ You can use the web interface to easily understand how and what things you can t
     - Average Inventory Level
     - Total Ordering, Holding Costs
     - Graph of Inventory Levels v/s Time
----
+
 ## Installation
 ```bash
 # Clone the repository
@@ -38,12 +38,14 @@ pip install -r requirements.txt
 # Run the app
 uvicorn website:app --reload
 ```
-### Then Open you browser at [127.0.0.1:8000](127.0.0.1:8000)
----
+open browser and go to [127.0.0.1:8000](127.0.0.1:8000)
+
+
 ## License
 MIT License
 Copyright 
-© 2025 Harshit Singh Bhandari
----
+(c) 2025 Harshit Singh Bhandari
+
+
 ## Contact
 For Any Questions Contact at [harshitsingh.iitb@gmail.com](mailto:harshitsingh.iitb@gmail.com "Mail To Harshit Singh")
