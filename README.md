@@ -34,7 +34,11 @@ source venv/bin/activate
 
 # Install the dependencies
 pip install -r requirements.txt
+```
 
+## Usage
+Web Interface
+```bash
 # Run the app
 uvicorn website:app --reload
 ```
