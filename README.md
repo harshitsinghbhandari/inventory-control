@@ -3,7 +3,7 @@ Simulate Different (s,S) inventory control policies by varying demand and lead t
 You can use the web interface to easily understand how and what things you can tweak.
 ---
 ## Features
-- Editable Variable
+- What you control
     - Threshold Inventory (Reorder Point)
     - Final Inventory (Stock to full upto)
     - Simulation Time (in Days)
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 # Run the app
 uvicorn website:app --reload
 ```
-Then Open you browser at [127.0.0.1:8000](127.0.0.1:8000)
+### Then Open you browser at [127.0.0.1:8000](127.0.0.1:8000)
 ---
 ## License
 MIT License
