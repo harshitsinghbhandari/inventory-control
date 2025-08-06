@@ -210,7 +210,7 @@ def plot_inventory_levels(inventory_data,save=False):
 
 
 if __name__ == "__main__":
-    kpis,data=run_simulation(s=20,S=100)
+    kpis,data=run_simulation(s=50,S=100)
     print("\n=== Simulation KPIs ===")
     for k, v in kpis.items():
         print(f"{k}: {v}")
