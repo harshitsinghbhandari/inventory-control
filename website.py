@@ -1,10 +1,12 @@
-from fastapi import FastAPI, Request,Form
+from fastapi import FastAPI, Request,Form, UploadFile,File, HTTPException
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import HTMLResponse, FileResponse,RedirectResponse
 from dotenv import load_dotenv
 from fastapi.staticfiles import StaticFiles
 import logging
 import uuid
+import os
+import shutil
 from simulate_inventory import run_simulation, plot_inventory_levels
 
 templates = Jinja2Templates(directory="templates")
@@ -18,6 +20,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 load_dotenv()
+UPLOAD_DIR = "data/uploaded"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 result_store = {}
@@ -65,3 +69,15 @@ async def show_results(request: Request, rid: str):
         return templates.TemplateResponse("results.html", {"request": request, "error": "Result not found."},404)
 
     return templates.TemplateResponse("results.html", {"request": request, "result": result},200)
+# Handle CSV file upload
+@app.post("/upload-csv/")
+async def upload_csv(file: UploadFile = File(...)):
+    if not file.filename.endswith(".csv"):
+        raise HTTPException(status_code=400, detail="Only .csv files are allowed.")
+
+    file_location = os.path.join(UPLOAD_DIR, file.filename)
+
+    with open(file_location, "wb") as buffer:
+        shutil.copyfileobj(file.file, buffer)
+
+    return {"message": "File uploaded successfully", "file_path": file_location}
