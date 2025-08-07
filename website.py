@@ -26,11 +26,13 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
 result_store = {}
 def my_function(threshold, final, sim_time, seed,demand_func, lead_time_func,avgLeadTime, varLeadTime, lumpiness):
-    kpis,data = run_simulation(s=threshold, S=final, verbose=False,sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func,muLeadTime=avgLeadTime,sigmaLeadTime=varLeadTime,pOccurence=lumpiness)
+    kpis,data = run_simulation(s=threshold, S=final, verbose=True,sim_time=sim_time, seed=seed,demand_func=demand_func,lead_time_func=lead_time_func,muLeadTime=avgLeadTime,sigmaLeadTime=varLeadTime,pOccurence=lumpiness)
     # print("Simulation with parameters: s={}, S={}, sim_time={}, seed={}, demand_func={}, lead_time_func={}, avgLeadTime={}, varLeadTime={}, lumpiness={}".format())
     plot_inventory_levels(data, save=True)
     return {
         "status": "Success",
+        "s": threshold,
+        "S": final,
         "fill_rate": kpis["Fill Rate"],
         "average_inventory_level": kpis["Average Inventory Level"],
         "stockouts": kpis["Stockouts"],

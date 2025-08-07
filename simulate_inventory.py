@@ -9,7 +9,7 @@ from functions.leadtime import positive_normal_lead_time_generator, log_normal_l
 from functions.demand import ar1_demand_generator, lumpy_ar1_demand_generator
 logger = setup_logger('InventoryLogger', 'inventory.log')
 
-LIVEORDER = False
+liveorders = 0
 # A dictionary to map demand and lead time functions to their respective generators
 generator_list = {
     'log_normal_lt': log_normal_lead_time_generator,
@@ -59,7 +59,7 @@ class InventorySystem:
 
         # State
         self.inventory_level = S
-        self.order_limit = 1*S
+        self.order_limit = 1.5*S
 
         # KPIs
         self.total_demand = 0
@@ -109,28 +109,28 @@ class InventorySystem:
             self.total_holding_cost += self.inventory_level * self.holding_cost
 # ============ Inventory Monitoring Process =============
     def inventory_monitor(self):
-        global LIVEORDER
+        global liveorders
         while True:
             yield self.env.timeout(1)
-            if self.inventory_level < self.s and not LIVEORDER:
-                print(f"Current orders: {sum(list(self.orders.values())) - sum(self.order_received)}")
+            if self.inventory_level < self.s and liveorders < self.order_limit:
+                print(f"Current orders: {liveorders}, Inventory Level: {self.inventory_level}, Threshold: {self.s}")
                 order_qty = self.S - self.inventory_level
                 self.total_ordering_cost += self.order_cost
                 self.orders[self.env.now] = order_qty
                 self.log(f"Placing order for {order_qty} units (Inventory: {self.inventory_level}, Threshold: {self.s})")
-                LIVEORDER = True
+                liveorders += order_qty
                 self.env.process(self.receive_order(order_qty))
 # ============ Order Receiving Process =============
     def receive_order(self,amount):
-        global LIVEORDER
+        global liveorders
         lead_time = self.lead_time_func()
         # lead_time = 1
         self.log(f"Order of {amount} units will arrive in {lead_time} days")
         self.lead_times.append(lead_time)
         yield self.env.timeout(lead_time)
-        LIVEORDER = False
         self.inventory_level += amount
         self.log(f"Order of {amount} units received. Inventory: {self.inventory_level}")
+        liveorders -= amount
         self.order_received.append(amount)
 
 # ============ KPI Calculation =============
