@@ -49,7 +49,7 @@ class InventorySystem:
         self.sigmaLogNormal = 0.6
         self.muAR1 = 4
         self.sigmaAR1 = 4
-        self.base_demand = 50
+        self.base_demand = 100
         self.min_demand = 0
         self.pOccurence = 0.8
         self.phi=0.8
@@ -112,7 +112,7 @@ class InventorySystem:
         global liveorders
         while True:
             yield self.env.timeout(1)
-            if self.inventory_level < self.s and liveorders < self.order_limit:
+            if self.inventory_level <= self.s and liveorders < self.order_limit:
                 print(f"Current orders: {liveorders}, Inventory Level: {self.inventory_level}, Threshold: {self.s}")
                 order_qty = self.S - self.inventory_level
                 self.total_ordering_cost += self.order_cost
